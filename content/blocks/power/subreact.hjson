@@ -1,0 +1,51 @@
+type: ConsumeGenerator
+name : Sublime Reactor
+size: 3
+consumes: {
+  items: {
+    items: [
+      sublimate/1
+    ]
+  }
+  liquid:{
+    liquid: water
+    amount: 0.2
+  }
+}
+explodeOnFull: true
+outputLiquid: sulfide/0.2
+category:power
+requirements:[
+  tantalum/180
+  strontium/60
+]
+powerProduction: 5
+itemDuration: 120
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+      suffix: -bottom
+    }
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawGlowRegion
+      suffix:-glow
+      color: cdd172ff
+    }
+    {
+    type:DrawGlowRegion
+    suffix:-top
+    color: 88c29aff
+    }
+  ]
+}
+explosionDamage: 5000
+explosionRadius: 19
+explodeEffect: reactorExplosion
+explosionShake: 6
+explosionShakeDuration: 16
+explodeSound: explosionbig

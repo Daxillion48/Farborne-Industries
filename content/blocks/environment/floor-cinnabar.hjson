@@ -1,0 +1,5 @@
+type: Floor
+name : Cinnabar
+description : Cinnabar
+itemDrop : cinnabar
+playerUnmineable: true

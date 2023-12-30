@@ -1,0 +1,58 @@
+type: ItemTurret
+targetAir: true
+targetGround: true
+health: 1500
+size: 3
+range: 120
+cooldown: 1
+restitution: 0.04
+reloadTime: 90
+shots: 2
+recoil: 2
+ammoUseEffect: casing3
+shootEffect: hitLancer
+shootSound: shoot
+shootCone: 25
+rotateSpeed: 3.8
+maxAmmo: 24
+ammoPerShot: 1
+ammoTypes: {
+  zirconium: {
+    height: 8
+    width: 6
+    damage: 15
+    speed: 3
+    ammoMultiplier: 2
+    pierceDamageFactor: 0.25
+    updateEffect: {
+      type: ParticleEffect
+      lifetime: 35
+      particles: 1
+      colorFrom: 6f7fe8
+      colorTo: 6f7fe8
+    }
+  }
+  sublimate: {
+    height: 12
+    width: 8
+    damage: 25
+    status: corroded
+    speed: 3
+    ammoMultiplier: 3
+    pierceDamageFactor: 0.25
+    updateEffect: {
+      type: ParticleEffect
+      lifetime: 35
+      particles: 1
+      colorFrom: 88c29a
+      colorTo: b7cbd0
+    }
+  }
+}
+requirements: [
+  zirconium/150
+  amalgam/50
+]
+category: turret
+name: Withdraw
+shootY: 7

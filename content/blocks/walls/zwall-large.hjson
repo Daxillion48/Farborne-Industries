@@ -1,0 +1,8 @@
+type: Wall
+health: 2080
+size:2
+category: defense
+requirements: [
+  zirconium/24
+]
+name: Large Zirconium Wall

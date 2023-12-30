@@ -1,0 +1,19 @@
+type: CoreBlock
+name: Core Birth
+size: 4
+unitType: engineer
+itemCapacity : 2000
+health: 3000
+armor: 5
+requirements:[
+  zirconium/1500
+  tantalum/1500
+  amalgam/1200
+]
+category : effect
+unitCapModifier: 15
+   "research": {
+  "root": true,
+  "requiresUnlock": false
+  }
+requiresCoreZone: true

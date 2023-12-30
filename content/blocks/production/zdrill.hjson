@@ -1,0 +1,22 @@
+type: Drill
+name : Clockwork Drill
+description : A basic drill capable of mining
+size: 2
+tier: 2
+requirements: [
+  zirconium/12
+]
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.05
+    booster: true
+    optional: true
+  }
+}
+research: core-mind
+category: production
+liquidBoostIntensity: 1.5
+drillTime: 600
+ambientSound: hum
+blockedItem: sand

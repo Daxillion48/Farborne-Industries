@@ -1,0 +1,15 @@
+type: massDriver
+range: 60
+rotateSpeed: 10
+reload: 5
+itemCapacity: 10
+shake: 1
+knockback: 2
+name: Item Accelerator
+size: 1
+category:distribution
+requirements:[
+  zirconium/10
+]
+loopSoundVolume: 0.1
+hasPower: false

@@ -1,0 +1,9 @@
+type: Pump
+name : Pump
+pumpAmount: 0.075
+size: 2
+health: 40
+requirements:[
+  zirconium/30
+]
+category: liquid

@@ -1,0 +1,7 @@
+type: DirectionLiquidBridge
+range: 5
+name: Pipe bridge
+category:liquid
+requirements:[
+  zirconium/20
+]

@@ -1,0 +1,5 @@
+type: OreBlock
+name : Tantalum Ore
+itemDrop: tantalum
+mapColor: 606d90
+hasColor: true

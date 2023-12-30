@@ -1,0 +1,56 @@
+type: ContinuousLiquidTurret
+targetAir: true
+targetGround: true
+health: 1800
+size: 3
+recoil: 1
+shake: 1
+liquidConsumed: 0.1
+rotateSpeed: 2
+ammoTypes: {
+  chlorine: {
+  type: ContinuousFlameBulletType
+    damage: 20
+    length: 90
+    range: 130
+    knockback: 1
+    pierceCap: 2
+    status: corroded
+    colors:[
+    4e835e8c,
+    6da37eb2,
+    88c29acc,
+    cbf7d6ff,
+    ffffffff
+    ]
+    lightColor:cbf7d6
+    flareColor:cbf7d6
+  }
+  sulfide: {
+  type: ContinuousFlameBulletType
+    damage: 30
+    length: 110
+    range: 150
+    knockback: 1.5
+    pierceCap: 3
+    status: melting
+    colors:[
+    fa6a0a8c,
+    f9a31bb2,
+    ffd541cc,
+    fffc40ff,
+    ffffffff
+    ]
+    lightColor:f2ffaa
+    flareColor:cdd172
+  }
+}
+requirements: [
+  tantalum/120
+  amalgam/40
+  sublimate/20
+]
+category: turret
+name: Evaporate
+loopSound: torch
+shootY: 7

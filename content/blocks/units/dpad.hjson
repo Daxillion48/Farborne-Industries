@@ -1,0 +1,22 @@
+type: UnitCargoLoader
+size: 3
+unitType: carry
+buildTime: 600
+polyColor: 88c29a
+polySides: 9
+polyRadius: 24
+hasPower: false
+consumes: {
+  liquid:{
+    liquid: chlorine
+    amount: 0.1
+  }
+}
+requirements: [
+  zirconium/120
+  tantalum/80
+  amalgam/100
+  sublimate/60
+]
+category: units
+name: Drone Pad

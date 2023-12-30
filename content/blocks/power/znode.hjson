@@ -1,0 +1,10 @@
+type: powerNode
+name: Tesla Coil
+size: 2
+category:power
+requirements:[
+  zirconium/8
+]
+laserRange: 20
+maxNodes: 30
+ambientSound: electricHum

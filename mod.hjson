@@ -1,0 +1,9 @@
+name: industrial
+displayName: Industrial
+author: Daxillion
+description:
+  '''
+A work in progress
+  '''
+version: 0.7
+minGameVersion: 145

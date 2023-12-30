@@ -1,0 +1,9 @@
+health: 100
+armor: 1
+type: Wall
+name: Factory Wall
+category: effect
+conductivePower: true
+requirements:[
+  zirconium/1
+]

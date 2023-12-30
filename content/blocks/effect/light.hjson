@@ -1,0 +1,10 @@
+type: LightBlock
+name: Illuminator
+consumes:{
+power: 0.05
+}
+category: effect
+requirements:[
+  zirconium/10
+  amalgam/5
+]

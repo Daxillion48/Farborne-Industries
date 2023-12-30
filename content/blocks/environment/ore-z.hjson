@@ -1,0 +1,5 @@
+type: OreBlock
+name : Zirconium Ore
+itemDrop: zirconium
+mapColor: aa996e
+hasColor: true

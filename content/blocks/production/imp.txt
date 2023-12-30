@@ -1,0 +1,47 @@
+impactDrill = new BurstDrill("impact-drill"){{
+           requirements(Category.production, with(Items.silicon, 70, Items.beryllium, 90, Items.graphite, 60));
+           drillTime = 60f * 12f;
+           size = 4;
+           hasPower = true;
+           tier = 6;
+           drillEffect = new MultiEffect(Fx.mineImpact, Fx.drillSteam, Fx.mineImpactWave.wrap(Pal.redLight, 40f));
+           shake = 4f;
+           itemCapacity = 40;
+           //can't mine thorium for balance reasons, needs better drill
+           blockedItem = Items.thorium;
+           researchCostMultiplier = 0.5f;
+
+           drillMultipliers.put(Items.beryllium, 2.5f);
+
+           fogRadius = 4;
+
+           consumePower(160f / 60f);
+           consumeLiquid(Liquids.water, 0.2f);
+       }};
+       eruptionDrill = new BurstDrill("eruption-drill"){{
+               requirements(Category.production, with(Items.silicon, 200, Items.oxide, 20, Items.tungsten, 200, Items.thorium, 120));
+               drillTime = 60f * 6f;
+               size = 5;
+               hasPower = true;
+               tier = 7;
+               //TODO better effect
+               drillEffect = new MultiEffect(
+                   Fx.mineImpact,
+                   Fx.drillSteam,
+                   Fx.dynamicSpikes.wrap(Liquids.hydrogen.color, 30f),
+                   Fx.mineImpactWave.wrap(Liquids.hydrogen.color, 45f)
+               );
+               shake = 4f;
+               itemCapacity = 50;
+               arrowOffset = 2f;
+               arrowSpacing = 5f;
+               arrows = 2;
+               glowColor.a = 0.6f;
+               fogRadius = 5;
+
+               drillMultipliers.put(Items.beryllium, 2.5f);
+
+               //TODO different requirements
+               consumePower(6f);
+               consumeLiquids(LiquidStack.with(Liquids.hydrogen, 4f / 60f));
+           }};

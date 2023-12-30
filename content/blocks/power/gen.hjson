@@ -1,0 +1,31 @@
+type: ThermalGenerator
+name : Steam Dynamo
+craftTime: 60
+size: 3
+separateItemCapacity : true
+consumes: {
+  liquid:{
+  liquid: water
+  amount: 0.2
+  }
+}
+
+category:power
+requirements:[
+  zirconium/180
+]
+powerProduction: 1
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawRegion
+      suffix:-rot
+      spinSprite: true
+      rotateSpeed: 6
+    }
+  ]
+}

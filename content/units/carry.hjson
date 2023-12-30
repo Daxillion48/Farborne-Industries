@@ -1,0 +1,20 @@
+type: tether
+hitSize: 20
+speed: 3.5
+flying: true
+health: 300
+payloadCapacity: 1024
+pickupUnits: true
+armor: 1
+mineTier: 2
+mineWalls: true
+mineFloor: true
+mineSpeed: 3
+itemCapacity: 120
+buildSpeed: 3
+rotateSpeed: 4
+name: Carry
+controller: BuilderAI
+mineItems:[
+  zirconium
+]

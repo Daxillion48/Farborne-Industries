@@ -1,0 +1,60 @@
+type: GenericCrafter
+name : Salt Electrolyzer
+craftTime: 50
+size: 3
+consumes: {
+  power: 0.5
+    liquid:{
+    liquid: water
+    amount: 0.3
+    }
+  }
+outputLiquid: chlorine/0.1
+updateEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 5
+  lifetime: 35
+  colorFrom: 88c29a
+  colorTo: cbf7d650
+  sizeFrom: 0.75
+}
+category:crafting
+requirements:[
+  zirconium/80
+  amalgam/30
+]
+craftEffect: {
+  type: ParticleEffect
+  length: 12
+  lifetime: 45
+  particles: 12
+  colorFrom: 88c29a
+  colorTo: cbf7d6
+  sizeFrom: 1.5
+  sizeTo: 0
+}
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawRegion
+      suffix:-rottwo
+      spinSprite: true
+      rotateSpeed: 8
+    }
+    {
+      type:DrawRegion
+      suffix:-rot
+      spinSprite: true
+      rotateSpeed: 4
+    }
+    {
+    type:DrawGlowRegion
+    suffix:-glow
+    }
+  ]
+}

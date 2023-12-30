@@ -1,0 +1,8 @@
+type: Floor
+placeablePlayer: true
+category: effect
+requirements:[
+  zirconium/1
+]
+name: Factory Tile
+conductivePower: true

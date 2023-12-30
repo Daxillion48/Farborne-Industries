@@ -1,0 +1,8 @@
+type: Wall
+health: 520
+category: defense
+requirements: [
+  zirconium/6
+]
+name: Zirconium Wall
+research: core-birth

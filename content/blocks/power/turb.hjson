@@ -1,0 +1,40 @@
+type: ThermalGenerator
+name: Vent Turbine
+category: power
+size: 3
+health: 1080
+requirements: [
+  zirconium/60
+]
+research:core-birth
+powerProduction: 0.333333333
+
+displayEfficiencyScale: .111111111
+maxBoost:1
+minEfficiency: 8
+displayEfficiency: false
+attribute:steam
+liquidCapacity: 15
+baseEfficiency: 0
+ambientSound: steam
+ambientSoundVolume: 0.05
+outputLiquid: water/0.01
+
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawRegion
+      suffix:-rotator
+      spinSprite: true
+      rotateSpeed: 8
+    }
+    {
+    type:DrawRegion
+    suffix:-top
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+type: massDriver
+range: 140
+rotateSpeed: 10
+reload: 5
+itemCapacity: 20
+shake: 1
+knockback: 2
+name: Mass Accelerator
+size: 2
+category:distribution
+requirements:[
+  zirconium/40
+  tantalum/20
+  strontium/10
+]
+loopSoundVolume: 0.1
+hasPower: false

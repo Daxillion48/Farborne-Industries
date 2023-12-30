@@ -1,0 +1,7 @@
+gas: true
+color: cdd172
+barColor: cdd172ff
+gasColor: cdd172ff
+name: Sulfide
+flammability: 0.7
+explosiveness: 0.7
