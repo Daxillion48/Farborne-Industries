@@ -1,5 +1,5 @@
 type: legs
-hitSize: 20
+hitSize: 12
 speed: 1.2
 health: 300
 armor: 1
