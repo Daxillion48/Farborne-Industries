@@ -1,0 +1,5 @@
+color : d3d3d3
+cost : 3
+hardness : 2
+lowPriority: true
+name : Quartz
