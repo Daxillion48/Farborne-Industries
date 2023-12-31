@@ -22,6 +22,7 @@ weapons: [
       width: 7
       height: 9
       lifetime: 60
+      damage: 10
     }
   }
   {
@@ -48,6 +49,7 @@ weapons: [
       despawnEffect: blastExplosion
       weaveScale: 8
       weaveMag: 2
+      damage: 40
     }
   }
 ]

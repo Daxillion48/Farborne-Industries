@@ -1,0 +1,29 @@
+type: UnitFactory
+size: 3
+configurable: false
+consumes: {
+  power: 1.5
+  liquids:[
+    water/0.3
+  ]
+}
+plans: [
+  {
+    unit: sail
+    time: 900
+    requirements:[
+      zirconium/60
+      quartz/60
+      amalgam/40
+    ]
+  }
+]
+requirements: [
+  zirconium/120
+  quartz/80
+  amalgam/60
+]
+category: units
+name: Ship Factory
+research: birthing-chamber
+researchCostMultiplier: 0.03
