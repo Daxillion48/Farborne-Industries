@@ -1,0 +1,56 @@
+type: naval
+name: Sail
+speed: 1.1
+drag: 0.13
+hitSize: 10
+health: 800
+accel: 0.4
+rotateSpeed: 3.3
+faceTarget: false
+armor: 2
+
+weapons: [
+  {
+    name: sail-gun
+    reload : 13
+    x : 4
+    shootY : 4
+    y : 1.5
+    rotate : true
+    ejectEffect : casing1
+    bullet:{
+      width: 7
+      height: 9
+      lifetime: 60
+    }
+  }
+  {
+    name: sail-weapon
+    mirror: false
+    reload: 25
+    x: 0
+    y: -5
+    rotate: true
+    ejectEffect: casing1
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      keepVelocity: true
+      width: 8
+      height: 8
+      shrinkY: 0
+      drag: -0.003
+      homingRange: 60
+      splashDamageRadius: 25
+      splashDamage: 10
+      lifetime: 65
+      trailColor: gray
+      backColor: bulletYellowBack
+      frontColor: bulletYellow
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 8
+      weaveMag: 2
+    }
+  }
+]
