@@ -44,9 +44,6 @@ weapons: [
       splashDamageRadius: 25
       splashDamage: 10
       lifetime: 65
-      trailColor: gray
-      backColor: bulletYellowBack
-      frontColor: bulletYellow
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
       weaveScale: 8
