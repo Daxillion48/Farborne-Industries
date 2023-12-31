@@ -14,7 +14,7 @@ consumes: {
     optional: true
   }
 }
-research: core-mind
+research: core-birth
 category: production
 liquidBoostIntensity: 1.5
 drillTime: 600

@@ -18,3 +18,4 @@ controller: BuilderAI
 mineItems:[
   zirconium
 ]
+research: dpad

@@ -3,3 +3,4 @@ cost : 3
 hardness : 2
 lowPriority: true
 name : Quartz
+research: zirconium

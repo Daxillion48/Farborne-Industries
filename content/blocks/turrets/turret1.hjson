@@ -56,3 +56,4 @@ requirements: [
 category: turret
 name: Withdraw
 shootY: 7
+research: core-birth

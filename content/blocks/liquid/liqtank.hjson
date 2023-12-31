@@ -9,3 +9,4 @@ requirements: [
 size: 2
 liquidCapacity: 1500
 category: liquid
+research: zpump

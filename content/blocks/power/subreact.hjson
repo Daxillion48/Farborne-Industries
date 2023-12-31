@@ -49,3 +49,4 @@ explodeEffect: reactorExplosion
 explosionShake: 6
 explosionShakeDuration: 16
 explodeSound: explosionbig
+research: gen

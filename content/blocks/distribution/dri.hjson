@@ -15,3 +15,4 @@ requirements:[
 ]
 loopSoundVolume: 0.1
 hasPower: false
+research: acc

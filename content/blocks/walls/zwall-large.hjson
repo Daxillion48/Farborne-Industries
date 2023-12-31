@@ -6,3 +6,4 @@ requirements: [
   zirconium/24
 ]
 name: Large Zirconium Wall
+research: zwall

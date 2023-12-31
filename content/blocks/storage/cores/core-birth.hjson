@@ -10,10 +10,13 @@ requirements:[
   tantalum/1500
   amalgam/1200
 ]
+isFirstTier: true
 category : effect
 unitCapModifier: 15
-   "research": {
-  "root": true,
-  "requiresUnlock": false
-  }
 requiresCoreZone: true
+research: {
+  planet: erbius
+  root: true
+  name: Erbius
+  requiresUnlock: false
+}

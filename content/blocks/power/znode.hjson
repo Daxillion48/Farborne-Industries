@@ -8,3 +8,4 @@ requirements:[
 laserRange: 20
 maxNodes: 30
 ambientSound: electricHum
+research: gen

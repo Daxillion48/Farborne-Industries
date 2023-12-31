@@ -7,3 +7,4 @@ conductivePower: true
 requirements:[
   zirconium/1
 ]
+research: core-birth

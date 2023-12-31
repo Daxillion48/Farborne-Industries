@@ -20,3 +20,4 @@ itemCapacity: 40
 category: production
 drillTime: 480
 blockedItem: sand
+research: zdrill

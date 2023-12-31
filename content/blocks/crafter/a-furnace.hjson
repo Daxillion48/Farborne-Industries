@@ -38,3 +38,4 @@ craftEffect: {
   sizeFrom: 1.5
   sizeTo: 0
 }
+research: core-birth
