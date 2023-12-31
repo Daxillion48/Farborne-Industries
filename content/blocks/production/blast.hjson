@@ -21,4 +21,4 @@ category: production
 drillTime: 480
 blockedItem: sand
 research: zdrill
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

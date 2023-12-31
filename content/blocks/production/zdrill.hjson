@@ -20,4 +20,4 @@ liquidBoostIntensity: 1.5
 drillTime: 600
 ambientSound: hum
 blockedItem: sand
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

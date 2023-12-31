@@ -16,4 +16,4 @@ requirements:[
 loopSoundVolume: 0.1
 hasPower: false
 research: acc
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

@@ -7,4 +7,4 @@ requirements: [
 name: Zirconium Wall
 research: core-birth
 research: dwall
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

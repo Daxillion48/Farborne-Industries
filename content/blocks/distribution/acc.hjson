@@ -14,4 +14,4 @@ requirements:[
 loopSoundVolume: 0.1
 hasPower: false
 research: core-birth
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

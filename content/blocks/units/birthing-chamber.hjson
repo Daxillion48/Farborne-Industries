@@ -24,4 +24,4 @@ requirements: [
 category: units
 name: Tank Factory
 research: core-birth
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

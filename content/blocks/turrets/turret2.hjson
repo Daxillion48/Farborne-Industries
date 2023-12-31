@@ -55,4 +55,4 @@ name: Evaporate
 loopSound: torch
 shootY: 7
 research: turret1
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

@@ -39,4 +39,4 @@ craftEffect: {
   sizeTo: 0
 }
 research: core-birth
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

@@ -57,4 +57,4 @@ category: turret
 name: Withdraw
 shootY: 7
 research: core-birth
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03

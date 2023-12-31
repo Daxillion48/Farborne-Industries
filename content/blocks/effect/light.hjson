@@ -9,4 +9,4 @@ requirements:[
   amalgam/5
 ]
 research: znode
-researchCostMultiplier: 0.02
+researchCostMultiplier: 0.03
