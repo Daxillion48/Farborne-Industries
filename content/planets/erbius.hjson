@@ -1,0 +1,182 @@
+localizedName: Erbius
+alwaysUnlocked: true
+mesh: [
+ {
+    //dark sand and basalt
+    type: NoiseMesh
+    planet: erbius
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: 515151
+    color2: 3c3838s
+    octaves: 3.7
+    persistence: 5
+  }
+  {
+    //quartz
+    type: NoiseMesh
+    planet: erbius
+    divisions: 5
+    radius: 1.22
+    seed: 94
+    color1: bcc4cb
+    color2: 879d9b
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //cinnabar
+    type: NoiseMesh
+    planet: erbius
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: ce735e
+    color2: af4753
+    octaves: 5.1
+    persistence: 0.8
+  }
+  {
+    //water
+    type: NoiseMesh
+    planet: erbius
+    seed: 69
+    divisions: 5
+    color1: 5867ac
+    color2: 4d5ca4
+    radius: 1.212
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+  {
+    //ice
+    type: NoiseMesh
+    planet: erbius
+    divisions: 5
+    seed: 19
+    radius: 1.247
+    color1: e9ebff
+    color2: c2bffb
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //grass
+    type: NoiseMesh
+    planet: erbius
+    divisions: 6
+    seed: 61
+    radius: 1.248
+    color1: 80b963
+    color2: 6aa95e
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //carbon stone
+    type: NoiseMesh
+    planet: erbius
+    divisions: 6
+    seed: 17
+    radius: 1.2514
+    color1: 3c4448
+    color2: 282b34
+    octaves: 5.7
+    persistence: 0.9
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: erbius
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: c6ace87e
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: erbius
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: d1e4ff7e
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: erbius
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: 97a5f77e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: {
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 4
+radius: 1.2
+minZoom: 0.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
+accessible: true
+orbitRadius: 24
+updateLighting: true
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 666359
+iconColor: 666359
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-birth
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "zirconium",
+  "cinnabar",
+  "amalgam",
+  "sublimate",
+  "quartz",
+  "tantalum",
+  "strontium",
+]
