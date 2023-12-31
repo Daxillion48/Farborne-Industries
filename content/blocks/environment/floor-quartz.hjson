@@ -2,3 +2,4 @@ type: Floor
 name : Quartz
 itemDrop : quartz
 playerUnmineable: true
+wall: quartz-wall

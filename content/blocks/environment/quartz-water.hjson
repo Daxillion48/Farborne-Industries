@@ -1,0 +1,5 @@
+type: ShallowLiquid
+itemDrop : quartz
+playerUnmineable: true
+floorBase: floor-quartz
+liquidBase: water

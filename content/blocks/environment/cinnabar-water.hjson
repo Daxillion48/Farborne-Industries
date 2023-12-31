@@ -1,0 +1,5 @@
+type: ShallowLiquid
+itemDrop : cinnabar
+playerUnmineable: true
+floorBase: floor-cinnabar
+liquidBase: water
