@@ -1,8 +1,6 @@
-type: ShallowLiquid
+type: Floor
 itemDrop : quartz
 playerUnmineable: true
-floorBase: floor-quartz
-liquidBase: water
 liquidDrop: water
 liquidMultiplier: 0.7
 isLiquid: true

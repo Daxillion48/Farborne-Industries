@@ -1,8 +1,6 @@
-type: ShallowLiquid
+type: Floor
 itemDrop : cinnabar
 playerUnmineable: true
-floorBase: floor-cinnabar
-liquidBase: water
 liquidDrop: water
 liquidMultiplier: 0.7
 isLiquid: true
