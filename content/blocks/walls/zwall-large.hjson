@@ -7,4 +7,3 @@ requirements: [
 ]
 name: Large Zirconium Wall
 research: zwall
-alwaysUnlocked: true

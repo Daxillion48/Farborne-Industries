@@ -20,4 +20,3 @@ liquidBoostIntensity: 1.5
 drillTime: 600
 ambientSound: hum
 blockedItem: sand
-alwaysUnlocked: true

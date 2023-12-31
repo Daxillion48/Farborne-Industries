@@ -7,4 +7,3 @@ requirements: [
 name: Zirconium Wall
 research: core-birth
 research: dwall
-alwaysUnlocked: true

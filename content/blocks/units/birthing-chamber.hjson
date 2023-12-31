@@ -24,4 +24,3 @@ requirements: [
 category: units
 name: Tank Factory
 research: core-birth
-alwaysUnlocked: true

@@ -43,3 +43,4 @@ weapons: [
 ]
 ammoUseEffect: casing3
 shootSound: shoot
+alwaysUnlocked: true
