@@ -10,4 +10,4 @@ requirements:[
 ]
 research: znode
 researchCostMultiplier: 0.03
-radius: 40
+radius: 65
