@@ -1,5 +1,5 @@
 type: massDriver
-range: 140
+range: 200
 rotateSpeed: 10
 reload: 5
 itemCapacity: 20
