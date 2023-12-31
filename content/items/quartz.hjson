@@ -4,3 +4,4 @@ hardness : 2
 lowPriority: true
 name : Quartz
 research: zirconium
+charge: 0.3

@@ -20,8 +20,8 @@ updateEffect: {
   length: 6
   particles: 5
   lifetime: 35
-  colorFrom: 8999b0
-  colorTo: 8da6ca50
+  colorFrom: 6b4738
+  colorTo: 532323
   sizeFrom: 0.75
 }
 category:crafting
@@ -33,8 +33,8 @@ craftEffect: {
   length: 12
   lifetime: 45
   particles: 12
-  colorFrom: bb60ca
-  colorTo: a564b0
+  colorFrom: a3a3d1
+  colorTo: 7979bd
   sizeFrom: 1.5
   sizeTo: 0
 }

@@ -6,3 +6,4 @@ requirements:[
 ]
 name: Factory Tile
 conductivePower: true
+research: dwall

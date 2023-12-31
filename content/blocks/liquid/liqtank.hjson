@@ -4,7 +4,7 @@ description : Stores liquids and can be moved
 health: 500
 requirements: [
   tantalum/10
-  zirconium/60
+  quartz/60
 ]
 size: 2
 liquidCapacity: 1500
