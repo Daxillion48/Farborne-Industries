@@ -39,3 +39,4 @@ drawer:{
   ]
 }
 research: gen
+researchCostMultiplier: 0.02

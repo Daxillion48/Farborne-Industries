@@ -7,3 +7,4 @@ requirements: [
 ]
 name: Large Zirconium Wall
 research: zwall
+researchCostMultiplier: 0.02

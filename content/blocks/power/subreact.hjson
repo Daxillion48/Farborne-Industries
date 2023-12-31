@@ -50,3 +50,4 @@ explosionShake: 6
 explosionShakeDuration: 16
 explodeSound: explosionbig
 research: gen
+researchCostMultiplier: 0.02

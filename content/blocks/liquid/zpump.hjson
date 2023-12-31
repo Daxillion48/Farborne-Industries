@@ -8,3 +8,4 @@ requirements:[
 ]
 category: liquid
 research: core-birth
+researchCostMultiplier: 0.02

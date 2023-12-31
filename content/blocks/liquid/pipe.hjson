@@ -6,3 +6,4 @@ requirements:[
   zirconium/20
 ]
 research: zpump
+researchCostMultiplier: 0.02

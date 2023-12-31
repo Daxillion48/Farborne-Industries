@@ -21,3 +21,4 @@ requirements: [
 category: units
 name: Drone Pad
 research: birthing-chamber
+researchCostMultiplier: 0.02

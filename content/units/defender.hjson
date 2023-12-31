@@ -30,4 +30,4 @@ weapons: [
   }
 ]
 research: birthing-chamber
-alwaysUnlocked: true
+researchCostMultiplier: 0.02

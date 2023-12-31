@@ -19,3 +19,4 @@ mineItems:[
   zirconium
 ]
 research: dpad
+researchCostMultiplier: 0.02
