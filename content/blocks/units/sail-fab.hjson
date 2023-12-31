@@ -25,5 +25,6 @@ requirements: [
 ]
 category: units
 name: Ship Factory
+
 research: birthing-chamber
 researchCostMultiplier: 0.03

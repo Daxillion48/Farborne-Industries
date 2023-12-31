@@ -9,6 +9,9 @@ rotateSpeed: 3.3
 faceTarget: false
 armor: 2
 
+research: sail-fab
+researchCostMultiplier: 0.03
+
 weapons: [
   {
     name: sail-gun
