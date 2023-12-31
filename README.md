@@ -3,3 +3,4 @@ I am Daxillion, and I hope you enjoy playing my mod as much as I enjoyed making 
 Special thanks to the Mindustry Discord Server.
 Without the help of the members of the server, I would've had a much harder time making this mod.
 It's still a work in progress, so expect updates!
+Feel free to join my TG: t.me/+LG8_WOTN9JgwYWIy
