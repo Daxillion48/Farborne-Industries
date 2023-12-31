@@ -20,3 +20,4 @@ research: {
   name: Erbius
   requiresUnlock: false
 }
+alwaysUnlocked: true

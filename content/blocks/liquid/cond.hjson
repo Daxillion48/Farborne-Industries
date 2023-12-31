@@ -5,3 +5,4 @@ requirements:[
   zirconium/5
 ]
 research: zpump
+alwaysUnlocked: true

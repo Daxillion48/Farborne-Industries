@@ -8,3 +8,4 @@ requirements:[
   zirconium/1
 ]
 research: core-birth
+alwaysUnlocked: true

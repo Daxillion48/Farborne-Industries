@@ -39,3 +39,4 @@ craftEffect: {
   sizeTo: 0
 }
 research: core-birth
+alwaysUnlocked: true
