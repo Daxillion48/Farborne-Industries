@@ -166,7 +166,7 @@ hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: false
+prebuildBase: true
 defaultCore: core-birth
 parent: sun
 solarSystem: sun
