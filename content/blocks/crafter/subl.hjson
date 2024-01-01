@@ -54,5 +54,15 @@ drawer:{
     }
   ]
 }
-research: a-furnace
+
 researchCostMultiplier: 0.03
+research: {
+   parent: chl
+   objectives: [
+      chl,
+      {
+         type: OnSector
+         preset: aqua
+      }
+   ]
+}

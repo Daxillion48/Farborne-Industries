@@ -2,7 +2,7 @@ localizedName: Aqua
 descpription: Research Sail and capture enemy base
 captureWave: 10
 planet: erbius
-sector: 34
+sector: 0
 difficulty: 1
 research: {
   parent: launch
