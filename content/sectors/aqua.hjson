@@ -1,0 +1,15 @@
+localizedName: Aqua
+descpription: Research Sail and capture enemy base
+captureWave: 10
+planet: erbius
+sector: 34
+difficulty: 1
+research: {
+  parent: launch
+  objectives: [
+    {
+      type: SectorComplete
+      preset: launch
+    }
+  ]
+}

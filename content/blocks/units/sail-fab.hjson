@@ -26,5 +26,14 @@ requirements: [
 category: units
 name: Ship Factory
 
-research: birthing-chamber
 researchCostMultiplier: 0.03
+research: {
+   parent: birthing-chamber
+   objectives: [
+      birthing-chamber,
+      {
+         type: OnSector
+         preset: aqua
+      }
+   ]
+}
