@@ -6,8 +6,8 @@ itemCapacity : 2000
 health: 3000
 armor: 5
 requirements:[
-  zirconium/1500
-  amalgam/1200
+  zirconium/1000
+  amalgam/800
 ]
 isFirstTier: true
 category : effect
