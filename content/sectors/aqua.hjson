@@ -13,3 +13,7 @@ research: {
     }
   ]
 }
+loadout: [
+  zirconium/1000
+  amalgam/800
+]
