@@ -1,0 +1,5 @@
+type: OreBlock
+name : Prometheum Ore
+itemDrop: prometheum
+mapColor: 6c948d
+hasColor: true
