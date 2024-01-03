@@ -1,0 +1,5 @@
+type: Floor
+name : Flint Stone
+itemDrop : quartz
+playerUnmineable: true
+wall: flint-wall

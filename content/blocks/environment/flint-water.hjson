@@ -1,0 +1,9 @@
+type: Floor
+itemDrop : quartz
+playerUnmineable: true
+liquidDrop: water
+liquidMultiplier: 0.7
+isLiquid: true
+cacheLayer: water
+shallow: true
+name: Flint Water
