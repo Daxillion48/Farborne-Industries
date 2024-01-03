@@ -2,4 +2,6 @@ color : b7cbd0
 name : Sublime
 cost : 2
 hardness : 1
-research: chlorine
+research: amalgam
+flammability: 0.4
+explosiveness: 0.4
