@@ -20,7 +20,7 @@ ammoTypes: {
   zirconium: {
     height: 8
     width: 6
-    damage: 25
+    damage: 35
     speed: 3
     ammoMultiplier: 2
     pierceDamageFactor: 0.25
@@ -35,7 +35,7 @@ ammoTypes: {
   sublimate: {
     height: 12
     width: 8
-    damage: 35
+    damage: 50
     status: corroded
     speed: 4
     ammoMultiplier: 3
