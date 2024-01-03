@@ -14,7 +14,7 @@ category:power
 requirements:[
   zirconium/180
 ]
-powerProduction: 1
+powerProduction: 0.4
 drawer:{
   type:DrawMulti
   drawers:[
