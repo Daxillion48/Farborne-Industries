@@ -1,1 +1,5 @@
-This mod is a hot pile of garbage. I will try to update it from time to time, but I am very busy. Have fun suffering  
+Welcome to Erbius! This planet is mostly covered in water, though there's lots of land.
+
+Consider joining my tg: t.me/+LG8_WOTN9JgwYWIy
+
+Special thanks to the Mindustry Discord
