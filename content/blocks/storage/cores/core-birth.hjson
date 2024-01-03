@@ -1,5 +1,5 @@
 type: CoreBlock
-name: Core Birth
+name: Core Shallow
 size: 4
 unitType: engineer
 itemCapacity : 2000

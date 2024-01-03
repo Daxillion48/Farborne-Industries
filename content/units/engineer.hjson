@@ -12,8 +12,7 @@ buildSpeed: 3
 rotateSpeed: 4
 coreUnitDock: true
 groundLayer: 75
-name: Engineer
-description: The great Engineer
+name: Breathe
 controller: MinerAI
 mineItems:[
   zirconium
