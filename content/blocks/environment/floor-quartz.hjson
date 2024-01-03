@@ -1,5 +1,5 @@
 type: Floor
-name : Quartz
+name : Quartz Stone
 itemDrop : quartz
 playerUnmineable: true
 wall: quartz-wall
