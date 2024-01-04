@@ -3,13 +3,13 @@ const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
 let pallete = [
 Color.valueOf("c6d4ff"),
-baseColor.rgba(),
+baseColor,
 Color.valueOf("394462")
 ];
 let palletei = [
-Color.valueOf("c6d4ff").rgba(),
-baseColor.rgba(),
-Color.valueOf("606d90").rgba()
+Color.valueOf("c6d4ff"),
+baseColor,
+Color.valueOf("606d90")
 ];
 
 Events.on(ContentInitEvent, () => {
