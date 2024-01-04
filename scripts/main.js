@@ -7,9 +7,9 @@ baseColor,
 Color.valueOf("394462")
 ];
 let palettei = [
-Color.valueOf("c6d4ff"),
-baseColor,
-Color.valueOf("606d90")
+Color.valueOf("c6d4ff").rgba(),
+baseColor.rgba(),
+Color.valueOf("606d90").rgba()
 ];
 
 Events.on(ContentInitEvent, () => {
