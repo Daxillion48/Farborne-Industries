@@ -1,8 +1,5 @@
-Planets.tantros.accessible = Planets.tantros.alwaysUnlocked = Planets.tantros.visible = true;
-Planets.sun.accessible = Planets.sun.alwaysUnlocked = Planets.sun.visible = true;
-Planets.gier.accessible = Planets.gier.alwaysUnlocked = Planets.gier.visible = true;
-Planets.notva.accessible = Planets.notva.alwaysUnlocked = Planets.notva.visible = true;
-Planets.verilus.accessible = Planets.verilus.alwaysUnlocked = Planets.verilus.visible = true;
+require("planetarium");
+
 
 const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
@@ -18,6 +15,7 @@ Color.valueOf("606d90").rgba()
 ];
 
 Events.on(ContentInitEvent, () => {
+
   let fonts = [Fonts.def, Fonts.outline];
   let ch = Fonts.getUnicode(target);
 
