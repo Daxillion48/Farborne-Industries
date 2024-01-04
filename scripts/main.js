@@ -4,7 +4,7 @@ const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
 let pallete = [
 Color.valueOf("c6d4ff"),
-baseColor,
+baseColor.rgba(),
 Color.valueOf("394462")
 ];
 let palletei = [
@@ -18,7 +18,7 @@ Events.on(ContentInitEvent, () => {
   let ch = Fonts.getUnicode(target);
 
   let size = Mathf.round(Fonts.def.getData().lineHeight / Fonts.def.getData().scaleY);
-  let tex = Core.atlas.find("team-dread");
+  let tex = Core.atlas.find("farborne-industries-team-dread");
   let out = Scaling.fit.apply(tex.width, tex.height, size, size);
 
   for(let font of fonts){
