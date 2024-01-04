@@ -1,4 +1,3 @@
-  const f = require("func");
 
 const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
