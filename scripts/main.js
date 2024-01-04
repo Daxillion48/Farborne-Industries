@@ -1,12 +1,12 @@
 
 const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
-let pallete = [
+let palette = [
 Color.valueOf("c6d4ff"),
 baseColor,
 Color.valueOf("394462")
 ];
-let palletei = [
+let palettei = [
 Color.valueOf("c6d4ff"),
 baseColor,
 Color.valueOf("606d90")
@@ -51,14 +51,14 @@ Events.on(ContentInitEvent, () => {
   Reflect.set(Team, Dread, "color", baseColor);
 
   let newPal = Reflect.get(Team, Dread, "palette");
-  newPal[0] = pallete[0];
-  newPal[1] = pallete[1];
-  newPal[2] = pallete[2];
+  newPal[0] = palette[0];
+  newPal[1] = palette[1];
+  newPal[2] = palette[2];
   Reflect.set(Team, Dread, "palette", newPal);
   let newI = Reflect.get(Team, Dread, "palettei");
-  newI[0] = palletei[0];
-  newI[1] = palletei[1];
-  newI[2] = palletei[2];
+  newI[0] = palettei[0];
+  newI[1] = palettei[1];
+  newI[2] = palettei[2];
   Reflect.set(Team, Dread, "palettei", newI);
 
   Dread.hasPalette = true;
