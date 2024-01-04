@@ -46,23 +46,24 @@ Events.on(ContentInitEvent, () => {
     //font.getData().setGlyphRegion(glyph, tex);
   }
 
-  const dread = newTeam(48, "dread", Color.valueOf("c6d4ff"));
-  //dread.color.set(Color.valueOf("87ceeb"));
-  Reflect.set(Team, dread, "color", baseColor);
+  const Dread = Team.get(5);
+  Dread.name = "Dread";
+  //Dread.color.set(Color.valueOf("87ceeb"));
+  Reflect.set(Team, Dread, "color", baseColor);
 
-  let newPal = Reflect.get(Team, dread, "palette");
+  let newPal = Reflect.get(Team, Dread, "palette");
   newPal[0] = pallete[0];
   newPal[1] = pallete[1];
   newPal[2] = pallete[2];
-  Reflect.set(Team, dread, "palette", newPal);
-  let newI = Reflect.get(Team, dread, "palettei");
+  Reflect.set(Team, Dread, "palette", newPal);
+  let newI = Reflect.get(Team, Dread, "palettei");
   newI[0] = palletei[0];
   newI[1] = palletei[1];
   newI[2] = palletei[2];
-  Reflect.set(Team, dread, "palettei", newI);
+  Reflect.set(Team, Dread, "palettei", newI);
 
-  dread.hasPalette = true;
-  dread.emoji = Fonts.getUnicodeStr(target);
+  Dread.hasPalette = true;
+  Dread.emoji = Fonts.getUnicodeStr(target);
 });
 
 //thanks abreaker.#0 for team code
