@@ -1,8 +1,8 @@
-Planets.tantros.accessible = Planets.tantros.visible = true;
-Planets.sun.accessible = Planets.sun.visible = true;
-Planets.gier.accessible = Planets.gier.visible = true;
-Planets.notva.accessible = Planets.notva.visible = true;
-Planets.verilus.accessible = Planets.verilus.visible = true;
+Planets.tantros.accessible = Planets.tantros.alwaysUnlocked = Planets.tantros.visible = true;
+Planets.sun.accessible = Planets.sun.alwaysUnlocked = Planets.sun.visible = true;
+Planets.gier.accessible = Planets.gier.alwaysUnlocked = Planets.gier.visible = true;
+Planets.notva.accessible = Planets.notva.alwaysUnlocked = Planets.notva.visible = true;
+Planets.verilus.accessible = Planets.verilus.alwaysUnlocked = Planets.verilus.visible = true;
 
 const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
