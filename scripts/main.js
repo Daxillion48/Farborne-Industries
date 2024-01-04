@@ -46,7 +46,7 @@ Events.on(ContentInitEvent, () => {
     //font.getData().setGlyphRegion(glyph, tex);
   }
 
-  const dread = Team.get(6);
+  const dread = Team.get(5);
   dread.name = "Dread";
   //dread.color.set(Color.valueOf("87ceeb"));
   Reflect.set(Team, dread, "color", baseColor);
