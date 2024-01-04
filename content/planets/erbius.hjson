@@ -142,7 +142,6 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
@@ -180,4 +179,3 @@ itemWhitelist: [
   "tantalum",
   "strontium",
 ]
-waveTeam: dread

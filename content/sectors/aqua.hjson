@@ -1,5 +1,4 @@
 localizedName: Aqua
-descpription: Research Sail and capture enemy base
 planet: erbius
 sector: 0
 difficulty: 1
@@ -12,8 +11,5 @@ research: {
     }
   ]
 }
-loadout: [
-  zirconium/1000
-  amalgam/400
-]
+
 attackAfterWaves: true

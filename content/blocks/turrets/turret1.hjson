@@ -4,10 +4,6 @@ targetGround: true
 health: 1500
 size: 3
 range: 120
-cooldown: 1
-restitution: 0.04
-reloadTime: 90
-shots: 2
 recoil: 2
 ammoUseEffect: casing3
 shootEffect: hitLancer
@@ -24,13 +20,6 @@ ammoTypes: {
     speed: 3
     ammoMultiplier: 2
     pierceDamageFactor: 0.25
-    updateEffect: {
-      type: ParticleEffect
-      lifetime: 35
-      particles: 1
-      colorFrom: 6f7fe8
-      colorTo: 6f7fe8
-    }
   }
   sublimate: {
     height: 12
@@ -40,13 +29,6 @@ ammoTypes: {
     speed: 4
     ammoMultiplier: 3
     pierceDamageFactor: 0.25
-    updateEffect: {
-      type: ParticleEffect
-      lifetime: 35
-      particles: 1
-      colorFrom: 88c29a
-      colorTo: b7cbd0
-    }
   }
 }
 requirements: [

@@ -1,6 +1,5 @@
 type: ThermalGenerator
 name : Steam Dynamo
-craftTime: 60
 size: 3
 separateItemCapacity : true
 consumes: {

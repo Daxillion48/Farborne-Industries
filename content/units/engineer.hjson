@@ -28,7 +28,8 @@ weapons: [
     y: 0
     reload: 15
     inaccuracy: 10
-    shootSound: none
+    shootSound: shoot
+    ammoUseEffect: casing3
     bullet: {
       lifetime: 40
       speed: 4
@@ -40,6 +41,4 @@ weapons: [
     }
   }
 ]
-ammoUseEffect: casing3
-shootSound: shoot
 alwaysUnlocked: true
