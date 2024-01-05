@@ -1,0 +1,10 @@
+type: Wall
+health: 2240
+size:2
+category: defense
+requirements: [
+  amethyst/24
+]
+name: Large Amethyst Wall
+research: amethyst-wall
+researchCostMultiplier: 0.3

@@ -1,0 +1,11 @@
+type: SolarGenerator
+name: Amethyst Solar Panel
+size: 5
+category:power
+requirements:[
+  zirconium/20
+  amethyst/60
+]
+powerProduction: 0.5
+research: gen
+researchCostMultiplier: 0.06

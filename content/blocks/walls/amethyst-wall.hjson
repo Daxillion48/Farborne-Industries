@@ -1,0 +1,9 @@
+type: Wall
+health: 560
+category: defense
+requirements: [
+  amethyst/6
+]
+name: Zirconium Wall
+research: zwall
+researchCostMultiplier: 0.3

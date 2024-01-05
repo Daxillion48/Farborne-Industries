@@ -1,0 +1,28 @@
+drillTime: 200
+range: 4
+tier: 2
+sparkColor: 9e72d8
+glowColor: c6d4ff
+boostHeatColor: 9e72d8
+heatColor: c6d4ff
+
+hasPower: false
+
+type: BeamDrill
+name : Wall Bore
+size: 2
+requirements: [
+  zirconium/20
+]
+consumes: {
+  liquid: {
+    liquid: chlorine
+    amount: 0.05
+    booster: true
+    optional: true
+  }
+}
+research: zdrill
+category: production
+liquidBoostIntensity: 2.5
+researchCostMultiplier: 0.03
