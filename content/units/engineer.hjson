@@ -2,6 +2,7 @@ type: legs
 hitSize: 12
 speed: 1.2
 health: 300
+lockLegBase : true
 armor: 1
 mineTier: 2
 mineWalls: true
