@@ -1,0 +1,78 @@
+localizedName: Deimo
+
+orbitRadius:4
+
+mesh: {
+  planet:mdeimo
+  type: NoiseMesh
+  seed: 69
+  divisions: 2
+  color1: 606D90
+  color2: 394462
+  radius: 0.6
+  octaves: 3
+  persistence: 0.8
+  scale: 0.15
+  mag: 1.5
+}
+
+cloudMesh: {
+  planet: mdeimo
+  type: HexSkyMesh
+  seed: 96
+  speed: 0.4
+  radius: 0.05
+  divisions: 1
+  color: 96a0be7e
+  octaves: 3
+  persistence: 0.7
+  scl: 0.15
+  thresh: 0.4
+}
+
+generator: {
+  min: 1
+  max: 1
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+  radMin: 600
+  radMax: 600
+  stoneChance: 0
+  iceChance: 0.5
+  carbonChance: 1
+  berylChance: 0
+  ferricChance: 0
+}
+
+alwaysUnlocked: true
+sectorSize: 2
+orbitSpacing: 12
+radius: 0.6
+minZoom: 0.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.08
+accessible: true
+updateLighting: true
+sectorSeed: 678
+bloom: false
+visible: true
+atmosphereColor: aaaaaaaa
+iconColor: 96A0BE
+hasAtmosphere: false
+allowWaveSimulation: true
+allowLaunchToNumbered: false
+clearSectorOnLose: true
+allowWaves: true
+icon: planet
+defaultCore: core-birth
+parent: erbius
+solarSystem: sun
+launchCandidates: []
