@@ -1,0 +1,16 @@
+localizedName: Island
+captureWave: 10
+planet: erbius
+sector: 19
+difficulty: 1
+
+research: {
+  parent: aqua
+  objectives: [
+    subl
+    {
+      type: SectorComplete
+      preset: aqua
+    }
+  ]
+}

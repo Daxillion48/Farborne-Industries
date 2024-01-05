@@ -22,3 +22,12 @@ drillTime: 480
 blockedItem: sand
 research: zdrill
 researchCostMultiplier: 0.03
+research: {
+   parent: zdrill
+   objectives: [
+      {
+         type: OnSector
+         preset: island
+      }
+   ]
+}
