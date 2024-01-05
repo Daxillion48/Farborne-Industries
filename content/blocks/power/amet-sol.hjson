@@ -7,5 +7,5 @@ requirements:[
   amethyst/60
 ]
 powerProduction: 0.5
-research: gen
+research: znode
 researchCostMultiplier: 0.06
