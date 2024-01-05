@@ -77,3 +77,8 @@ parent: erbius
 solarSystem: sun
 launchCandidates: []
 startSector: 45
+
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+prebuildBase: true
