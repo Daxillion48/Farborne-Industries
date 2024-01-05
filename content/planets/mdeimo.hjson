@@ -76,3 +76,4 @@ defaultCore: core-birth
 parent: erbius
 solarSystem: sun
 launchCandidates: []
+startSector: 4

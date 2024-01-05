@@ -22,7 +22,16 @@ consumes: {
     optional: true
   }
 }
-research: zdrill
+research: {
+   parent: zdrill
+   objectives: [
+      {
+         type: OnSector
+         preset: moonsector
+      }
+   ]
+}
+
 category: production
 liquidBoostIntensity: 2.5
 researchCostMultiplier: 0.03

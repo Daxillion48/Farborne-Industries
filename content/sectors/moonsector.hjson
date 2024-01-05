@@ -1,0 +1,15 @@
+localizedName: Plains
+captureWave: 15
+planet: mdeimo
+sector: 4
+difficulty: 1
+
+research: {
+  parent: island
+  objectives: [
+    {
+      type: SectorComplete
+      preset: island
+    }
+  ]
+}
