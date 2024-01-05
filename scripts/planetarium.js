@@ -1,4 +1,4 @@
-Vars.ui.settings.addCategory("@farbrone-industries", "farbrone-industries-setting-icon", st =>{
+Vars.ui.settings.addCategory("@farbrone-industries", Icon.effect, st =>{
   st.checkPref("asteroids-enabled", false);
   st.checkPref("tantros-visible", false);
   st.checkPref("tantros-accessible", false);
