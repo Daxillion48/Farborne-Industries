@@ -1,24 +1,31 @@
-Planets.tantros.accessible = true;
-Planets.tantros.alwaysUnlocked = true;
-Planets.tantros.visible = true;
-//Planets.tantros.name = "Tantros";
+Vars.ui.settings.addCategory("@farbrone-industries", "farbrone-industries-setting-icon", st =>{
+  st.checkPref("asteroids-enabled", false);
+  st.checkPref("tantros-visible", false);
+  st.checkPref("tantros-accessible", false);
+});
 
-//Planets.sun.accessible = true;
-//Planets.sun.alwaysUnlocked = true;
-//Planets.sun.visible = true;
-//Planets.sun.name = "Sun";
+let asten = Core.settings.getBool("asteroids-enabled");
+let tantvis = Core.settings.getBool("tantros-visible");
+let tanten = Core.settings.getBool("tantros-enabled");
 
-Planets.gier.accessible = true;
-Planets.gier.alwaysUnlocked = true;
-Planets.gier.visible = true;
-//Planets.gier.name = "Gier";
+if (asten) {
+  Planets.verilus.accessible = true;
+  Planets.verilus.alwaysUnlocked = true;
+  Planets.verilus.visible = true;
+  Planets.notva.accessible = true;
+  Planets.notva.alwaysUnlocked = true;
+  Planets.notva.visible = true;
+  Planets.gier.accessible = true;
+  Planets.gier.alwaysUnlocked = true;
+  Planets.gier.visible = true;
+};
 
-Planets.notva.accessible = true;
-Planets.notva.alwaysUnlocked = true;
-Planets.notva.visible = true;
-//Planets.notva.name = "Notva";
+if (tantvis) {
+  Planets.tantros.visible = true;
+  if (tanten) {
+    Planets.tantros.accessible = true;
+    Planets.tantros.alwaysUnlocked = true;
+  };
+};
 
-Planets.verilus.accessible = true;
-Planets.verilus.alwaysUnlocked = true;
-Planets.verilus.visible = true;
-//Planets.verilus.name = "Verilus";
+//Thank you so much sh1penfire#0
