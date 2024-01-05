@@ -1,0 +1,5 @@
+type: SteamVent
+name : Moon Vent
+variants: 2
+effect: none
+parent: moonrock

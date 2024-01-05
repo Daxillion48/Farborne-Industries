@@ -3,3 +3,4 @@ name : Cinnabar Stone
 itemDrop : cinnabar
 playerUnmineable: true
 wall: cinnabar-wall
+//decoration:

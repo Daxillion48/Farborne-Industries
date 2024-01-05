@@ -7,3 +7,4 @@ requirements:[
 name: Factory Tile
 conductivePower: true
 research: dwall
+//needsSurface: false
