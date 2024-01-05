@@ -1,7 +1,7 @@
-Vars.ui.settings.addCategory("@farbrone-industries", Icon.effect, st =>{
-  st.checkPref("asteroids-enabled", false);
-  st.checkPref("tantros-visible", false);
-  st.checkPref("tantros-accessible", false);
+Vars.ui.settings.addCategory("@farbrone-industries", Icon.effect, t =>{
+  t.checkPref("asteroids-enabled", false);
+  t.checkPref("tantros-visible", false);
+  t.checkPref("tantros-accessible", false);
 });
 
 let asten = Core.settings.getBool("asteroids-enabled");
