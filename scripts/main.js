@@ -33,8 +33,10 @@ Events.on(ContentInitEvent, () => {
 
     glyph.id = ch;
     glyph.srcX = glyph.srcY = 0;
-    glyph.width = out.x;
-    glyph.height = out.y;
+//    glyph.width = out.x;
+//    glyph.height = out.y;
+    glyph.width = 62
+    glyph.height = 62
     glyph.u = tex.u;
     glyph.v = tex.v2;
     glyph.u2 = tex.u2;
