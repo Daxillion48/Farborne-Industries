@@ -82,3 +82,11 @@ allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 prebuildBase: true
+
+itemWhitelist: [
+  "zirconium",
+  "cinnabar",
+  "amalgam",
+  "amethyst",
+  "prometheum",
+]
