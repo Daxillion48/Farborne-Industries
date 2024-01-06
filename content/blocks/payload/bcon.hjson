@@ -16,7 +16,7 @@ research: sail-fab
 researchCostMultiplier: 0.03
 
 filter: [
-  farborne-industries-large-tantalum-wall
-  farborne-industries-liqtank
-  farborne-industries-amethyst-wall-large
+  large-tantalum-wall
+  liqtank
+  amethyst-wall-large
 ]
