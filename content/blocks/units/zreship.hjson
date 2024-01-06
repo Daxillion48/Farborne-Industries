@@ -33,7 +33,7 @@ name: Ship Assembler
 
 researchCostMultiplier: 0.06
 research: {
-   parent: bcon
+   parent: zbcon
    objectives: [
       {
          type: OnSector
