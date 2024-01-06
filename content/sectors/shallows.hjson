@@ -1,0 +1,15 @@
+localizedName: Shallows
+planet: erbius
+sector: 63
+difficulty: 2
+research: {
+  parent: moonsector
+  objectives: [
+    {
+      type: SectorComplete
+      preset: moonsector
+    }
+  ]
+}
+
+attackAfterWaves: true
