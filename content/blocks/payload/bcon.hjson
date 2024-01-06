@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: Constructor
 name : Constructor
 craftTime: 60
 size: 3
@@ -6,7 +6,7 @@ consumes: {
   power: 0.75
 }
 
-category:crafting
+category:units
 requirements:[
   zirconium/80
   amalgam/30
