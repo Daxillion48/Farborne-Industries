@@ -2,7 +2,7 @@ type: UnitAssembler
 size: 3
 payloadSpeed: 1.5
 areaSize: 3
-dronesCreated: 3
+dronesCreated: 1
 droneType: assem-drone
 configurable: false
 consumes: {
