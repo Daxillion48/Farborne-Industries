@@ -13,7 +13,6 @@ requirements:[
   amalgam/30
 ]
 
-research: sail-fab
 researchCostMultiplier: 0.03
 
 filter: [
@@ -21,3 +20,12 @@ filter: [
   farborne-industries-liqtank,
   farborne-industries-amethyst-wall-large,
 ]
+research: {
+   parent: sail-fab
+   objectives: [
+      {
+         type: OnSector
+         preset: moonsector
+      }
+   ]
+}
