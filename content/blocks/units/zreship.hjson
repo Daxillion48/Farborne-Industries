@@ -18,7 +18,7 @@ plans: [
     time: 180
     requirements: [
       farborne-industries-sail/2
-      farborne-industries-tantalum-wall-large/2
+      farborne-industries-tantalum-wall-large/1
     ]
   }
 ]
@@ -32,4 +32,13 @@ category: units
 name: Ship Assembler
 
 researchCostMultiplier: 0.06
-research: bcon
+research: {
+   parent: bcon
+   objectives: [
+      {
+         type: OnSector
+         preset: shallows
+      }
+   ]
+}
+
