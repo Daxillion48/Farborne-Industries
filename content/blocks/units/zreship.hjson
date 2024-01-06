@@ -4,7 +4,7 @@ payloadSpeed: 1.5
 areaSize: 3
 dronesCreated: 1
 droneType: assem-drone
-configurable: false
+//configurable: false
 consumes: {
   power: 1.5
   liquids:[
