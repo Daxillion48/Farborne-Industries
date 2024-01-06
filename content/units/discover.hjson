@@ -9,7 +9,7 @@ rotateSpeed: 3.3
 faceTarget: false
 armor: 6
 
-research: reship
+research: zreship
 researchCostMultiplier: 0.06
 
 weapons: [
