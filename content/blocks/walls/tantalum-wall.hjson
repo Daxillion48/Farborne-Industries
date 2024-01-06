@@ -1,0 +1,9 @@
+type: Wall
+health: 600
+category: defense
+requirements: [
+  tantalum/6
+]
+name: Tantalum Wall
+research: zwall
+researchCostMultiplier: 0.3

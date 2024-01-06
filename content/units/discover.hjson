@@ -1,0 +1,58 @@
+type: naval
+name: Discover
+speed: 1.1
+drag: 0.13
+hitSize: 10
+health: 800
+accel: 0.4
+rotateSpeed: 3.3
+faceTarget: false
+armor: 6
+
+research: reship
+researchCostMultiplier: 0.06
+
+weapons: [
+  {
+    name: discover-gun
+    reload : 10
+    x : 5
+    shootY : 4
+    y : 1.5
+    rotate : true
+    ejectEffect : casing2
+    bullet:{
+      width: 7
+      height: 9
+      lifetime: 90
+      damage: 15
+    }
+  }
+  {
+    name: discover-weapon
+    mirror: false
+    reload: 20
+    x: 0
+    y: -8
+    rotate: true
+    ejectEffect: casing2
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      keepVelocity: true
+      width: 8
+      height: 8
+      shrinkY: 0
+      drag: -0.003
+      homingRange: 60
+      splashDamageRadius: 25
+      splashDamage: 10
+      lifetime: 100
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 8
+      weaveMag: 2
+      damage: 70
+    }
+  }
+]

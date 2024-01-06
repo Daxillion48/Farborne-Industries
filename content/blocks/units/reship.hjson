@@ -1,0 +1,37 @@
+type: UnitAssembler
+size: 3
+payloadSpeed: 1.5
+areaSize: 3
+dronesCreated: 3
+droneType: assem-drone
+configurable: false
+consumes: {
+  power: 1.5
+  liquids:[
+    chlorine/0.2
+  ]
+}
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: discover
+    time: 180
+    requirements: [
+      sail/2
+      tantalum-wall-large/1
+    ]
+  }
+]
+requirements: [
+  zirconium/120
+  tantalum/60
+  quartz/80
+  amalgam/60
+]
+category: units
+name: Ship Assembler
+
+researchCostMultiplier: 0.06
+research: {
+   parent: sail-fab
+}

@@ -1,0 +1,10 @@
+type: Wall
+health: 2400
+size:2
+category: defense
+requirements: [
+  tantalum/24
+]
+name: Large Tantalum Wall
+research: tantalum-wall
+researchCostMultiplier: 0.03
