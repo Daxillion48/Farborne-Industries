@@ -4,7 +4,7 @@ payloadSpeed: 0.75
 buildSpeed: 8
 size: 3
 consumes: {
-  power: 0.75
+  power: 0.25
 }
 
 category:units
