@@ -17,8 +17,8 @@ plans: [
     unit: discover
     time: 180
     requirements: [
-      sail/2
-      tantalum-wall-large/1
+      farborne-industries-sail/2
+      farborne-industries-tantalum-wall-large/1
     ]
   }
 ]
