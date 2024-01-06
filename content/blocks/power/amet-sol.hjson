@@ -7,5 +7,5 @@ requirements:[
   amethyst/60
 ]
 powerProduction: 0.5
-research: znode
+research: wall-drill
 researchCostMultiplier: 0.06

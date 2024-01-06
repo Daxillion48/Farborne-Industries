@@ -13,6 +13,7 @@ name : Wall Bore
 size: 2
 requirements: [
   zirconium/20
+  amethyst/5
 ]
 consumes: {
   liquid: {
@@ -22,16 +23,19 @@ consumes: {
     optional: true
   }
 }
-research: {
-   parent: zdrill
-   objectives: [
-      {
-         type: OnSector
-         preset: moonsector
-      }
-   ]
-}
 
 category: production
 liquidBoostIntensity: 2.5
-researchCostMultiplier: 0.03
+researchCostMultiplier: 0.06
+
+research: {
+  planet: mdeimo
+  root: true
+  name: Deimo
+  objectives: [
+     {
+        type: OnSector
+        preset: moonsector
+     }
+   ]
+}

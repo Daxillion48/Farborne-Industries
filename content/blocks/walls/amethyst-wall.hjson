@@ -5,5 +5,5 @@ requirements: [
   amethyst/6
 ]
 name: Zirconium Wall
-research: zwall
+research: wall-drill
 researchCostMultiplier: 0.3
