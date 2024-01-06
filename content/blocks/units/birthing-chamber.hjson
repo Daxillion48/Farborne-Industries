@@ -3,9 +3,6 @@ size: 3
 configurable: false
 consumes: {
   power: 1.5
-  liquids:[
-    water/0.3
-  ]
 }
 plans: [
   {
