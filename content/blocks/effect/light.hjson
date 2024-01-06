@@ -6,7 +6,7 @@ power: 0.05
 category: effect
 requirements:[
   zirconium/10
-  quartz/5
+  amalgam/5
 ]
 research: znode
 researchCostMultiplier: 0.03
