@@ -1,5 +1,5 @@
 type: Floor
-name : Cinnabar Stone
+name : Brimrock
 itemDrop : cinnabar
 playerUnmineable: true
 wall: cinnabar-wall
