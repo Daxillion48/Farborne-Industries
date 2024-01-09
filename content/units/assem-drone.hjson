@@ -17,5 +17,4 @@ useUnitCap: false
 logicControllable: false
 allowedInPayloads:false
 createWreck: false
-envEnabled: env.Any
-envDisabled: env.None
+
