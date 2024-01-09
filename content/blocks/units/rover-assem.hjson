@@ -15,7 +15,7 @@ plans: [
   {
     type: AssemblerUnitPlan
     unit: rover
-    time: 180
+    time: 140
     requirements: [
       farborne-industries-defender/1
       farborne-industries-amethyst-wall-large/2

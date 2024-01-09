@@ -21,7 +21,7 @@ weapons: [
     rotate: true
     bullet: {
       type: LaserBulletType
-      damage: 80
+      damage: 70
       hitEffect: hitLancer
       shootEffect: lancerLaserShoot
       smokeEffect: none
