@@ -10,25 +10,26 @@ faceTarget: false
 name: Rover
 weapons: [
   {
-    name: rover-lancer
-    mirror: false
-    x: 0
-    y: 0
-    reload: 40
+    name: rover-lance
+    mirror: true
+    x: 4
+    y: -1
+    shootY : 4
+    reload: 60
     shootSound: laser
     rotateSpeed: 20
     rotate: true
     bullet: {
       type: LaserBulletType
-      damage: 140
+      damage: 80
       hitEffect: hitLancer
       shootEffect: lancerLaserShoot
       smokeEffect: none
       pierceCap: 4
-      length: 160
+      length: 80
       lifetime: 16
       hitSize: 4
-      drawSize: 380
+      drawSize: 100
     }
   }
 ]
