@@ -1,5 +1,5 @@
 type: legs
-hitSize: 12
+hitSize: 9
 speed: 1.2
 health: 300
 lockLegBase : true
@@ -18,9 +18,28 @@ controller: MinerAI
 mineItems:[
   zirconium
 ]
-boostMultiplier: 1.2
-stepShake: 0.1
+stepShake: 0.01
+legStraightness: 0.3
 legCount: 6
+
+legLength: 10
+lockLegBase: true
+legContinuousMove : true
+legExtension : 0
+legBaseOffset : 1
+legMaxLength : 1.1
+legMinLength : 0.3
+legLengthScl : 0.96
+legForwardScl : 1.2
+legGroupSize : 3
+rippleScale : 0.2
+
+legMoveSpace : 1
+allowLegStep : true
+legPhysicsLayer : false
+
+shadowElevation : 0.1
+
 weapons: [
   {
     name: engineer-weapon
