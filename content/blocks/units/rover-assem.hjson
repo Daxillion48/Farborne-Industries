@@ -32,7 +32,7 @@ name: Rover Assembler
 
 researchCostMultiplier: 0.06
 research: {
-   parent: zbcon
+   parent: amethyst-wall-large
    objectives: [
       {
          type: OnSector
