@@ -1,0 +1,36 @@
+type: tank
+template: TankUnitType
+hitSize: 11
+speed: 1.3
+health: 800
+armor: 2
+itemCapacity: 0
+rotateSpeed: 4
+faceTarget: false
+name: Rover
+weapons: [
+  {
+    name: rover-lancer
+    mirror: false
+    x: 0
+    y: 0
+    reload: 40
+    shootSound: laser
+    rotateSpeed: 20
+    rotate: true
+    bullet: {
+      type: LaserBulletType
+      damage: 140
+      hitEffect: hitLancer
+      shootEffect: lancerLaserShoot
+      smokeEffect: none
+      pierceCap: 4
+      length: 160
+      lifetime: 16
+      hitSize: 4
+      drawSize: 380
+    }
+  }
+]
+research: rover-assem
+researchCostMultiplier: 0.03

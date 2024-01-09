@@ -1,0 +1,42 @@
+type: UnitAssembler
+size: 3
+payloadSpeed: 1.5
+areaSize: 5
+dronesCreated: 1
+droneType: assem-dm
+//configurable: false
+consumes: {
+  power: 1
+  //liquids:[
+  //  chlorine/0.2
+  //]
+}
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: rover
+    time: 180
+    requirements: [
+      farborne-industries-defender/1
+      farborne-industries-amethyst-wall-large/2
+    ]
+  }
+]
+requirements: [
+  zirconium/80
+  amethyst/100
+  amalgam/60
+]
+category: units
+name: Rover Assembler
+
+researchCostMultiplier: 0.06
+research: {
+   parent: zbcon
+   objectives: [
+      {
+         type: OnSector
+         preset: shallows
+      }
+   ]
+}
