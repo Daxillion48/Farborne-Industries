@@ -8,5 +8,14 @@ drag: 0.1
 accel: 0.1
 buildSpeed: 1
 buildBeamOffset: 8
-engineOffset: 9
+engineOffset: 5
+engineSize: 2
 hidden: true
+health: 90
+isEnemy: false
+useUnitCap: false
+logicControllable: false
+allowedInPayloads:false
+createWreck: false
+envEnabled: env.Any
+envDisabled: env.None
