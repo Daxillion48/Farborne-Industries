@@ -23,10 +23,12 @@ Events.on(ClientLoadEvent, () => {
 
   if (tantvis) {
     Planets.tantros.visible = true;
-    if (tanten) {
-      Planets.tantros.accessible = true;
-      Planets.tantros.alwaysUnlocked = true;
-    };
+  };
+  
+  if (tanten) {
+    Planets.tantros.visible = true;
+    Planets.tantros.accessible = true;
+    Planets.tantros.alwaysUnlocked = true;
   };
 });
 //Thank you so much sh1penfire#0
