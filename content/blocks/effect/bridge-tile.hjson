@@ -1,4 +1,4 @@
-type: Router
+type: Battery
 size: 3
 underBullets: true
 name: Bridge
@@ -27,5 +27,3 @@ outputsPayload: false
 acceptsPayloads: false
 solid: false
 hasPower: false
-acceptsItems: false
-outputsItems: false
