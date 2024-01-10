@@ -1,4 +1,4 @@
-type: LiquidRouter
+type: DirectionalUnloader
 size: 3
 underBullets: true
 name: Bridge
@@ -27,4 +27,4 @@ outputsPayload: false
 acceptsPayloads: false
 solid: false
 hasPower: false
-liquidCapacity: 0
+itemCapacity: 0
