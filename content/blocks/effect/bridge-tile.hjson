@@ -1,4 +1,4 @@
-type: Reconstructor
+type: PayloadRouter
 size: 3
 underBullets: true
 name: Bridge
