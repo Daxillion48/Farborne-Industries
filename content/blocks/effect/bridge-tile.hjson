@@ -1,4 +1,4 @@
-type: Wall
+type: turret
 size: 3
 underBullets: true
 name: Bridge
