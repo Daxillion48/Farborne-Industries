@@ -1,4 +1,4 @@
-type: Battery
+type: UnitCargoLoader
 size: 3
 underBullets: true
 name: Bridge
