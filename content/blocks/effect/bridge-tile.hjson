@@ -1,0 +1,27 @@
+type: Block
+size: 3
+underBullets: true
+name: Bridge
+requirements: [
+    zirconium/12
+]
+health: 270
+breakable: true
+floating: true
+crushDamageMultiplier: 0.05
+category: effect
+buildCostMultiplier: 3
+research: floor-factory
+rotate: true
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawRegion
+      suffix:-top
+    }
+  ]
+}
