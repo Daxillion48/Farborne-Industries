@@ -1,0 +1,35 @@
+type: ItemTurret
+targetAir: true
+targetGround: true
+health: 2000
+size: 3
+range: 160
+recoil: 3
+shootEffect: lancerLaserShoot
+hitEffect: hitLancer
+shootSound: shoot
+rotateSpeed: 4
+maxAmmo: 12
+ammoPerShot: 1
+ammoTypes: {
+  amethyst: {
+    type: LaserBulletType
+    reload: 50
+    damage: 300
+    pierceCap: 5
+    length: 380
+    lifetime: 16
+    hitSize: 4
+    drawSize: 400
+  }
+}
+requirements: [
+  zirconium/120
+  amalgam/50
+  amethyst/100
+]
+category: turret
+name: Thwart
+shootY: 7
+research: turret1
+researchCostMultiplier: 0.06
