@@ -1,4 +1,4 @@
-type: Conveyor
+type: Wall
 size: 3
 underBullets: true
 name: Bridge
@@ -23,8 +23,8 @@ drawer:{
     }
   ]
 }
-outputsPayload: false
-acceptsPayloads: false
 solid: false
 hasPower: false
-itemCapacity: 0
+rotateDraw: true
+lockRotation: false
+placeableLiquid: true
