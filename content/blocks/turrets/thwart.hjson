@@ -3,24 +3,24 @@ targetAir: true
 targetGround: true
 health: 2000
 size: 3
-range: 160
+range: 200
+reload: 50
 recoil: 3
 shootEffect: lancerLaserShoot
 hitEffect: hitLancer
 shootSound: shoot
 rotateSpeed: 4
-maxAmmo: 12
-ammoPerShot: 1
+maxAmmo: 40
+ammoPerShot: 8
 ammoTypes: {
   amethyst: {
     type: LaserBulletType
-    reload: 50
     damage: 300
     pierceCap: 5
-    length: 380
+    length: 200
     lifetime: 16
     hitSize: 4
-    drawSize: 400
+    drawSize: 210
   }
 }
 requirements: [
@@ -33,3 +33,6 @@ name: Thwart
 shootY: 7
 research: turret1
 researchCostMultiplier: 0.06
+consumes:{
+    power: 0.5
+}
