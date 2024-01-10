@@ -1,4 +1,4 @@
-type: Block
+type: PayloadConveyor
 size: 3
 underBullets: true
 name: Bridge
@@ -23,3 +23,5 @@ drawer:{
     }
   ]
 }
+outputsPayload: false
+acceptsPayloads: false
