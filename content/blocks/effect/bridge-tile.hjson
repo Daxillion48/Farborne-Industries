@@ -1,4 +1,4 @@
-type: PayloadRouter
+type: MessageBlock
 size: 3
 underBullets: true
 name: Bridge
