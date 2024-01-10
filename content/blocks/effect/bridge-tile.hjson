@@ -6,9 +6,7 @@ requirements: [
     zirconium/12
 ]
 health: 270
-breakable: true
 floating: true
-crushDamageMultiplier: 0.05
 category: effect
 buildCostMultiplier: 3
 research: floor-factory
