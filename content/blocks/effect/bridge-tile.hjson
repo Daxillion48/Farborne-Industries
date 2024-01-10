@@ -1,4 +1,4 @@
-type: UnitCargoLoader
+type: Reconstructor
 size: 3
 underBullets: true
 name: Bridge
