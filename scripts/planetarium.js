@@ -1,5 +1,5 @@
 Events.on(ClientLoadEvent, () => {
-  Vars.ui.settings.addCategory("@setting.farbrone-industries", Icon.effect, t =>{
+  Vars.ui.settings.addCategory("@setting.farbrone-industries", Icon.planet, t =>{
     t.checkPref("asteroids-enabled", false);
     t.checkPref("tantros-visible", false);
     t.checkPref("tantros-accessible", false);
@@ -24,7 +24,7 @@ Events.on(ClientLoadEvent, () => {
   if (tantvis) {
     Planets.tantros.visible = true;
   };
-  
+
   if (tanten) {
     Planets.tantros.visible = true;
     Planets.tantros.accessible = true;
