@@ -1,4 +1,4 @@
-type: LightBlock
+type: GenericCrafter
 size: 3
 underBullets: true
 name: Bridge
