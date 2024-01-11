@@ -4,6 +4,7 @@ category: defense
 requirements: [
   amethyst/6
 ]
-name: Zirconium Wall
+name: Amethyst Wall
 research: wall-drill
 researchCostMultiplier: 0.3
+absorbLasers: true
