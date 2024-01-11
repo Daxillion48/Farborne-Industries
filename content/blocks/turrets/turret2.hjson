@@ -11,10 +11,10 @@ ammoTypes: {
   chlorine: {
   type: ContinuousFlameBulletType
     damage: 45
-    length: 130
-    range: 130
+    length: 145
+    range: 160
     knockback: 1
-    pierceCap: 4
+    pierceCap: 5
     status: corroded
     colors:[
     4e835e8c,
@@ -29,8 +29,8 @@ ammoTypes: {
   sulfide: {
   type: ContinuousFlameBulletType
     damage: 65
-    length: 150
-    range: 150
+    length: 190
+    range: 210
     knockback: 1.5
     pierceCap: 7
     status: melting
