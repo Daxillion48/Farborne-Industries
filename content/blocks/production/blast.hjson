@@ -9,7 +9,7 @@ requirements: [
   sublimate/20
 ]
 consumes: {
-  power: 2
+  power: 1
   liquid: {
     liquid: chlorine
     amount: 0.05
@@ -18,7 +18,7 @@ consumes: {
 shake: 4
 itemCapacity: 40
 category: production
-drillTime: 480
+drillTime: 360
 blockedItem: sand
 research: zdrill
 researchCostMultiplier: 0.03
