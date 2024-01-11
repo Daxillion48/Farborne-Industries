@@ -8,7 +8,7 @@ consumes: {
   power: 1
   liquids: {
     liquids: [
-        slag/0.25
+        brimliq/0.6
     ]
   }
 }
@@ -17,10 +17,8 @@ outputItem: strontium/2
 
 category: crafting
 requirements:[
-  zirconium/120
   amalgam/60
-  sublimate/40
-  tantalum/80
+  tantalum/120
 ]
 craftEffect: {
   type: ParticleEffect
