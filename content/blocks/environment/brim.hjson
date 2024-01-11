@@ -1,0 +1,18 @@
+
+type: Floor
+name: Molten Brimstone
+status: melting
+statusDuration: 300
+speedMultiplier: 0.6
+variants: 0
+liquidDrop: brimliq
+isLiquid: true
+cacheLayer: slag
+attributes: {
+  heat: 0.5
+}
+emitLight: true
+lightRadius: 5
+lightColor: eda79361
+albedo: 0.9
+supportsOverlay: true

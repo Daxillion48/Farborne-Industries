@@ -1,0 +1,22 @@
+
+type: Floor
+name: Deep Molten Brimstone
+status: melting
+statusDuration: 300
+speedMultiplier: 0.4
+variants: 0
+liquidDrop: brimliq
+liquidMultiplier: 1.3
+isLiquid: true
+cacheLayer: slag
+attributes: {
+  heat: 0.75
+}
+emitLight: true
+lightRadius: 5
+lightColor: eda79361
+albedo: 0.9
+shallow: false
+supportsOverlay: true
+placeableOn: false
+
