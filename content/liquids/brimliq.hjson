@@ -1,0 +1,10 @@
+gas: false
+color: eda793ff
+barColor: eda793ff
+name: Molten Brimstone
+research: cinnabar
+temperature: 1
+viscosity: 0.8
+incinerable: false
+effect: melting
+lightColor:eda79361
