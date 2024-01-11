@@ -3,12 +3,12 @@ planet: erbius
 sector: 63
 difficulty: 2
 research: {
-  parent: moonsector
+  parent: island
   objectives: [
+		zbcon
     {
       type: SectorComplete
-      preset: moonsector
-    }
+      preset: island}
   ]
 }
 
