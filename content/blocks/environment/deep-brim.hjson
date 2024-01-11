@@ -1,6 +1,6 @@
 
 type: Floor
-name: Deep Molten Brimstone
+name: Brimstone Magma
 status: melting
 statusDuration: 300
 speedMultiplier: 0.4
