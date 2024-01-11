@@ -5,10 +5,11 @@ difficulty: 2
 research: {
   parent: island
   objectives: [
-		zbcon
+	zbcon
     {
       type: SectorComplete
-      preset: island}
+      preset: island
+	}
   ]
 }
 
