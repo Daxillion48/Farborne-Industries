@@ -15,16 +15,16 @@ plans: [
   {
     type: AssemblerUnitPlan
     unit: discover
-    time: 180
+    time: 210
     requirements: [
       farborne-industries-sail/2
-      farborne-industries-tantalum-wall-large/1
+      farborne-industries-tantalum-wall-large/3
     ]
   }
 ]
 requirements: [
   zirconium/120
-  tantalum/60
+  tantalum/120
   quartz/80
   amalgam/60
 ]
