@@ -4,7 +4,7 @@ targetGround: true
 health: 2000
 size: 3
 range: 200
-reload: 50
+reload: 60
 recoil: 3
 shootEffect: lancerLaserShoot
 hitEffect: hitLancer
@@ -15,7 +15,7 @@ ammoPerShot: 8
 ammoTypes: {
   amethyst: {
     type: LaserBulletType
-    damage: 300
+    damage: 270
     pierceCap: 5
     length: 200
     lifetime: 16
