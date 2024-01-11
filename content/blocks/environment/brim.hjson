@@ -7,7 +7,7 @@ speedMultiplier: 0.6
 variants: 0
 liquidDrop: brimliq
 isLiquid: true
-cacheLayer: tar
+cacheLayer: slag
 attributes: {
   heat: 0.5
 }
