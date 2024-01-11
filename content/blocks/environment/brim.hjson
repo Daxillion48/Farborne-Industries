@@ -16,3 +16,4 @@ lightRadius: 5
 lightColor: eda79361
 albedo: 0.9
 supportsOverlay: true
+damageTaken: 3
