@@ -18,5 +18,5 @@ lightColor: eda79361
 albedo: 0.9
 shallow: false
 supportsOverlay: true
-placeableOn: false
-
+damageTaken: 5
+drownTime: 90
