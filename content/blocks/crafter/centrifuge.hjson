@@ -1,6 +1,6 @@
 type: GenericCrafter
-name : Slag Centrifuge
-description : Extracts strontium from slag
+name : Brimstone Centrifuge
+description : Extracts strontium from molten brimstone
 craftTime: 90
 size: 3
 separateItemCapacity : true
