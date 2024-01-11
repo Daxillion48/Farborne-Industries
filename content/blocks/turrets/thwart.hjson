@@ -8,15 +8,15 @@ reload: 60
 recoil: 3
 shootEffect: lancerLaserShoot
 hitEffect: hitLancer
-shootSound: shoot
+shootSound: laser
 rotateSpeed: 4
 maxAmmo: 40
 ammoPerShot: 8
 ammoTypes: {
   amethyst: {
     type: LaserBulletType
-    damage: 270
-    pierceCap: 5
+    damage: 250
+    pierceCap: 4
     length: 200
     lifetime: 16
     hitSize: 4
