@@ -10,7 +10,7 @@ rotateSpeed: 5
 ammoTypes: {
   chlorine: {
   type: ContinuousFlameBulletType
-    damage: 45
+    damage: 55
     length: 145
     range: 160
     knockback: 1
@@ -28,7 +28,7 @@ ammoTypes: {
   }
   sulfide: {
   type: ContinuousFlameBulletType
-    damage: 65
+    damage: 80
     length: 190
     range: 210
     knockback: 1.5
