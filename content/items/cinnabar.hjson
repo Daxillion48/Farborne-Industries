@@ -4,3 +4,4 @@ cost : 2
 research : zirconium
 hardness : 1
 lowPriority: true
+buildable: false
