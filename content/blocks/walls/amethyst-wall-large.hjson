@@ -8,3 +8,4 @@ requirements: [
 name: Large Amethyst Wall
 research: amethyst-wall
 researchCostMultiplier: 0.3
+absorbLasers: true
