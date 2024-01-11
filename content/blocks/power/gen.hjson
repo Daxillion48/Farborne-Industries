@@ -14,6 +14,7 @@ requirements:[
   zirconium/180
 ]
 powerProduction: 0.4
+floating: true
 drawer:{
   type:DrawMulti
   drawers:[
