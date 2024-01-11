@@ -31,7 +31,7 @@ requirements: [
 category: turret
 name: Thwart
 shootY: 7
-research: turret1
+research: amet-sol
 researchCostMultiplier: 0.06
 consumes:{
     power: 0.5
