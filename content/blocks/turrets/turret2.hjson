@@ -3,6 +3,7 @@ targetAir: true
 targetGround: true
 health: 1800
 size: 3
+range: 190
 recoil: 1
 shake: 1
 liquidConsumed: 0.1
