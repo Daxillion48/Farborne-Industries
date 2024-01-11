@@ -50,6 +50,7 @@ weapons: [
     inaccuracy: 10
     shootSound: shoot
     ammoUseEffect: casing3
+		minWarmup : 0.05
     bullet: {
       lifetime: 40
       speed: 4
