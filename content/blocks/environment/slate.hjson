@@ -1,4 +1,5 @@
 type: Floor
 name : Slate
+variants: 5
 wall: slate-wall
 //decoration:
