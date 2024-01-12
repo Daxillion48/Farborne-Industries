@@ -1,4 +1,4 @@
 type: Floor
 name : Slate
-//wall: slate-wall
+wall: slate-wall
 //decoration:
