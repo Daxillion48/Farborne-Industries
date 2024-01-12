@@ -3,7 +3,7 @@ name: Discover
 speed: 1.1
 drag: 0.13
 hitSize: 10
-health: 1600
+health: 2100
 accel: 0.4
 rotateSpeed: 3.3
 faceTarget: false
