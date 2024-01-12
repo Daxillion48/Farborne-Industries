@@ -13,7 +13,6 @@ ammoTypes: {
   type: ContinuousFlameBulletType
     damage: 55
     length: 130
-    range: 140
     knockback: 1
     pierceCap: 5
     status: corroded
@@ -31,8 +30,7 @@ ammoTypes: {
   type: ContinuousFlameBulletType
     damage: 80
     length: 190
-    range: 210
-		rangeMultiplier: 1.5
+    rangeChange: 70
     knockback: 1.5
     pierceCap: 7
     status: melting
