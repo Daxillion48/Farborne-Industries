@@ -1,0 +1,14 @@
+type: Wall
+health: 2360
+size:2
+category: defense
+requirements: [
+  strontium/24
+]
+name: Large Strontium Wall
+research: strontium-wall
+researchCostMultiplier: 0.3
+lightningChance: 3
+lightningDamage: 80
+lightningLength: 28
+lightningColor: a3d1c3ff

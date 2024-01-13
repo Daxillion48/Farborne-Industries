@@ -1,0 +1,13 @@
+type: Wall
+health: 590
+category: defense
+requirements: [
+  strontium/6
+]
+name: Strontium Wall
+research: tantalum-wall
+researchCostMultiplier: 0.3
+lightningChance: 0.75
+lightningDamage: 40
+lightningLength: 14
+lightningColor: a3d1c3ff
