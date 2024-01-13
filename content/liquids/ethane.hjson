@@ -1,0 +1,10 @@
+gas: true
+color: a3d1c3ff
+barColor: a3d1c3ff
+gasColor: a3d1c3ff
+name: Ethane
+flammability: 0.5
+research: amethyst
+temperature: 0.1
+viscosity: 0.2
+coolant: true
