@@ -1,6 +1,6 @@
 localizedName: Trench
 plabet: erbius
-sector: 63
+sector: 28
 difficulty: 2
 research: {
   parent: shallows
