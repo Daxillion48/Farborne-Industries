@@ -8,7 +8,7 @@ variants: 0
 liquidDrop: brimliq
 liquidMultiplier: 1.3
 isLiquid: true
-cacheLayer: arkycite
+cacheLayer: water
 attributes: {
   heat: 0.75
 }
