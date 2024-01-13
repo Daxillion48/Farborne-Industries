@@ -7,7 +7,7 @@ requirements: [
 name: Strontium Wall
 research: tantalum-wall
 researchCostMultiplier: 0.3
-lightningChance: 0.75
-lightningDamage: 40
+lightningChance: 0.1875
+lightningDamage: 7
 lightningLength: 14
 lightningColor: a3d1c3ff
