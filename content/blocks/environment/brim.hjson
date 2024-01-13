@@ -12,7 +12,7 @@ attributes: {
   heat: 0.5
 }
 emitLight: true
-lightRadius: 15
+lightRadius: 30
 lightColor: eda79361
 albedo: 0.9
 supportsOverlay: true
