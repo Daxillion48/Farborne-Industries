@@ -1,0 +1,14 @@
+
+type: Floor
+name: Ethane
+speedMultiplier: 0.8
+variants: 0
+liquidDrop: ethane
+liquidMultiplier: 0.5
+isLiquid: true
+cacheLayer: tar
+emitLight: true
+lightRadius: 30
+lightColor: d5f0e561
+albedo: 0.9
+supportsOverlay: true
