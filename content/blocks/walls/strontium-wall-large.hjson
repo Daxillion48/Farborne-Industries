@@ -8,7 +8,7 @@ requirements: [
 name: Large Strontium Wall
 research: strontium-wall
 researchCostMultiplier: 0.3
-lightningChance: 3
-lightningDamage: 80
+lightningChance: 0.75
+lightningDamage: 28
 lightningLength: 28
 lightningColor: a3d1c3ff
