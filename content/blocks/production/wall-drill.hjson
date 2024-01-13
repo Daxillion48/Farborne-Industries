@@ -17,7 +17,7 @@ requirements: [
 ]
 consumes: {
   liquid: {
-    liquid: chlorine
+    liquid: ethane
     amount: 0.05
     booster: true
     optional: true
