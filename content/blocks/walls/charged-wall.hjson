@@ -8,8 +8,8 @@ requirements: [
 ]
 name: Charged Wall
 research: strontium-wall
-researchCostMultiplier: 0.3
+researchCostMultiplier: 1.2
 lightningChance: 12
-lightningDamage: 40
+lightningDamage: 80
 lightningLength: 30
 lightningColor: b4b4edff
