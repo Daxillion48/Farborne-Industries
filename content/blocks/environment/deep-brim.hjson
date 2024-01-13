@@ -13,7 +13,7 @@ attributes: {
   heat: 0.75
 }
 emitLight: true
-lightRadius: 5
+lightRadius: 45
 lightColor: eda79361
 albedo: 0.9
 shallow: false
