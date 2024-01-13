@@ -1,0 +1,14 @@
+localizedName: Trench
+plabet: erbius
+sector: 18
+difficulty: 2
+research: {
+  parent: shallows
+  objectives: [
+    {
+    type: SectorComplete
+    preset: shallows
+    }
+  ]
+}
+attackAfterWaves: true 
