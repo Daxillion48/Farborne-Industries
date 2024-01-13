@@ -20,5 +20,13 @@ requirements: [
 ]
 category: units
 name: Drone Pad
-research: birthing-chamber
-researchCostMultiplier: 0.03
+researchCostMultiplier: 0.09
+research: {
+   parent: zreship
+   objectives: [
+      {
+         type: OnSector
+         preset: trench
+      }
+   ]
+}
