@@ -12,8 +12,9 @@ engineOffset: 4
 engineSize: 1.6
 hidden: true
 health: 90
-isEnemy: false
 useUnitCap: false
 logicControllable: false
 allowedInPayloads: false
 createWreck: false
+targetable: false
+isEnemy: false 
