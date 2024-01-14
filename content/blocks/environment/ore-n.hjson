@@ -1,0 +1,6 @@
+type: OreBlock
+name : Niobium Ore
+itemDrop: niobium
+mapColor: 767496
+hasColor: true
+needsSurface: false
