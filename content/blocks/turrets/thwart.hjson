@@ -36,5 +36,3 @@ researchCostMultiplier: 0.06
 consumes:{
     power: 0.5
 }
-coolant: ethane/0.15
-coolantMultiplier: 1.5
