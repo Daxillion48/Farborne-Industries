@@ -1,0 +1,11 @@
+type : liquidRouter
+name : Liquid Router
+health: 100
+requirements: [
+  zirconium/10
+]
+size: 1
+liquidCapacity: 40
+category: liquid
+research: zpump
+researchCostMultiplier: 0.1
