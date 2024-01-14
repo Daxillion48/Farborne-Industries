@@ -3,7 +3,7 @@ range: 5
 name: Pipe bridge
 category:liquid
 requirements:[
-  zirconium/5
+  zirconium/10
 ]
 research: zpump
 researchCostMultiplier: 0.03
