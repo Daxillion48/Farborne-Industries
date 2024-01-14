@@ -91,4 +91,5 @@ itemWhitelist: [
   "prometheum",
   "onyx",
   "niobium",
+  "signalum", 
 ]
