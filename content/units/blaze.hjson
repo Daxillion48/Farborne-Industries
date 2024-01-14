@@ -1,0 +1,56 @@
+name: Blaze
+type: payload
+health: 6000
+speed: 1.2
+rotateSpeed: 2
+pickupUnits: true
+accel: 0.05
+drag: 0.017
+lowAltitude: false
+flying: true
+circleTarget: true
+engineOffset: 13
+engineSize: 7
+faceTarget: false
+hitSize: 36
+payloadCapacity: 1024
+buildSpeed: 2.5
+buildBeamOffset: 23
+range: 140
+targetAir: false
+weapons: [
+    {
+    name: bomber
+    x: 0
+    y: 0
+    mirror: false
+    reload: 50
+    minShootVelocity: 0.01
+    soundPitchMin: 1
+    shootSound: plasmadrop
+    bullet:{
+        type: BasicBulletType
+        sprite: large-bomb
+        width: 30
+        height: 30
+        maxRange: 30
+        ignoreRotation: true
+        hitSound: plasmaboom
+        shootCone: 180
+        hitShake: 4
+        ejectEffect: none
+        collidesAir: false
+        lifetime: 70
+        despawnEffect: greenBomb
+        hitEffect: massiveExplosion
+        keepVelocity: false
+        spin: 2
+        shrinkX: 0.7
+        shrinkY: 0.7
+        speed: 0
+        collides: false
+        splashDamage: 560
+        splashDamageRadius: 80
+        }
+    }
+]
