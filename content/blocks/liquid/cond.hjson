@@ -2,7 +2,7 @@ type: Conduit
 name: Pipe
 category:liquid
 requirements:[
-  quartz/1
+  zirconium
 ]
 research: zpump
-researchCostMultiplier: 0.03
+researchCostMultiplier: 0.1
