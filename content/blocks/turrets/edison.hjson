@@ -1,0 +1,83 @@
+type: ItemTurret
+targetAir: true
+targetGround: true
+health: 4500
+size: 5
+range: 800
+reload: 60
+recoil: 4
+shootEffect: none
+hitEffect: none
+shootSound: spark
+rotateSpeed: 4
+maxAmmo: 200
+ammoPerShot: 50
+ammoTypes: {
+  signalum: {
+    type: LightningBulletType
+    damage: 9600
+    lightningLength: 200
+    fragBullets:1
+    inaccuracy: 0
+    pierceArmor: true
+    delayFrags: true
+    fragRandomSpread:0
+    fragBullet:{
+        type: LightningBulletType
+        damage: 9600
+        lightningLength: 200
+        fragBullets:1
+        pierceArmor: true
+        delayFrags: true
+        fragRandomSpread:0
+        lightningCone: 30
+        fragBullet:{
+            type: LightningBulletType
+            damage: 9600
+            lightningLength: 200
+            fragBullets:1
+            pierceArmor: true
+            delayFrags: true
+            fragRandomSpread:0
+            lightningCone: 30
+            fragBullet:{
+                type: LightningBulletType
+                damage: 9600
+                lightningLength: 200
+                fragBullets:1
+                pierceArmor: true
+                delayFrags: true
+                fragRandomSpread:0
+                lightningCone: 30
+                fragBullet:{
+                    type: LightningBulletType
+                    damage: 9600
+                    lightningLength: 200
+                    fragBullets:1
+                    pierceArmor: true
+                    delayFrags: true
+                    fragRandomSpread:0
+                    lightningCone: 30
+                    fragBullet:{
+                        type: LightningBulletType
+                        damage: 9600
+                        lightningLength: 200
+                        fragBullets:1
+                    }
+                }
+            }
+        }
+    }
+  }
+}
+requirements: [
+  amalgam/1200
+  signalum/1000
+]
+category: turret
+name: Edison
+shootY: 7
+research: thwart
+consumes:{
+    power: 17.5
+}
