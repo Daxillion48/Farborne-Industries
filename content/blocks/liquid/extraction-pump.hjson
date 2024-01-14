@@ -1,0 +1,11 @@
+type: Pump
+name : Extraction Pump
+pumpAmount: 0.1
+size: 3
+health: 640
+requirements:[
+  prometheum/30
+]
+category: liquid
+research: zpump
+researchCostMultiplier: 0.1
