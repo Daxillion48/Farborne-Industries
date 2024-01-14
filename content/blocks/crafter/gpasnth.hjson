@@ -1,0 +1,58 @@
+type: GenericCrafter
+name : GPa Synthesis Chamber
+craftTime: 120
+size: 3
+separateItemCapacity : true
+consumes: {
+  power: 1
+  items: {
+    items: [
+      amethyst/8
+      cinnabar/4
+    ]
+  }
+}
+itemCapacity: 20
+outputItem: onyx/1
+category:crafting
+requirements:[
+  zirconium/120
+  amalgam/60
+  amethyst/80
+]
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawRegion
+      suffix:-rottwo
+      spinSprite: true
+      rotateSpeed: 8
+    }
+    {
+      type:DrawRegion
+      suffix:-rot
+      spinSprite: true
+      rotateSpeed: 4
+    }
+    {
+    type:DrawGlowRegion
+    suffix:-glow
+    }
+  ]
+}
+
+researchCostMultiplier: 0.06
+research: {
+   parent: amet-sol
+   objectives: [
+      zbcon
+      {
+         type: OnSector
+         preset: shallows
+      }
+   ]
+}
