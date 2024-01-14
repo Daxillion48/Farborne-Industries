@@ -1,0 +1,9 @@
+type: Wall
+health: 600
+category: defense
+requirements: [
+  niobium/6
+]
+name: Niobium Wall
+research: amethyst-wall
+researchCostMultiplier: 0.3

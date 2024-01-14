@@ -1,0 +1,11 @@
+type: Wall
+health: 2240
+size:2
+category: defense
+requirements: [
+  onyx/24
+]
+name: Large Onyx Wall
+research: onyx-wall
+researchCostMultiplier: 0.3
+absorbLasers: true

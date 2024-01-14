@@ -1,0 +1,10 @@
+type: Wall
+health: 2400
+size:2
+category: defense
+requirements: [
+  niobium/24
+]
+name: Large Niobium Wall
+research: niobium-wall
+researchCostMultiplier: 0.03

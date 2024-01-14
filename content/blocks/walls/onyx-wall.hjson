@@ -1,0 +1,10 @@
+type: Wall
+health: 560
+category: defense
+requirements: [
+  onyx/6
+]
+name: Onyx Wall
+research: onyx-wall
+researchCostMultiplier: 0.3
+absorbLasers: true
