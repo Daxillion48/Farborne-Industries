@@ -89,4 +89,5 @@ itemWhitelist: [
   "amalgam",
   "amethyst",
   "prometheum",
+  "onyx",
 ]
