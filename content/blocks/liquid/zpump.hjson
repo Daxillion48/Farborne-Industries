@@ -1,11 +1,11 @@
 type: Pump
-name : Pump
+name : Clockwork Pump
 pumpAmount: 0.075
 size: 2
-health: 40
+health: 240
 requirements:[
   zirconium/30
 ]
 category: liquid
 research: core-birth
-researchCostMultiplier: 0.03
+researchCostMultiplier: 0.06
