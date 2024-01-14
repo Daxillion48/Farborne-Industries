@@ -45,7 +45,7 @@ drawer:{
 
 researchCostMultiplier: 0.03
 research: {
-   parent: a-furnace
+   parent: amet-sol
    objectives: [
       zbcon
       {
