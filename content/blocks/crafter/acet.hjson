@@ -1,0 +1,56 @@
+type: GenericCrafter
+name : Dehydrogenation Chamber
+craftTime: 120
+size: 3
+separateItemCapacity : true
+consumes: {
+  power: 0.75
+  items: {
+    items: [
+      amethyst/1
+    ]
+  }
+  liquid:{
+    liquid: ethane
+    amount: 0.3
+  }
+}
+itemCapacity: 20
+outputLiquid: acytelene/0.2
+category:crafting
+requirements:[
+  zirconium/120
+  amalgam/60
+  amethyst/80
+]
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawRegion
+      suffix:-rot
+      spinSprite: true
+      rotateSpeed: 4
+    }
+    {
+      type:DrawGlowRegion
+      suffix:-glow
+      color: 88c29a
+    }
+  ]
+}
+
+researchCostMultiplier: 0.03
+research: {
+   parent: a-furnace
+   objectives: [
+      zbcon
+      {
+         type: OnSector
+         preset: shallows
+      }
+   ]
+}
