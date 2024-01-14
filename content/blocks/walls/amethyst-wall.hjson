@@ -1,5 +1,5 @@
 type: Wall
-health: 560
+health: 400
 category: defense
 requirements: [
   amethyst/6
