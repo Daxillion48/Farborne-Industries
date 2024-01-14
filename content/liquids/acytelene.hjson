@@ -1,0 +1,7 @@
+gas: true
+color: ed896fff
+barColor: ed896fff
+gasColor: ed896fff
+name: Acytelene
+flammability: 0.7
+research: ethane
