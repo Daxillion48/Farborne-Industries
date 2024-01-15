@@ -17,6 +17,8 @@ filter: [
   farborne-industries-tantalum-wall-large,
   farborne-industries-liqtank,
   farborne-industries-amethyst-wall-large,
+  farborne-industries-onyx-wall-large, 
+  farborne-industries-niobium-wall-large, 
 ]
 research: {
    parent: sail-fab
