@@ -8,4 +8,4 @@ health: 450
 floating: true
 category: units
 research: con
-moveTime: 40
+moveTime: 20
