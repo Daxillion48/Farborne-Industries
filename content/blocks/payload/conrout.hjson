@@ -1,0 +1,11 @@
+type: PayloadRouter
+size: 3
+name: Conveyor Router
+requirements: [
+    amalgam/20
+]
+health: 450
+floating: true
+category: units
+research: con
+moveTime: 40
