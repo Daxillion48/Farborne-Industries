@@ -3,8 +3,7 @@ health: 2360
 size:2
 category: defense
 requirements: [
-  amalgam/600
-  prometheum/40
+  amalgam/200
 ]
 name: Charged Wall
 research: strontium-wall
