@@ -1,0 +1,25 @@
+type: PayloadDeconstructor
+name : Deconstructor
+payloadSpeed: 0.75
+size: 3
+hasPower: false
+
+category:units
+requirements:[
+  zirconium/80
+  amalgam/30
+]
+
+researchCostMultiplier: 0.06
+
+research: {
+   parent: zbcon
+   objectives: [
+      {
+         type: OnSector
+         preset: moonsector
+      }
+   ]
+}
+maxPayloadSize: 2
+deconstructSpeed: 3
