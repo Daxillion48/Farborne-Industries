@@ -9,3 +9,4 @@ floating: true
 category: units
 research: zbcon
 moveTime: 20
+placeableLiquid: true
