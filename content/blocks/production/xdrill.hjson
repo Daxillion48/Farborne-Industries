@@ -19,7 +19,7 @@ consumes: {
 research: wall-drill
 category: production
 liquidBoostIntensity: 1.5
-drillTime: 600
+drillTime: 500
 ambientSound: hum
 blockedItem: sand
 researchCostMultiplier: 0.03
