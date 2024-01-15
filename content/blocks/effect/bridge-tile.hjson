@@ -9,7 +9,6 @@ health: 270
 floating: true
 category: effect
 buildCostMultiplier: 3
-research: floor-factory
 rotate: true
 drawer:{
   type:DrawMulti
