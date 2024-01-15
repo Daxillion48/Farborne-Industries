@@ -18,7 +18,10 @@ filter: [
   farborne-industries-liqtank,
   farborne-industries-amethyst-wall-large,
   farborne-industries-onyx-wall-large, 
-  farborne-industries-niobium-wall-large, 
+  farborne-industries-niobium-wall-large,
+  farborne-industries-strontium-wall-large, 
+  farborne-industries-charged-wall, 
+  farborne-industries-wall-drill, 
 ]
 research: {
    parent: sail-fab
