@@ -3,9 +3,7 @@ name : Constructor
 payloadSpeed: 0.75
 buildSpeed: 8
 size: 3
-consumes: {
-  power: 0.25
-}
+hasPower: false
 
 category:units
 requirements:[
