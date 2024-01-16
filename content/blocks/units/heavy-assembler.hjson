@@ -1,0 +1,44 @@
+type: UnitAssembler
+size: 5
+payloadSpeed: 1.5
+areaSize: 7
+dronesCreated: 3
+droneType: assem-dm
+//configurable: false
+consumes: {
+  power: 1
+  liquids:[
+    acytelene/0.2
+  ]
+}
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: blaze
+    time: 1200
+    requirements: [
+      farborne-industries-defender/2
+      farborne-industries-niobium-wall-large/3
+      farborne-industries-charged-wall/1
+    ]
+  }
+]
+requirements: [
+  zirconium/120
+  niobium/120
+  onyx/80
+  amalgam/60
+]
+category: units
+name: Heavy Assembler
+
+researchCostMultiplier: 0.06
+research: {
+   parent: rover-assem
+   objectives: [
+      {
+         type: OnSector
+         preset: highgrond
+      }
+   ]
+}
