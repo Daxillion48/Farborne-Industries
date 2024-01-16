@@ -14,10 +14,10 @@ loopSoundVolume: 1
 loopSound: laserbeam
 shootWarmupSpeed: 0.08
 shootCone : 360
-aimChangeSpeed : 1
-rotateSpeed : 1
+aimChangeSpeed : 1.5
+rotateSpeed : 1.5
 size : 3
-range : 196
+range : 210
 health : 2100
 consumes: {
     power: 1
