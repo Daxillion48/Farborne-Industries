@@ -44,15 +44,15 @@ drawer:{
     }
   ]
 }
-
-researchCostMultiplier: 0.06
 research: {
-   parent: amet-sol
-   objectives: [
-      zbcon
-      {
-         type: OnSector
-         preset: shallows
-      }
-   ]
-}
+	parent: amet-sol
+	objectives:[
+		thwart
+		{
+			type: OnSector
+			preset: highgrond
+    } 
+  ] 
+} 
+researchCostMultiplier: 0.06
+
