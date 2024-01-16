@@ -7,7 +7,7 @@ requirements: [
 ]
 name: Charged Wall
 research: amethyst-wall-large
-researchCostMultiplier: 1.2
+researchCostMultiplier: 0.4
 lightningChance: 12
 lightningDamage: 80
 lightningLength: 30
