@@ -1,0 +1,29 @@
+type: ContinuousTurret
+name: Archimedes
+category: turret
+requirements: [
+    zirconium/150
+    amalgam/70
+    onyx/40
+]
+shootType:{
+    type: PointLaserBulletType
+    damage: 100
+    buildingDamageMultiplier: 0.3
+}
+loopSoundVolume: 1
+loopSound: laserbeam
+shootWarmupSpeed: 0.08
+shootCone : 360
+aimChangeSpeed : 1
+rotateSpeed : 1
+size : 3
+range : 196
+health : 2100
+consumes: {
+    power: 1
+    liquid: {
+        liquid: ethane
+        amount: 0.3
+    }
+}
