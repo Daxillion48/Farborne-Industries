@@ -1,6 +1,5 @@
 type: Drill
 name : Extraction Drill
-description : A basic drill capable of mining
 size: 4
 tier: 4
 requirements: [
