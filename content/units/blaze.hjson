@@ -1,6 +1,6 @@
 name: Blaze
 type: payload
-health: 6000
+health: 9000
 speed: 1.2
 rotateSpeed: 2
 pickupUnits: true
