@@ -22,3 +22,4 @@ health : 2100
 consumes: {
     power: 1.5
 }
+research: thwart
