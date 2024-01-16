@@ -8,7 +8,7 @@ requirements: [
 ]
 shootType:{
     type: PointLaserBulletType
-    damage: 190
+    damage: 100
 }
 loopSoundVolume: 1
 loopSound: laserbeam
