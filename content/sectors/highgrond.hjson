@@ -1,0 +1,14 @@
+localizedName: High Ground
+captureWave: 20
+planet: mdeimo
+sector: 11
+research: {
+	parent: moonsector
+  objectives:[
+    {
+      type:SectorComplete 
+      preset: moonsector 
+    } 
+  ] 
+} 
+difficulty: 1
