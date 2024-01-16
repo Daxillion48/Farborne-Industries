@@ -6,7 +6,7 @@ requirements: [
   amalgam/200
 ]
 name: Charged Wall
-research: strontium-wall
+research: amethyst-wall-large
 researchCostMultiplier: 1.2
 lightningChance: 12
 lightningDamage: 80
