@@ -3,7 +3,7 @@ health: 2360
 size:2
 category: defense
 requirements: [
-  amalgam/200
+  amalgam/96
 ]
 name: Charged Wall
 research: amethyst-wall-large
