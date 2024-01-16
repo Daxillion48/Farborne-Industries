@@ -15,6 +15,15 @@ ammoPerShot: 8
 ammoTypes: {
   amethyst: {
     type: LaserBulletType
+    damage: 230
+    pierceCap: 3
+    length: 200
+    lifetime: 16
+    hitSize: 4
+    drawSize: 210
+  }
+ onyx:{
+   type: LaserBulletType
     damage: 250
     pierceCap: 4
     length: 200
