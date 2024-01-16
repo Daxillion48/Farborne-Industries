@@ -8,7 +8,7 @@ requirements: [
 ]
 shootType:{
     type: PointLaserBulletType
-    damage: 780
+    damage: 390
 }
 loopSoundVolume: 1
 loopSound: laserbeam
@@ -20,9 +20,5 @@ size : 3
 range : 210
 health : 2100
 consumes: {
-    power: 1
-    liquid: {
-        liquid: ethane
-        amount: 0.3
-    }
+    power: 1.5
 }
