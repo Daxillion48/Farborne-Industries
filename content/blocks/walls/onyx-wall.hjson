@@ -5,6 +5,6 @@ requirements: [
   onyx/6
 ]
 name: Onyx Wall
-research: onyx-wall
+research: amethyst-wall
 researchCostMultiplier: 0.3
 absorbLasers: true
