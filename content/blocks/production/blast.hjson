@@ -2,7 +2,7 @@ type: BurstDrill
 name : Blast Drill
 description : Uses controlled blasts to mine resources
 size: 4
-tier: 4
+tier: 5
 requirements: [
   zirconium/200
   amalgam/100
