@@ -1,0 +1,19 @@
+type: BuildTurret
+name: Orthanc
+category: effect
+requirements: [
+  prometheum/ 120
+  signalum/ 90
+  amalgam/ 150
+]
+range: 400
+size: 3
+buildSpeed: 2
+//hasPower: false
+research:{
+    parent: d-signa
+}
+researchCostMultiplier: 0.06
+consumes: [
+  power: 0.5
+]
