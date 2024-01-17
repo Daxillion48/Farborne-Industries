@@ -15,5 +15,5 @@ research:{
 }
 researchCostMultiplier: 0.06
 consumes: [
-  power: 0.5
+  power: 0.75
 ]
