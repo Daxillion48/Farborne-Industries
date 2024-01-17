@@ -3,5 +3,6 @@ color: ed896fff
 barColor: ed896fff
 gasColor: ed896fff
 name: Acetylene
-flammability: 0.7
+flammability: 1
+explosiveness: 1
 research: ethane
