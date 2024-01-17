@@ -1,0 +1,44 @@
+type: GenericCrafter
+name : Signalum Forge
+craftTime: 120
+size: 3
+separateItemCapacity : true
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      amalgam/12
+      niobium/6
+      prometheum/6
+    ]
+  }
+}
+itemCapacity: 24
+outputItem: signalum/3
+category:crafting
+requirements:[
+  niobium/120
+  amalgam/40
+  prometheum/40
+]
+research: gpasynth
+researchCostMultiplier: 0.06
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+      suffix:-bottom
+    }
+    {
+      type:DrawMultiWeave
+    }
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawHeatRegion
+      suffix:-vents
+    }
+  ]
+}
