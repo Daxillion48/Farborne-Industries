@@ -1,0 +1,41 @@
+type: GenericCrafter
+name : Industrial Amalgamizer
+description : Creates Amalgam at a much faster rate. Consumes Prometheum in addition.
+craftTime: 40
+size: 3
+separateItemCapacity : true
+consumes: {
+  power: 1
+  items: {
+    items: [
+      cinnabar/4
+      zirconium/4
+      prometheum/2
+    ]
+  }
+}
+itemCapacity: 24
+outputItem: amalgam/8
+category:crafting
+requirements:[
+  zirconium/120
+  amalgam/40
+  prometheum/40
+]
+research: a-furnace
+researchCostMultiplier: 0.09
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawGlowRegion
+    }
+    {
+      type:DrawHeatRegion
+      suffix:-vents
+    }
+  ]
+}
