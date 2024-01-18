@@ -1,5 +1,5 @@
 type: Floor
-name : Flint Stone
+name : Chert Stone
 itemDrop : quartz
 playerUnmineable: true
 wall: flint-wall
