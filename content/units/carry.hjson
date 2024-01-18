@@ -11,8 +11,5 @@ buildSpeed: 0.3
 rotateSpeed: 4
 name: Carry
 controller: BuilderAI
-mineItems:[
-  zirconium
-]
 research: dpad
 researchCostMultiplier: 0.03
