@@ -14,7 +14,7 @@ engineSize: 7
 faceTarget: false
 hitSize: 36
 payloadCapacity: 1024
-buildSpeed: 2.5
+buildSpeed: 0.3
 buildBeamOffset: 23
 range: 140
 targetAir: false
