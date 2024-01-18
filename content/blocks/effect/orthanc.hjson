@@ -11,7 +11,7 @@ size: 3
 buildSpeed: 1.5
 hasPower: false
 research:{
-    parent: d-signa
+    parent: holo-shield
 }
 researchCostMultiplier: 0.06
 consumes: {
