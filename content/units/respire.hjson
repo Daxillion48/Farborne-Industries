@@ -22,7 +22,7 @@ mineItems:[
 ]
 stepShake: 0.01
 legStraightness: 0.3
-legCount: 6
+legCount: 8
 
 legLength: 14
 lockLegBase: true
@@ -41,7 +41,7 @@ allowLegStep : true
 legPhysicsLayer : false
 hovering: true
 flying: true
-lowAltitude: true
+canDrown: false
 shadowElevation : 0.2
 
 weapons: [
