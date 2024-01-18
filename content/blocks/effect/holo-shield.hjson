@@ -18,3 +18,4 @@ requirements: [
   amalgam/120
   prometheum/40
 ]
+hasPower: false
