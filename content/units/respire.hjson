@@ -1,10 +1,9 @@
 type: legs
 hovering: true 
-flying: true 
-lowAltitude: true 
 drawEngine: false
 circleTarget: true
-shadowElevation: 0
+shadowElevation: - 1
+legSplashDamage: 15
 drownTimeMultiplier: 5
 engineSize: 0
 hitSize: 12
@@ -46,8 +45,6 @@ rippleScale : 0.2
 
 legMoveSpace : 1
 allowLegStep : true
-legPhysicsLayer : false
-shadowElevation : 0.2
 
 weapons: [
   {
