@@ -40,7 +40,8 @@ legMoveSpace : 1
 allowLegStep : true
 legPhysicsLayer : false
 shadowElevation : 0.2
-drownTimeMultiplier: 0
+flying: true 
+lowAltitude: true
 
 weapons: [
   {
