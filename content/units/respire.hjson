@@ -5,7 +5,7 @@ lowAltitude: true
 drawEngine: false
 circleTarget: true
 shadowElevation: 0
-drownTimeMultiplier: 10
+drownTimeMultiplier: 5
 engineSize: 0
 hitSize: 12
 speed: 1.4
