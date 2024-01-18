@@ -1,0 +1,10 @@
+gas: true
+color: 9375ffff
+barColor: 9375ffff
+gasColor: 9375ffff
+name: Helium
+temperature: 0.1
+research: prometheum
+viscosity: 0.1
+coolant: true
+heatCapacity: 0.1
