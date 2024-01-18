@@ -1,6 +1,5 @@
 type: Floor
 name : Chert Stone
 itemDrop : quartz
-playerUnmineable: true
 wall: flint-wall
 //decoration:
