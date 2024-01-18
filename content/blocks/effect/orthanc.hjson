@@ -9,7 +9,7 @@ requirements: [
 range: 400
 size: 3
 buildSpeed: 2
-//hasPower: false
+hasPower: false
 research:{
     parent: d-signa
 }
