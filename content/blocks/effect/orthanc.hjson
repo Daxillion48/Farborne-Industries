@@ -15,5 +15,8 @@ research:{
 }
 researchCostMultiplier: 0.06
 consumes: {
-  power: 0.75
+  liquid:{
+    liquid: helium
+    amount: 0.15
+  } 
 } 
