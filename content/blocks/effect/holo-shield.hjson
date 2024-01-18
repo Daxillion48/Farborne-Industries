@@ -1,11 +1,11 @@
-name: BaradDur
+name: Barad-Dur
 type: DirectionalForceProjector
 category: effect
 size: 3
 width: 50
 length: 36
 shieldHealth: 2000
-cooldownNormal: 3
+cooldownNormal: 1
 cooldownBrokenBase: 0.35
 consumes: {
   liquid: {
