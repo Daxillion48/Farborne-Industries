@@ -1,7 +1,6 @@
 type: legs
 hovering: true 
 drawEngine: false
-circleTarget: true
 shadowElevation: 0.2
 legSplashDamage: 15
 drownTimeMultiplier: 5
@@ -48,26 +47,6 @@ allowLegStep : true
 
 weapons: [
   {
-    name: respire-weapon
-    mirror: false
-    x: 0
-    y: 0
-    reload: 15
-    inaccuracy: 10
-    shootSound: laser
-    ammoUseEffect: casing3
-    minWarmup : 0.05
-    bullet: {
-      lifetime: 40
-      speed: 4
-      type: BasicBulletType
-      trailEffect: missileTrail
-      damage: 25
-      homingDelay: 15
-      homingPower: 0.3
-    }
-  }
-  {
     type: RepairBeamWeapon
     name: repair-respire
     reload: 20
@@ -76,10 +55,10 @@ weapons: [
     fractionRepairSpeed: 0.06
     aimDst: 0
     shootCone: 15
-    mirror: false
+    mirror: true
     targetUnits: true
     targetBuildings: true
-    autoTarget: false
+    autoTarget: false 
     controllable: true
     bullet: {
       type: BulletType
