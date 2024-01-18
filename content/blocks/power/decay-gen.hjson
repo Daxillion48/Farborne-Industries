@@ -1,0 +1,33 @@
+name: Alpha Decay Chamber
+type: ConsumeGenerator
+requirements: [
+  amalgam/50
+  prometheum/30
+]
+category: power
+size: 2
+powerProduction: 1.25
+itemDuration: 840
+generateEffect: generatespark
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawWarmupRegion
+      suffix:-top
+    }
+  ]
+}
+consumes:{
+  items: {
+    items: [
+      prometheum/1
+    ]
+  }
+}
+outputLiquid: helium/0.3
+research: amet-sol
+researchCostMultiplier: 0.06
