@@ -22,7 +22,7 @@ mineItems:[
 ]
 stepShake: 0.01
 legStraightness: 0.3
-legCount: 8
+legCount: 6
 
 legLength: 14
 lockLegBase: true
