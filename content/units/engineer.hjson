@@ -14,7 +14,7 @@ rotateSpeed: 4
 coreUnitDock: true
 groundLayer: 75
 name: Breathe
-controller: MinerAI
+controller: BuilderAI
 mineItems:[
   zirconium
 ]
