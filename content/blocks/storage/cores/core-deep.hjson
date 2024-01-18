@@ -1,0 +1,19 @@
+type: CoreBlock
+name: Core Depth
+size: 5
+unitType: respire
+itemCapacity : 3500
+health: 6000
+armor: 10
+requirements:[
+  prometheum/1000
+  amalgam/800
+]
+isFirstTier: false
+category : effect
+unitCapModifier: 25
+requiresCoreZone: true
+research: {
+  parent: core-birth
+}
+researchCostMultiplier: 0.09
