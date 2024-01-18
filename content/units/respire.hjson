@@ -1,0 +1,68 @@
+type: legs
+hitSize: 14
+speed: 1.4
+health: 600
+lockLegBase : true
+armor: 5
+mineTier: 2
+mineWalls: true
+mineFloor: true
+mineSpeed: 8
+itemCapacity: 60
+buildSpeed: 3
+rotateSpeed: 4
+coreUnitDock: true
+groundLayer: 75
+name: Respire
+controller: BuilderAI
+mineItems:[
+  zirconium
+  quartz
+  amethyst
+]
+stepShake: 0.01
+legStraightness: 0.3
+legCount: 6
+
+legLength: 14
+lockLegBase: true
+legContinuousMove : true
+legExtension : -3
+legBaseOffset : 5
+legMaxLength : 1.1
+legMinLength : 0.2
+legLengthScl : 0.95
+legForwardScl : 0.7
+legGroupSize : 3
+rippleScale : 0.2
+
+legMoveSpace : 1
+allowLegStep : true
+legPhysicsLayer : false
+hovering: true
+
+shadowElevation : 0.2
+
+weapons: [
+  {
+    name: engineer-weapon
+    mirror: false
+    x: 0
+    y: 0
+    reload: 15
+    inaccuracy: 10
+    shootSound: shoot
+    ammoUseEffect: casing3
+    minWarmup : 0.05
+    bullet: {
+      lifetime: 40
+      speed: 4
+      type: BasicBulletType
+      trailEffect: missileTrail
+      damage: 25
+      homingDelay: 15
+      homingPower: 0.3
+    }
+  }
+]
+alwaysUnlocked: true
