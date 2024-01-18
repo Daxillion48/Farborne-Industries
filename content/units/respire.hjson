@@ -2,7 +2,7 @@ type: legs
 hovering: true 
 drawEngine: false
 circleTarget: true
-shadowElevation: - 1
+shadowElevation: 0.2
 legSplashDamage: 15
 drownTimeMultiplier: 5
 engineSize: 0
