@@ -1,9 +1,9 @@
 type: Wall
-health: 2360
+health: 2800
 size:2
 category: defense
 requirements: [
-  amalgam/96
+  signalum/96
 ]
 name: Charged Wall
 research: amethyst-wall-large
