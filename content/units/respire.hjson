@@ -67,5 +67,24 @@ weapons: [
       homingPower: 0.3
     }
   }
+  {
+    type: RepairBeamWeapon
+    name: repair-respire
+    reload: 20
+    beamWidth: 0.7
+    repairSpeed: 3.1
+    fractionRepairSpeed: 0.06
+    aimDst: 0
+    shootCone: 15
+    mirror: false
+    targetUnits: true
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    bullet: {
+      type: BulletType
+      maxRange: 60
+    }
+  }
 ]
 alwaysUnlocked: true
