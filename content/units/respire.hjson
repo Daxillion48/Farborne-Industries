@@ -39,8 +39,8 @@ rippleScale : 0.2
 legMoveSpace : 1
 allowLegStep : true
 legPhysicsLayer : false
-canDrown: false
 shadowElevation : 0.2
+drownTimeMultiplier: 0
 
 weapons: [
   {
