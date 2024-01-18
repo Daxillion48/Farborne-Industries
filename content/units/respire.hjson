@@ -3,7 +3,7 @@ hovering: true
 flying: true 
 lowAltitude: true 
 drawEngine: false
-hitSize: 14
+hitSize: 12
 speed: 1.4
 health: 600
 lockLegBase : true
