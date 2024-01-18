@@ -1,0 +1,17 @@
+name: Amon-Sul
+type: RepairTurret
+requirements: [
+  amalgam/90
+]
+category: effect
+size: 3
+length: 6
+repairSpeed: 3
+repairRadius: 145
+consumes: {
+  power: 0.75
+}
+beamWidth: 1.1
+pulseRadius: 6.1
+research: zreship
+researchCostMultiplier: 0.06
