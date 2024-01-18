@@ -2,8 +2,8 @@ name: Barad-Dur
 type: DirectionalForceProjector
 category: effect
 size: 3
-width: 50
-length: 36
+width: 60
+length: 40
 shieldHealth: 4000
 cooldownNormal: 3
 cooldownBrokenBase: 1
@@ -15,7 +15,7 @@ consumes: {
 }
 research: charged-wall
 requirements: [
-  amalgam/120
-  prometheum/40
+  amalgam/180
+  prometheum/120
 ]
 hasPower: false
