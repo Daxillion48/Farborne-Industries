@@ -16,7 +16,7 @@ mineWalls: true
 mineFloor: true
 mineSpeed: 8
 itemCapacity: 60
-buildSpeed: 3
+buildSpeed: 4.2
 rotateSpeed: 4
 coreUnitDock: true
 groundLayer: 75
