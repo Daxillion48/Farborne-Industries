@@ -39,8 +39,6 @@ rippleScale : 0.2
 legMoveSpace : 1
 allowLegStep : true
 legPhysicsLayer : false
-hovering: true
-flying: true
 canDrown: false
 shadowElevation : 0.2
 
