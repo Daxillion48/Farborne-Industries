@@ -1,0 +1,20 @@
+name: BaradDur
+type: DirectionalForceProjector
+category: effect
+size: 3
+width: 50
+length: 36
+shieldHealth: 2000
+cooldownNormal: 3
+cooldownBrokenBase: 0.35
+consumes: {
+  liquid: {
+    liquid: helium
+    amount: 0.05
+  }
+}
+research: charged-wall
+requirements: [
+  amalgam/120
+  prometheum/40
+]
