@@ -4,7 +4,7 @@ category: effect
 size: 3
 width: 50
 length: 36
-shieldHealth: 2000
+shieldHealth: 4000
 cooldownNormal: 3
 cooldownBrokenBase: 1
 consumes: {
