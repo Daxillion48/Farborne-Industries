@@ -28,7 +28,7 @@ legLength: 14
 lockLegBase: true
 legContinuousMove : true
 legExtension : -3
-legBaseOffset : 5
+legBaseOffset : 3
 legMaxLength : 1.1
 legMinLength : 0.2
 legLengthScl : 0.95
@@ -40,18 +40,19 @@ legMoveSpace : 1
 allowLegStep : true
 legPhysicsLayer : false
 hovering: true
-
+flying: true
+lowAltitude: true
 shadowElevation : 0.2
 
 weapons: [
   {
-    name: engineer-weapon
+    name: respire-weapon
     mirror: false
     x: 0
     y: 0
     reload: 15
     inaccuracy: 10
-    shootSound: shoot
+    shootSound: laser
     ammoUseEffect: casing3
     minWarmup : 0.05
     bullet: {
