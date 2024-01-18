@@ -6,7 +6,7 @@ legSplashDamage: 15
 drownTimeMultiplier: 5
 engineSize: 0
 hitSize: 12
-speed: 1.4
+speed: 1.6
 health: 600
 lockLegBase : true
 armor: 5
@@ -14,8 +14,8 @@ mineTier: 2
 mineWalls: true
 mineFloor: true
 mineSpeed: 8
-itemCapacity: 60
-buildSpeed: 4.2
+itemCapacity: 90
+buildSpeed: 4.6
 rotateSpeed: 4
 coreUnitDock: true
 groundLayer: 75
