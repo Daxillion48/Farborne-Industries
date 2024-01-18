@@ -1,5 +1,8 @@
 type: legs
 hovering: true 
+flying: true 
+lowAltitude: true 
+drawEngine: false
 hitSize: 14
 speed: 1.4
 health: 600
@@ -41,8 +44,6 @@ legMoveSpace : 1
 allowLegStep : true
 legPhysicsLayer : false
 shadowElevation : 0.2
-//flying: true 
-//lowAltitude: true
 
 weapons: [
   {
