@@ -3,7 +3,7 @@ targetAir: true
 targetGround: true
 health: 1500
 size: 3
-range: 120
+range: 150
 recoil: 2
 ammoUseEffect: casing3
 shootEffect: hitLancer
@@ -16,20 +16,28 @@ ammoTypes: {
   zirconium: {
     height: 8
     width: 6
-    damage: 35
+    damage: 45
     speed: 3
     ammoMultiplier: 2
     pierceDamageFactor: 0.25
   }
   sublimate: {
+    rangeChange: 70
     height: 12
     width: 8
-    damage: 50
+    damage: 65
     status: corroded
     speed: 4
     ammoMultiplier: 3
-    pierceDamageFactor: 0.25
   }
+  onyx: {
+    rangeChange: 70
+    height: 12
+    width: 8
+    damage: 70
+    speed: 6
+    ammoMultiplier: 3
+  } 
 }
 requirements: [
   zirconium/150
