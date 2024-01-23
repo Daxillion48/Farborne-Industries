@@ -1,6 +1,7 @@
 type: legs
 //hovering: true 
 shadowElevation: 75
+payloadCapacity: 256
 flying: true
 drawEngine: false
 legSplashDamage: 15
