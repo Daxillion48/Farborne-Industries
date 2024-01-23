@@ -1,5 +1,7 @@
 type: legs
-hovering: true 
+//hovering: true 
+shadowElevation: 0
+flying: true
 drawEngine: false
 legSplashDamage: 15
 drownTimeMultiplier: 5
