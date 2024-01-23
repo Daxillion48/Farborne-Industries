@@ -1,11 +1,11 @@
 type: legs
-//hovering: true 
+hovering: true 
 shadowElevation: 75
 payloadCapacity: 256
 flying: true
 //canBoost: true
 //omniMovement: true
-lowAltitude: false
+//lowAltitude: false
 drawEngine: false
 legSplashDamage: 15
 drownTimeMultiplier: 5
