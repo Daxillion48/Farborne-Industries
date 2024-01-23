@@ -4,6 +4,7 @@ shadowElevation: 75
 payloadCapacity: 256
 flying: true
 //canBoost: true
+omniMovement: true
 drawEngine: false
 legSplashDamage: 15
 drownTimeMultiplier: 5
