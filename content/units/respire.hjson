@@ -1,6 +1,6 @@
 type: legs
 //hovering: true 
-drawShadow: false
+shadowElevation: 75
 flying: true
 drawEngine: false
 legSplashDamage: 15
