@@ -4,18 +4,18 @@ targetGround: true
 health: 4500
 size: 5
 range: 800
-reload: 60
+reload: 40
 recoil: 4
 shootEffect: none
 hitEffect: none
 shootSound: spark
 rotateSpeed: 4
-maxAmmo: 200
-ammoPerShot: 50
+maxAmmo: 100
+ammoPerShot: 20
 ammoTypes: {
   signalum: {
     type: LightningBulletType
-    damage: 9600
+    damage: 960
     lightningLength: 200
     fragBullets:1
     inaccuracy: 0
@@ -24,7 +24,7 @@ ammoTypes: {
     fragRandomSpread:0
     fragBullet:{
         type: LightningBulletType
-        damage: 9600
+        damage: 960
         lightningLength: 200
         fragBullets:1
         pierceArmor: true
@@ -33,7 +33,7 @@ ammoTypes: {
         lightningCone: 30
         fragBullet:{
             type: LightningBulletType
-            damage: 9600
+            damage: 960
             lightningLength: 200
             fragBullets:1
             pierceArmor: true
@@ -42,7 +42,7 @@ ammoTypes: {
             lightningCone: 30
             fragBullet:{
                 type: LightningBulletType
-                damage: 9600
+                damage: 960
                 lightningLength: 200
                 fragBullets:1
                 pierceArmor: true
@@ -51,7 +51,7 @@ ammoTypes: {
                 lightningCone: 30
                 fragBullet:{
                     type: LightningBulletType
-                    damage: 9600
+                    damage: 960
                     lightningLength: 200
                     fragBullets:1
                     pierceArmor: true
@@ -60,7 +60,7 @@ ammoTypes: {
                     lightningCone: 30
                     fragBullet:{
                         type: LightningBulletType
-                        damage: 9600
+                        damage: 960
                         lightningLength: 200
                         fragBullets:1
                     }
@@ -71,8 +71,9 @@ ammoTypes: {
   }
 }
 requirements: [
-  amalgam/1200
-  signalum/1000
+  prometheum/200
+  amalgam/300
+  signalum/400
 ]
 category: turret
 name: Edison
