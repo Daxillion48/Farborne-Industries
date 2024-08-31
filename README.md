@@ -3,3 +3,5 @@ Welcome to Erbius! This planet is mostly covered in water, though there's lots o
 Consider joining the Modding Goobers discord server https://discord.gg/geVJzc3787
 
 Special thanks to the Mindustry Discord
+
+To those wondering where I've dissappeared and whether the mod will be updated, I've been too focused on studies, though I am planning on continuing development someday, hopefully soon. This mod is my passion project, and I want to see it complete, and the best version it can be. 
