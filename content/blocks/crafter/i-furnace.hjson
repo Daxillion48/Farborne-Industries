@@ -8,14 +8,13 @@ consumes: {
   power: 1
   items: {
     items: [
-      cinnabar/4
-      zirconium/4
-      prometheum/2
+      cinnabar/8
+      prometheum/6
     ]
   }
 }
 itemCapacity: 24
-outputItem: amalgam/8
+outputItem: amalgam/12
 category:crafting
 requirements:[
   zirconium/120
