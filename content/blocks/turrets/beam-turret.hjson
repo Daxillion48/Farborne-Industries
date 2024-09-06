@@ -2,7 +2,7 @@ type: ContinuousTurret
 name: Archimedes
 category: turret
 requirements: [
-    zirconium/200
+    niobium/140
     amalgam/120
     onyx/40
 ]
