@@ -17,8 +17,7 @@ itemCapacity: 24
 outputItem: amalgam/12
 category:crafting
 requirements:[
-  zirconium/120
-  amalgam/40
+  molybdenum/100
   prometheum/40
 ]
 research: a-furnace
