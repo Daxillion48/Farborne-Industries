@@ -1,0 +1,14 @@
+localizedName: Crater
+captureWave: 20
+planet: mdeimo
+sector: 17
+research: {
+	parent: highgrond
+  objectives:[
+    {
+      type:SectorComplete 
+      preset: highgrond 
+    } 
+  ] 
+} 
+difficulty: 2 
