@@ -8,7 +8,6 @@ itemCapacity: 0
 rotateSpeed: 4
 faceTarget: false
 name: Seek
-range: 100
 weapons: [
   {
     name: rover-lance
@@ -27,10 +26,10 @@ weapons: [
       shootEffect: lancerLaserShoot
       smokeEffect: none
       pierceCap: 4
-      length: 90
+      length: 110
       lifetime: 16
       hitSize: 4
-      drawSize: 110
+      drawSize: 130
     }
   }
 ]
