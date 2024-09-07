@@ -20,6 +20,7 @@ buildBeamOffset: 23
 range: 140
 targetAir: false
 research: heavy-assembler
+researchCostMultiplier: 0.06
 weapons: [
     {
     name: bomber
