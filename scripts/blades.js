@@ -8,3 +8,4 @@ const carry = extend(UnitType, "carry", {
    Time.time * -15);
  }
 });
+carry.constructor = () => extend(UnitEntity, {});
