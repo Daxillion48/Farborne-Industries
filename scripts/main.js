@@ -1,5 +1,5 @@
 require("planetarium");
-
+require("blades");
 
 const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
