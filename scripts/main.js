@@ -1,5 +1,5 @@
 require("planetarium");
-
+//require("blades");
 
 const target = "manifold";
 const baseColor = Color.valueOf("96a0be");
@@ -35,8 +35,8 @@ Events.on(ContentInitEvent, () => {
     glyph.srcX = glyph.srcY = 0;
 //    glyph.width = out.x;
 //    glyph.height = out.y;
-    glyph.width = 62
-    glyph.height = 62
+    glyph.width = 24
+    glyph.height = 24
     glyph.u = tex.u;
     glyph.v = tex.v2;
     glyph.u2 = tex.u2;
