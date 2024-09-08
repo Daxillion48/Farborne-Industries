@@ -12,7 +12,7 @@ faceTarget: false
 hitSize: 8
 range: 140
 targetAir: true
-//research: heavy-assembler
+research: swarm-factory
 researchCostMultiplier: 0.1
   weapons: [
   {
