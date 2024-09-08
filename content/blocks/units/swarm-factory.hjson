@@ -1,0 +1,25 @@
+type: UnitFactory
+size: 2
+configurable: false
+consumes: {
+  power: 1
+  helium/0.1
+}
+plans: [
+  {
+    unit: locust
+    time: 240
+    requirements:[
+      molybdenum/80
+      amalgam/60
+    ]
+  }
+]
+requirements: [
+  zirconium/120
+  amalgam/60
+]
+category: units
+name: Locust Factory
+research: heavy-assembler 
+researchCostMultiplier: 0.03
