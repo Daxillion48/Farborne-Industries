@@ -19,7 +19,7 @@ plans: [
   }
 ]
 requirements: [
-  zirconium/120
+  molybdenum/80
   amalgam/60
 ]
 category: units
