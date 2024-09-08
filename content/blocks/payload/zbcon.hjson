@@ -22,6 +22,7 @@ filter: [
   farborne-industries-strontium-wall-large, 
   farborne-industries-charged-wall, 
   farborne-industries-wall-drill, 
+  farborne-industries-swarm-factory, 
 ]
 research: {
    parent: sail-fab
