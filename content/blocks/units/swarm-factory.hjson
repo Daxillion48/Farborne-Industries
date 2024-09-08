@@ -3,7 +3,10 @@ size: 2
 configurable: false
 consumes: {
   power: 1
-  helium:0.1
+  liquid:{
+    liquid: helium
+    amount: 0.3
+  }
 }
 plans: [
   {
