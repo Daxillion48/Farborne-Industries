@@ -1,0 +1,13 @@
+type: flying
+name: Auger
+health : 300
+speed : 3
+hitsize : 6
+mineTier: 1
+mineWalls: true
+mineFloor: true
+mineSpeed: 8
+itemCapacity: 60
+researchCostMultiplier: 0.1
+defaultController: MinerAI
+playerControllable: false 
