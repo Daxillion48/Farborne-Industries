@@ -1,0 +1,45 @@
+name: Locust
+type: flying
+health: 450
+speed: 3.4
+rotateSpeed: 3.3
+lowAltitude: false
+flying: true
+circleTarget: true
+engineOffset: 2
+engineSize: 2
+faceTarget: false
+hitSize: 8
+range: 140
+targetAir: true
+//research: heavy-assembler
+researchCostMultiplier: 0.1
+  weapons: [
+  {
+    name: locust-cannon
+    mirror: true
+    reload: 30
+    x: 4
+    y: -1.5
+    rotate: true
+    ejectEffect: casing1
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      keepVelocity: true
+      width: 8
+      height: 8
+      shrinkY: 0
+      drag: -0.003
+      homingRange: 60
+      splashDamageRadius: 25
+      splashDamage: 10
+      lifetime: 65
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 8
+      weaveMag: 2
+      damage: 40
+    }
+  }
+]
