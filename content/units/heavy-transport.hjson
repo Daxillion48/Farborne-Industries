@@ -46,8 +46,9 @@ weapons: [
         ejectEffect: none
         collidesAir: true
         damage: 180
-        length: 180
+        length: 270
         width: 3
+        continuous: true
         }
     }
 ]
