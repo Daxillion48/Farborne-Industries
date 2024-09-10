@@ -50,9 +50,8 @@ research: {
 		thwart
 		{
 			type: OnSector
-			preset: highgrond
-    } 
-  ] 
-} 
+			preset: deimocrater
+    }
+  ]
+}
 researchCostMultiplier: 0.06
-

@@ -1,0 +1,10 @@
+type: Wall
+health: 2800
+size:2
+category: defense
+requirements: [
+  molybdenum/6
+]
+name: Molybdenum Wall
+research: charged-wall
+researchCostMultiplier: 0.1

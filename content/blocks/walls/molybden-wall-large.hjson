@@ -1,0 +1,10 @@
+type: Wall
+health: 2800
+size:2
+category: defense
+requirements: [
+  molybdenum/24
+]
+name: Large Molybdenum Wall
+research: molybden-wall
+researchCostMultiplier: 0.08

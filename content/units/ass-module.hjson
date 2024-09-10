@@ -1,0 +1,17 @@
+type: UnitAssemblerModule
+category: units
+size: 5
+consumes: {
+    power: 3
+    liquids:[
+      helium/0.6
+    ]
+  }
+research: zbcon
+requirements: [
+  signalum/120
+  amalgam/200
+]
+tier: 1
+description: Allows for the construction of much more capable engines of war
+name: Tier 1 Assembler Module

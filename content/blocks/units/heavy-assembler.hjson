@@ -21,6 +21,15 @@ plans: [
       farborne-industries-niobium-wall-large/3
       farborne-industries-charged-wall/1
     ]
+  },
+  {
+    unit: heavy-transport
+    time: 1800
+    requirements: [
+      farborne-industries-charged-wall/3
+      farborne-industries-swarm-factory/2
+      farborne-industries-molybden-wall-large/5
+    ]
   }
 ]
 requirements: [
@@ -38,7 +47,7 @@ research: {
    objectives: [
       {
          type: OnSector
-         preset: highgrond
+         preset: deimocrater
       }
    ]
 }

@@ -20,6 +20,15 @@ plans: [
       farborne-industries-sail/2
       farborne-industries-tantalum-wall-large/3
     ]
+  },
+  {
+    unit: heavy-transport
+    time: 1800
+    requirements: [
+      farborne-industries-charged-wall/3
+      farborne-industries-swarm-factory/2
+      farborne-industries-molybden-wall-large/5
+    ]
   }
 ]
 requirements: [
@@ -41,4 +50,3 @@ research: {
       }
    ]
 }
-

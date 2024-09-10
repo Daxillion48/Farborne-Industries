@@ -1,14 +1,15 @@
 localizedName: Crater
 captureWave: 20
 planet: mdeimo
-sector: 17
+sector: 11
 research: {
 	parent: highgrond
   objectives:[
+		thwart
     {
-      type:SectorComplete 
-      preset: highgrond 
-    } 
-  ] 
-} 
-difficulty: 2 
+      type:SectorComplete
+      preset: moonsector
+    }
+  ]
+}
+difficulty: 2
