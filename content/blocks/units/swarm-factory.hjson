@@ -10,7 +10,7 @@ consumes: {
 }
 plans: [
   {
-    unit: locust
+    unit: zlocust
     time: 240
     requirements:[
       molybdenum/80
@@ -24,5 +24,5 @@ requirements: [
 ]
 category: units
 name: Locust Factory
-research: heavy-assembler 
+research: heavy-assembler
 researchCostMultiplier: 0.03

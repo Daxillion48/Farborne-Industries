@@ -23,6 +23,7 @@ plans: [
     ]
   },
   {
+    type: AssemblerUnitPlan
     unit: heavy-transport
     time: 1800
     requirements: [
