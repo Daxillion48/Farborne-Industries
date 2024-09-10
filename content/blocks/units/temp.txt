@@ -1,0 +1,22 @@
+,
+{
+  type: AssemblerUnitPlan
+  unit: heavy-transport
+  time: 1800
+  requirements: [
+    farborne-industries-charged-wall/3
+    farborne-industries-swarm-factory/2
+    farborne-industries-molybden-wall-large/5
+  ]
+}
+,
+{
+  type: AssemblerUnitPlan
+  unit: heavy-transport
+  time: 1800
+  requirements: [
+    farborne-industries-charged-wall/3
+    farborne-industries-swarm-factory/2
+    farborne-industries-molybden-wall-large/5
+  ]
+}
