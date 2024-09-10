@@ -41,9 +41,9 @@ weapons: [
     shootSound: laserbeam
     loopSoundVolume: 1
     continuous: true
-    maxRange: 210
+    range: 210
     bullet:{
-        type: PointLaserBulletType
+        type: ContinuousLaserBulletType
         shootCone: 360
         rotate : true
         ejectEffect: none
