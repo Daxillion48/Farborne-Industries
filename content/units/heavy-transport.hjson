@@ -22,7 +22,7 @@ researchCostMultiplier: 0.25
 abilities: [
   {
   type: UnitSpawnAbility
-  unit: locust
+  unit: zlocust
   spawnTime: 300
   },
   {
