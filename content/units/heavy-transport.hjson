@@ -15,7 +15,7 @@ circleTarget: false
 faceTarget: false
 hitSize: 36
 payloadCapacity: 1024
-range: 140
+range: 210
 targetAir: false
 research: ass-module
 abilities: [
@@ -51,6 +51,7 @@ weapons: [
         continuous: true
         lifetime: 30
         damage: 120
+        length: 180
         }
     }
 ]
