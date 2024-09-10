@@ -32,15 +32,16 @@ abilities: [
 ]
 weapons: [
     {
+    rotate: true
     name: archlaser
     x: 0
     y: 0
     mirror: false
-    reload: 90
+    reload: 10
     shootSound: laserbeam
     bullet:{
         type: PointLaserBulletType
-        maxRange : 210
+        maxRange : 360
         shootCone: 360
         rotate : true
         ejectEffect: none
