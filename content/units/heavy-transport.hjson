@@ -17,8 +17,7 @@ hitSize: 40
 payloadCapacity: 1024
 range: 140
 targetAir: false
-research: heavy-assembler
-researchCostMultiplier: 0.25
+research: ass-module
 abilities: [
   {
   type: UnitSpawnAbility
