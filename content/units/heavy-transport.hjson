@@ -37,7 +37,7 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    reload: 30
+    reload: 180
     shootSound: laserbeam
     loopSoundVolume: 1
     continuous: true
@@ -49,8 +49,8 @@ weapons: [
         ejectEffect: none
         collidesAir: true
         continuous: true
-        lifetime: 30
-        damage: 120
+        lifetime: 120
+        damage: 180
         length: 180
         }
     }
