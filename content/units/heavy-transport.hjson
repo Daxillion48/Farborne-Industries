@@ -37,21 +37,17 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    reload: 180
     shootSound: laserbeam
     loopSoundVolume: 1
-    continuous: true
     range: 210
     bullet:{
         type: ContinuousLaserBulletType
         shootCone: 360
-        rotate : true
         ejectEffect: none
         collidesAir: true
-        continuous: true
-        lifetime: 120
         damage: 180
         length: 180
+        width: 3
         }
     }
 ]
