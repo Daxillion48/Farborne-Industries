@@ -37,16 +37,16 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    reload: 10
+    reload: 30
     shootSound: laserbeam
     bullet:{
         type: PointLaserBulletType
-        maxRange : 360
+        maxRange : 370
         shootCone: 360
         rotate : true
         ejectEffect: none
-        collidesAir: false
-        lifetime: 90
+        collidesAir: true
+        lifetime: 30
         damage: 120
         }
     }
