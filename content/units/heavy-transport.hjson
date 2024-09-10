@@ -40,15 +40,18 @@ weapons: [
     shootSound: laserbeam
     loopSoundVolume: 1
     range: 210
+    cooldownTime: 200
+    reload: 155
     bullet:{
         type: ContinuousLaserBulletType
-        shootCone: 360
         ejectEffect: none
         collidesAir: true
-        damage: 180
-        length: 270
+        damage: 35
+        length: 180
+        drawSize: 420
         width: 3
         continuous: true
+        shake: 1
         }
     }
 ]
