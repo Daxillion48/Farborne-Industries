@@ -22,12 +22,12 @@ researchCostMultiplier: 0.25
 abilities: [
   {
   type: UnitSpawnAbility
-  unit: farborne-industries-locust
+  unit: locust
   spawnTime: 300
   },
   {
   type: UnitSpawnAbility
-  unit: farborne-industries-locust
+  unit: locust
   spawnTime: 300
   }
 ]
