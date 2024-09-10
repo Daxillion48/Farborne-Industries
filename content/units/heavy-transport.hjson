@@ -43,7 +43,7 @@ weapons: [
     continuous: true
     bullet:{
         type: PointLaserBulletType
-        maxRange : 90
+        maxRange : 35
         shootCone: 360
         rotate : true
         ejectEffect: none
