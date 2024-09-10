@@ -38,7 +38,9 @@ weapons: [
     y: 0
     mirror: false
     reload: 30
-    shootSound: laserbeam
+    loopSound: laserbeam
+    loopSoundVolume: 1
+    continuous: true
     bullet:{
         type: PointLaserBulletType
         maxRange : 370
@@ -48,6 +50,7 @@ weapons: [
         collidesAir: true
         lifetime: 30
         damage: 120
+        continuous: true
         }
     }
 ]
