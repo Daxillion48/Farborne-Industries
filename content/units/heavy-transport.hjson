@@ -22,12 +22,12 @@ abilities: [
   {
   type: UnitSpawnAbility
   unit: zlocust
-  spawnTime: 300
+  spawnTime: 450
   },
   {
   type: UnitSpawnAbility
   unit: zlocust
-  spawnTime: 300
+  spawnTime: 450
   }
 ]
 weapons: [
@@ -46,7 +46,7 @@ weapons: [
         ejectEffect: none
         collidesAir: true
         damage: 90
-        length: 300
+        length: 270
         width: 3
         lifetime: 60
         shake: 1
