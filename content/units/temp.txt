@@ -1,0 +1,20 @@
+weapons: [
+    {
+    name: archlaser
+    x: 0
+    y: 0
+    mirror: false
+    reload: 90
+    shootSound: laserbeam
+    bullet:{
+        type: PointLaserBulletType
+        range : 210
+        shootCone: 360
+        rotate : true
+        ejectEffect: none
+        collidesAir: false
+        lifetime: 90
+        damage: 120
+        }
+    }
+]
