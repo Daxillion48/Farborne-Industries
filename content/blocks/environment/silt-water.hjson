@@ -1,0 +1,7 @@
+type: Floor
+liquidDrop: water
+liquidMultiplier: 0.7
+isLiquid: true
+cacheLayer: water
+shallow: true
+name: Silt Water
