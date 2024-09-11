@@ -3,8 +3,8 @@ targetAir: true
 targetGround: true
 health: 4500
 size: 5
-range: 800
-reload: 40
+range: 600
+reload: 90
 recoil: 4
 shootEffect: none
 hitEffect: none
@@ -15,8 +15,8 @@ ammoPerShot: 20
 ammoTypes: {
   signalum: {
     type: LightningBulletType
-    damage: 960
-    lightningLength: 200
+    damage: 360
+    lightningLength: 130
     fragBullets:1
     inaccuracy: 0
     pierceArmor: true
@@ -24,8 +24,8 @@ ammoTypes: {
     fragRandomSpread:0
     fragBullet:{
         type: LightningBulletType
-        damage: 960
-        lightningLength: 200
+        damage: 340
+        lightningLength: 130
         fragBullets:1
         pierceArmor: true
         delayFrags: true
@@ -33,8 +33,8 @@ ammoTypes: {
         lightningCone: 30
         fragBullet:{
             type: LightningBulletType
-            damage: 960
-            lightningLength: 200
+            damage: 320
+            lightningLength: 130
             fragBullets:1
             pierceArmor: true
             delayFrags: true
@@ -42,8 +42,8 @@ ammoTypes: {
             lightningCone: 30
             fragBullet:{
                 type: LightningBulletType
-                damage: 960
-                lightningLength: 200
+                damage: 300
+                lightningLength: 130
                 fragBullets:1
                 pierceArmor: true
                 delayFrags: true
@@ -51,8 +51,8 @@ ammoTypes: {
                 lightningCone: 30
                 fragBullet:{
                     type: LightningBulletType
-                    damage: 960
-                    lightningLength: 200
+                    damage: 280
+                    lightningLength: 130
                     fragBullets:1
                     pierceArmor: true
                     delayFrags: true
@@ -60,9 +60,8 @@ ammoTypes: {
                     lightningCone: 30
                     fragBullet:{
                         type: LightningBulletType
-                        damage: 960
-                        lightningLength: 200
-                        fragBullets:1
+                        damage: 260
+                        lightningLength: 130
                     }
                 }
             }
@@ -81,4 +80,8 @@ shootY: 7
 research: thwart
 consumes:{
     power: 17.5
+    liquid: {
+      liquid: helium 
+      amount: 1.5
+    } 
 }
