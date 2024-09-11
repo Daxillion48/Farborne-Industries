@@ -3,7 +3,7 @@ captureWave: 20
 planet: mdeimo
 sector: 11
 research: {
-	parent: highgrond
+	parent: moonsector
   objectives:[
 		thwart
     {
