@@ -1,5 +1,5 @@
 type: Floor
-name : Moon Stone
-//wall:
+name : Moon Rock
+wall: moonrock-wall
 variants: 6
 //decoration:
