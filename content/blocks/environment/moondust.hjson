@@ -1,4 +1,4 @@
 type: Floor
 name : Moon Dust
-//wall:
+wall: moondust-wall
 //decoration:
