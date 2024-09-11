@@ -12,7 +12,7 @@ flying: true
 circleTarget: false
 //engineOffset: 13
 //engineSize: 7
-faceTarget: false
+faceTarget: true
 hitSize: 36
 payloadCapacity: 1024
 range: 210
@@ -32,7 +32,7 @@ abilities: [
 ]
 weapons: [
     {
-    rotate: true
+    rotate: false
     name: archlaser
     x: 0
     y: 0
