@@ -50,3 +50,4 @@ coolant: {
   amount: 0.3
 }
 coolantMultiplier: 1.5
+research: turret2
