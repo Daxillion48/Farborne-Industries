@@ -1,5 +1,5 @@
 type: StaticWall
 name : Gravel Wall
 attributes: {
-  molybdenite: 0.5
+  molybdenite: 0.50
 }
