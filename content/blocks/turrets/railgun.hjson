@@ -25,9 +25,6 @@ unitSort: strongest
 //coolant: helium
 consumes: {
   power: 3
-  coolant: {
-    amount: 0.5
-  }
 }
 ammoTypes: {
   strontium: {
