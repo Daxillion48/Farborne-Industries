@@ -38,7 +38,7 @@ ammoTypes: {
     //buildingDamageMultiplier : 0.2
     maxDamageFraction : 0.6
     pierceDamageFactor : 1
-    length : 400
+    length : 500
     hitShake : 3
   }
   highammo: {
@@ -54,7 +54,8 @@ ammoTypes: {
     //buildingDamageMultiplier : 0.2
     maxDamageFraction : 0.6
     pierceDamageFactor : 1
-    length : 500
+    range: 600
+    length : 600
     hitShake : 5
   }
 }
