@@ -1,9 +1,9 @@
 type: wallCrafter
 category: production
-requirements: {
+requirements: [
   signalum/30
   prometheum/10
-}
+]
 consumes:{
     power: 0.25
     liquid: {
