@@ -1,0 +1,19 @@
+type: wallCrafter
+category: production
+requirements: {
+  signalum/30
+  prometheum/10
+}
+consumes:{
+    power: 0.25
+    liquid: {
+      liquid: helium
+      amount: 0.1
+    }
+}
+drillTime: 200
+size: 2
+attribute: molybdenite
+output: molybdenum
+ambientSound: drill
+ambientSoundVolume: 0.04

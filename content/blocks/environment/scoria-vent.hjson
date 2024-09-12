@@ -2,3 +2,6 @@ type: SteamVent
 name : Scoria Vent
 variants: 2
 parent: scoria
+attributes: {
+  steam: 1
+}

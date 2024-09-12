@@ -3,3 +3,6 @@ name : Moon Vent
 variants: 2
 effect: none
 parent: moonrock
+attributes: {
+  steam: 1
+}

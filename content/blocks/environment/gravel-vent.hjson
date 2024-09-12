@@ -2,3 +2,6 @@ type: SteamVent
 name : Gravel Vent
 variants: 2
 parent: gravel
+attributes: {
+  steam: 1
+}

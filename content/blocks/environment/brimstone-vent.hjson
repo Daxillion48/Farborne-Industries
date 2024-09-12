@@ -2,3 +2,6 @@ type: SteamVent
 name : Brimstone Vent
 variants: 2
 parent: floor-cinnabar
+attributes: {
+  steam: 1
+}

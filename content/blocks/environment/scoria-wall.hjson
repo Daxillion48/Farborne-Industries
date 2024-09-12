@@ -1,2 +1,5 @@
 type: StaticWall
 name : Scoria Wall
+attributes: {
+  molybdenite: 0.75
+}

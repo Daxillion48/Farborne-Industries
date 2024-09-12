@@ -1,0 +1,13 @@
+        cliffCrusher = new WallCrafter("cliff-crusher"){{
+            requirements(Category.production, with(Items.graphite, 25, Items.beryllium, 20));
+            consumePower(11 / 60f);
+
+            drillTime = 110f;
+            size = 2;
+            attribute = Attribute.sand;
+            output = Items.sand;
+            fogRadius = 2;
+            researchCost = with(Items.beryllium, 100, Items.graphite, 40);
+            ambientSound = Sounds.drill;
+            ambientSoundVolume = 0.04f;
+        }};

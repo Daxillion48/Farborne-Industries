@@ -1,0 +1,46 @@
+type: itemTurret
+name: Defenestrate
+range: 300
+requirements: [
+  tantalum/100
+  strontium/40
+  amalgam/100
+]
+targetAir: true
+targetGround: true
+health: 2300
+size: 4
+maxAmmo: 16
+ammoPerShot: 2
+rotateSpeed: 2
+reload: 200
+category: turret
+ammoUseEffect: casing3Double
+cooldownTime: 200
+shake: 4
+shootCone: 2
+shootSound: railgun
+unitSort: strongest
+//coolantMultiplier: 0.4
+//coolant: helium
+consumes: {
+  power: 3
+}
+ammoTypes: {
+  strontium: {
+    type: RailBulletType
+    shootEffect: instShoot
+    hitEffect: instHit
+    pierceEffect: railHit
+    smokeEffect : smokeCloud
+    pointEffect : instTrail
+    despawnEffect : instBomb
+    pointEffectSpace : 20
+    damage : 1350
+    buildingDamageMultiplier : 0.2
+    maxDamageFraction : 0.6
+    pierceDamageFactor : 1
+    length : 300
+    hitShake : 6
+  }
+}
