@@ -21,8 +21,6 @@ shake: 4
 shootCone: 2
 shootSound: railgun
 unitSort: strongest
-//coolantMultiplier: 0.4
-//coolant: helium
 consumes: {
   power: 3
 }
@@ -36,12 +34,28 @@ ammoTypes: {
     pointEffect : instTrail
     despawnEffect : instBomb
     pointEffectSpace : 20
+    damage : 1350
+    //buildingDamageMultiplier : 0.2
+    maxDamageFraction : 0.6
+    pierceDamageFactor : 1
+    length : 400
+    hitShake : 3
+  }
+  highammo: {
+    type: RailBulletType
+    shootEffect: instShoot
+    hitEffect: instHit
+    pierceEffect: railHit
+    smokeEffect : smokeCloud
+    pointEffect : instTrail
+    despawnEffect : instBomb
+    pointEffectSpace : 20
     damage : 1850
     //buildingDamageMultiplier : 0.2
     maxDamageFraction : 0.6
     pierceDamageFactor : 1
     length : 500
-    hitShake : 6
+    hitShake : 5
   }
 }
 coolant: {
@@ -49,5 +63,5 @@ coolant: {
   liquid: helium
   amount: 0.3
 }
-coolantMultiplier: 1.5
+coolantMultiplier: 1.6
 research: turret2
