@@ -9,11 +9,10 @@ name: Mass Accelerator
 size: 2
 category:distribution
 requirements:[
-  zirconium/40
-  tantalum/20
+  tantalum/5
   strontium/10
 ]
 loopSoundVolume: 0.1
 hasPower: false
 research: acc
-researchCostMultiplier: 0.03
+researchCostMultiplier: 0.3
