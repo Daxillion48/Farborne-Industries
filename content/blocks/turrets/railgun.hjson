@@ -36,8 +36,8 @@ ammoTypes: {
     pointEffect : instTrail
     despawnEffect : instBomb
     pointEffectSpace : 20
-    damage : 1350
-    buildingDamageMultiplier : 0.2
+    damage : 1850
+    //buildingDamageMultiplier : 0.2
     maxDamageFraction : 0.6
     pierceDamageFactor : 1
     length : 500

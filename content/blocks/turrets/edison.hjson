@@ -3,7 +3,7 @@ targetAir: true
 targetGround: true
 health: 3000
 size: 5
-range: 130
+range: 240
 reload: 60
 recoil: 4
 shootEffect: none
@@ -16,7 +16,7 @@ ammoTypes: {
   signalum: {
     type: LightningBulletType
     damage: 200
-    lightningLength: 130
+    lightningLength: 60
     fragBullets:1
     inaccuracy: 0
     pierceArmor: true
@@ -25,7 +25,7 @@ ammoTypes: {
     fragBullet:{
         type: LightningBulletType
         damage: 180
-        lightningLength: 80
+        lightningLength: 60
         fragBullets:1
         pierceArmor: true
         delayFrags: true
@@ -34,7 +34,7 @@ ammoTypes: {
         fragBullet:{
             type: LightningBulletType
             damage: 160
-            lightningLength: 80
+            lightningLength: 60
             fragBullets:1
             pierceArmor: true
             delayFrags: true
@@ -43,7 +43,7 @@ ammoTypes: {
             fragBullet:{
                 type: LightningBulletType
                 damage: 140
-                lightningLength: 80
+                lightningLength: 60
                 fragBullets:1
                 pierceArmor: true
                 delayFrags: true
@@ -52,7 +52,7 @@ ammoTypes: {
                 fragBullet:{
                     type: LightningBulletType
                     damage: 120
-                    lightningLength: 80
+                    lightningLength: 60
                     fragBullets:1
                     pierceArmor: true
                     delayFrags: true
@@ -61,7 +61,7 @@ ammoTypes: {
                     fragBullet:{
                         type: LightningBulletType
                         damage: 100
-                        lightningLength: 80
+                        lightningLength: 60
                     }
                 }
             }
