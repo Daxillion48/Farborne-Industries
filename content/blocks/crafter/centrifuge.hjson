@@ -30,5 +30,13 @@ craftEffect: {
   sizeFrom: 1.5
   sizeTo: 0
 }
-research: blast
-researchCostMultiplier: 0.03
+research: {
+   parent: blast
+   objectives: [
+      {
+         type: OnSector
+         preset: trench
+      }
+   ]
+}
+researchCostMultiplier: 0.09
