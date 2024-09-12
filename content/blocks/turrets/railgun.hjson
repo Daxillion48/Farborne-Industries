@@ -1,6 +1,6 @@
 type: itemTurret
 name: Defenestrate
-range: 300
+range: 500
 requirements: [
   tantalum/100
   strontium/40
@@ -40,7 +40,7 @@ ammoTypes: {
     buildingDamageMultiplier : 0.2
     maxDamageFraction : 0.6
     pierceDamageFactor : 1
-    length : 300
+    length : 500
     hitShake : 6
   }
 }
