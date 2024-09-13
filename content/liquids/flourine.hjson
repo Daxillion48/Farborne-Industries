@@ -1,0 +1,8 @@
+gas: true
+color: f3f7b7
+barColor: f3f7b7ff
+gasColor: f3f7b7ff
+name: Flourine
+flammability: 0.3
+explosiveness: 0.9
+research: molybdenum
