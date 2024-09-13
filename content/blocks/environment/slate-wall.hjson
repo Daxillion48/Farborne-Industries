@@ -1,2 +1,5 @@
 type: StaticWall
 name : Slate Wall
+attributes: {
+  flourite: 0.35
+} 
