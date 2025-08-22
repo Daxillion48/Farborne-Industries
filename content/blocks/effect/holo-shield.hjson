@@ -5,7 +5,7 @@ size: 3
 width: 60
 length: 40
 shieldHealth: 4000
-cooldownNormal: 1
+cooldownNormal: 0.5
 cooldownBrokenBase: 1.35
 consumes: {
   liquid: {
