@@ -4,7 +4,7 @@ category: effect
 size: 3
 health: 500
 radius: 100
-sodes: 8
+sides: 8
 shieldHealth: 6000
 cooldownNormal: 2
 cooldownBrokenBase: 2
