@@ -23,3 +23,4 @@ research: {
 }
 maxPayloadSize: 2
 deconstructSpeed: 8
+shownPlanets: [erbius, mdeimo] 
