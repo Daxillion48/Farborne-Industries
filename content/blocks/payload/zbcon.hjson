@@ -33,3 +33,4 @@ research: {
       }
    ]
 }
+shownPlanets: [erbius, mdeimo] 
