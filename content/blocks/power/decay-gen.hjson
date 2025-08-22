@@ -31,3 +31,4 @@ consumes:{
 outputLiquid: helium/0.3
 research: amet-sol
 researchCostMultiplier: 0.06
+shownPlanets: [erbius, mdeimo] 
