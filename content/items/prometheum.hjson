@@ -4,3 +4,4 @@ research: amethyst
 hardness: 5
 name: Prometheum
 radioactivity: 1.2
+shownPlanets: [erbius, mdeimo] 
