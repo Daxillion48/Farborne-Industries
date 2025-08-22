@@ -5,7 +5,7 @@ size: 3
 health: 500
 radius: 100
 sides: 3
-hasDirection: true
+rotate: true
 shieldHealth: 6000
 cooldownNormal: 2
 cooldownBrokenBase: 2
