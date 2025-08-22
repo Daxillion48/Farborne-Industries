@@ -15,3 +15,4 @@ requirements: [
 tier: 1
 description: Allows for the construction of much more capable engines of war
 name: Tier 1 Assembler Module
+shownPlanets: [erbius, mdeimo] 
