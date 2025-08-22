@@ -3,3 +3,4 @@ name : Zirconium
 cost : 2
 research : core-birth
 hardness : 1
+shownPlanets: [erbius, mdeimo] 
