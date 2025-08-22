@@ -22,3 +22,4 @@ category: units
 name: Tank Factory
 research: core-birth
 researchCostMultiplier: 0.03
+shownPlanets: [erbius, mdeimo] 
