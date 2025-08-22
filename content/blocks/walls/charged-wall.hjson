@@ -12,3 +12,4 @@ lightningChance: 12
 lightningDamage: 80
 lightningLength: 30
 lightningColor: b4b4edff
+shownPlanets: [erbius, mdeimo] 
