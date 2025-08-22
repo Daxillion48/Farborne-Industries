@@ -10,3 +10,4 @@ maxNodes: 30
 ambientSound: electricHum
 research: gen
 researchCostMultiplier: 0.03
+shownPlanets: [erbius, mdeimo] 
