@@ -5,8 +5,8 @@ size: 3
 width: 60
 length: 40
 shieldHealth: 4000
-cooldownNormal: 3
-cooldownBrokenBase: 1
+cooldownNormal: 1
+cooldownBrokenBase: 1.35
 consumes: {
   liquid: {
     liquid: helium
