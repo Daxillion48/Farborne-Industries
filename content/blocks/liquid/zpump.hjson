@@ -9,3 +9,4 @@ requirements:[
 category: liquid
 research: core-birth
 researchCostMultiplier: 0.06
+shownPlanets: [erbius, mdeimo] 
