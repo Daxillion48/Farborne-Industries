@@ -8,3 +8,4 @@ requirements: [
 name: Large Molybdenum Wall
 research: molybden-wall
 researchCostMultiplier: 0.08
+shownPlanets: [erbius, mdeimo] 
