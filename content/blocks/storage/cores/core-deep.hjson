@@ -17,3 +17,4 @@ research: {
   parent: core-birth
 }
 researchCostMultiplier: 0.09
+shownPlanets: [erbius, mdeimo] 
