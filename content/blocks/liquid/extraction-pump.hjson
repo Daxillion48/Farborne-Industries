@@ -9,3 +9,4 @@ requirements:[
 category: liquid
 research: zpump
 researchCostMultiplier: 0.1
+shownPlanets: [erbius, mdeimo] 
