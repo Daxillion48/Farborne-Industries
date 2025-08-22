@@ -26,3 +26,4 @@ category: units
 name: Locust Factory
 research: heavy-assembler
 researchCostMultiplier: 0.03
+shownPlanets: [erbius, mdeimo] 
