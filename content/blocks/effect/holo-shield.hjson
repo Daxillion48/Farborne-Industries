@@ -19,3 +19,4 @@ requirements: [
   prometheum/120
 ]
 hasPower: false
+shownPlanets: [erbius, mdeimo] 
