@@ -20,3 +20,4 @@ requirements: [
 ]
 hasPower: false
 shownPlanets: [erbius, mdeimo] 
+consumeCoolant: false
