@@ -85,3 +85,4 @@ consumes:{
       amount: 1.5
     }
 }
+shownPlanets: [erbius, mdeimo] 
