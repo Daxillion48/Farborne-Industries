@@ -10,3 +10,4 @@ category: units
 research: birthing-chamber
 moveTime: 20
 placeableLiquid: true
+shownPlanets: [erbius, mdeimo] 
