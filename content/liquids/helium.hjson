@@ -8,3 +8,4 @@ research: prometheum
 viscosity: 0.1
 coolant: true
 heatCapacity: 0.1
+shownPlanets: [erbius, mdeimo] 
