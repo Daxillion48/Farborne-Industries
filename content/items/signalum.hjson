@@ -4,3 +4,4 @@ cost : 2
 research : prometheum
 hardness : 6
 charge: 0.8
+shownPlanets: [erbius, mdeimo] 
