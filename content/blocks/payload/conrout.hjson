@@ -9,3 +9,4 @@ floating: true
 category: units
 research: con
 moveTime: 20
+shownPlanets: [erbius, mdeimo] 
