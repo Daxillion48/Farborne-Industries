@@ -10,3 +10,4 @@ liquidCapacity: 1500
 category: liquid
 research: zpump
 researchCostMultiplier: 0.06
+shownPlanets: [erbius, mdeimo] 
