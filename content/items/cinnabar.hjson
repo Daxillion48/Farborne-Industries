@@ -5,3 +5,4 @@ research : zirconium
 hardness : 2
 lowPriority: true
 buildable: false
+shownPlanets: [erbius, mdeimo] 
