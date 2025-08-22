@@ -50,3 +50,5 @@ research: core-birth
 researchCostMultiplier: 0.03
 
 //thx nullevoy#0 for sprite
+
+shownPlanets: [erbius, mdeimo] 
