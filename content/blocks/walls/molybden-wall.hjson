@@ -8,3 +8,4 @@ requirements: [
 name: Molybdenum Wall
 research: charged-wall
 researchCostMultiplier: 0.1
+shownPlanets: [erbius, mdeimo] 
