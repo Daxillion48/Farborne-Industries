@@ -5,9 +5,9 @@ size: 3
 health: 500
 radius: 80
 sides: 4
-shieldHealth: 6000
-cooldownNormal: 2
-cooldownBrokenBase: 2
+shieldHealth: 4000
+cooldownNormal: 1.5
+cooldownBrokenBase: 0.45
 consumes: {
   liquid: {
     liquid: helium
