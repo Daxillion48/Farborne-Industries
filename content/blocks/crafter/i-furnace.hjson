@@ -37,3 +37,4 @@ drawer:{
     }
   ]
 }
+shownPlanets: [erbius, mdeimo] 
