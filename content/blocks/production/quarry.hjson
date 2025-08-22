@@ -18,3 +18,4 @@ output: molybdenum
 ambientSound: drill
 ambientSoundVolume: 0.04
 name: Quarry
+shownPlanets: [erbius, mdeimo] 
