@@ -21,3 +21,4 @@ drillTime: 600
 ambientSound: hum
 blockedItem: sand
 researchCostMultiplier: 0.03
+shownPlanets: [erbius, mdeimo] 
