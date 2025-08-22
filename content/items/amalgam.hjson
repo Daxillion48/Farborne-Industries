@@ -3,3 +3,4 @@ name : Amalgam
 cost : 2
 research : cinnabar
 hardness : 1
+shownPlanets: [erbius, mdeimo] 
