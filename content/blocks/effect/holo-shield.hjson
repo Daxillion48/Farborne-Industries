@@ -4,9 +4,9 @@ category: effect
 size: 3
 width: 60
 length: 40
-shieldHealth: 4000
-cooldownNormal: 1.15
-cooldownBrokenBase: 1
+shieldHealth: 8000
+cooldownNormal: 2
+cooldownBrokenBase: 2
 consumes: {
   liquid: {
     liquid: helium
