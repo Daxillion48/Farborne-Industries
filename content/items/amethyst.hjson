@@ -5,3 +5,4 @@ lowPriority: true
 name : Amethyst
 research: zirconium
 charge: 0.5
+shownPlanets: [erbius, mdeimo] 
