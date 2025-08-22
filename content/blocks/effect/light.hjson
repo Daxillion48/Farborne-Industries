@@ -11,3 +11,4 @@ requirements:[
 research: znode
 researchCostMultiplier: 0.03
 radius: 65
+shownPlanets: [erbius, mdeimo] 
