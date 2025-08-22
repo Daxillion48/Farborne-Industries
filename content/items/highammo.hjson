@@ -3,3 +3,4 @@ cost : 4
 hardness : 2
 name : High Caliber Ammo
 research: molybdenum
+shownPlanets: [erbius, mdeimo] 
