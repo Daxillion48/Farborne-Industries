@@ -20,3 +20,4 @@ research: {
   requiresUnlock: false
 }
 alwaysUnlocked: true
+shownPlanets: [erbius, mdeimo] 
