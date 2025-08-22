@@ -9,3 +9,4 @@ requirements:[
 ]
 research: core-birth
 researchCostMultiplier: 0.03
+shownPlanets: [erbius, mdeimo] 
