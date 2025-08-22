@@ -3,9 +3,8 @@ type: ForceProjector
 category: effect
 size: 3
 health: 500
-radius: 100
-sides: 3
-rotate: true
+radius: 80
+sides: 4
 shieldHealth: 6000
 cooldownNormal: 2
 cooldownBrokenBase: 2
