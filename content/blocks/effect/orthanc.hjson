@@ -20,3 +20,4 @@ consumes: {
     amount: 0.15
   } 
 } 
+shownPlanets: [erbius, mdeimo] 
