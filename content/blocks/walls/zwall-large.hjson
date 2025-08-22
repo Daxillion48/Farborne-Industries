@@ -8,3 +8,4 @@ requirements: [
 name: Large Zirconium Wall
 research: zwall
 researchCostMultiplier: 0.03
+shownPlanets: [erbius, mdeimo] 
