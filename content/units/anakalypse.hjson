@@ -24,7 +24,7 @@ weapons: [
     bullet:{
       width: 5
       height: 9
-      lifetime: 90
+      lifetime: 110
       damage: 15
       homing: 0.3
     }
@@ -40,13 +40,14 @@ weapons: [
     bullet:{
       width: 5
       height: 9
-      lifetime: 90
+      lifetime: 110
       damage: 15
       homing: 0.3
     }
   }
   {
     name: anakalypse-weapon
+    rotate: true
     reload: 35
     x: 4
     y: -9
@@ -62,7 +63,7 @@ weapons: [
       homingRange: 60
       splashDamageRadius: 25
       splashDamage: 10
-      lifetime: 100
+      lifetime: 130
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
       weaveScale: 8
