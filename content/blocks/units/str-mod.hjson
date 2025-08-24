@@ -4,15 +4,14 @@ size: 5
 consumes: {
     power: 3
     liquids:[
-      helium/0.6
+      sulfide/0.1
     ]
   }
-research: str-mod
+research: zreship
 requirements: [
-  signalum/120
+  strontium/120
   amalgam/200
 ]
-tier: 2
+tier: 1
 description: Allows for the construction of much more capable engines of war
-name: Tier 2 Assembler Module
-shownPlanets: [erbius, mdeimo]
+name: Strontium Assembler Module

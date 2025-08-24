@@ -21,6 +21,16 @@ plans: [
       farborne-industries-tantalum-wall-large/3
     ]
   }
+  {
+    type: AssemblerUnitPlan
+    unit: anakalypse
+    time: 300
+    requirements: [
+      farborne-industries-sail/3
+      farborne-industries-tantalum-wall-large/4
+      farborne-industries-strontium-wall-large/1
+    ]
+  }
 ]
 requirements: [
   zirconium/120

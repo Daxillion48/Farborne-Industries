@@ -1,0 +1,74 @@
+type: naval
+name: Anakalypse
+speed: 1
+drag: 0.14
+hitSize: 10
+health: 2100
+accel: 0.4
+rotateSpeed: 3
+faceTarget: false
+armor: 6
+
+research: discover
+researchCostMultiplier: 0.1
+
+weapons: [
+  {
+    name: discover-gun
+    reload : 15
+    x : 7
+    shootY : 4
+    y : 2
+    rotate : true
+    ejectEffect : casing2
+    bullet:{
+      width: 7
+      height: 9
+      lifetime: 90
+      damage: 15
+      homing: 0.3
+    }
+  }
+  {
+    name: discover-gun
+    reload : 15
+    x : 9
+    shootY : 4
+    y : -2
+    rotate : true
+    ejectEffect : casing2
+    bullet:{
+      width: 7
+      height: 9
+      lifetime: 90
+      damage: 15
+      homing: 0.3
+    }
+  }
+  {
+    name: anakalypse-weapon
+    mirror: true
+    reload: 45
+    x: 4
+    y: -9
+    ejectEffect: casing2
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      keepVelocity: true
+      width: 8
+      height: 8
+      shrinkY: 0
+      drag: -0.003
+      homingRange: 60
+      splashDamageRadius: 25
+      splashDamage: 10
+      lifetime: 100
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 8
+      weaveMag: 2
+      damage: 70
+    }
+  }
+]
