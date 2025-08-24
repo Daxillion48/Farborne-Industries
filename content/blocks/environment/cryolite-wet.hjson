@@ -1,0 +1,12 @@
+type: Floor
+name : Cryolite Water
+wall: cryolite-stone-wall
+//decoration:
+attributes: {
+  cryolitite: 1
+}
+liquidDrop: water
+liquidMultiplier: 0.7
+isLiquid: true
+cacheLayer: water
+shallow: true

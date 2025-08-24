@@ -1,0 +1,7 @@
+type: Floor
+name : Cryolite Stone
+wall: cryolite-stone-wall
+//decoration:
+attributes: {
+  cryolitite: 1
+}

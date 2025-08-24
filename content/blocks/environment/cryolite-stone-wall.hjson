@@ -1,0 +1,6 @@
+type: StaticWall
+name : Cryolite Stone Wall
+attribute: cryolitite
+attributes: {
+  cryolitite: 1
+}

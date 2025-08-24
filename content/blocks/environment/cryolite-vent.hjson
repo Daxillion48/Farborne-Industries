@@ -1,0 +1,8 @@
+type: SteamVent
+name : Cryolite Vent
+variants: 2
+parent: cryolite-stone
+attributes: {
+  steam: 1
+  cryolitite: 1
+}
