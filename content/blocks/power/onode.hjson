@@ -1,6 +1,6 @@
 type: powerNode
 name: Archimedes Node
-size: 2
+size: 1
 category:power
 requirements:[
   zirconium/5
