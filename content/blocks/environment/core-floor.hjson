@@ -9,3 +9,4 @@ name: Core Foundations
 research: floor-factory
 needsSurface: true
 allowCorePlacement: true
+variants: 1
