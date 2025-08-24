@@ -35,8 +35,8 @@ weapons: [
       lifetime: 20
       length: 0
       region: farborne-industries-carryblade
-      sizeFrom: 10
-      sizeTo: 10
+      sizeFrom: 25
+      sizeTo: 25
       spin: -10
 layer: 140
 }
