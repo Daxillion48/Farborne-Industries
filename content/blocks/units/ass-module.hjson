@@ -12,7 +12,7 @@ requirements: [
   signalum/120
   amalgam/200
 ]
-tier: 2
+tier: 1
 description: Allows for the construction of much more capable engines of war
-name: Tier 2 Assembler Module
+name: Signalum Assembler Module
 shownPlanets: [erbius, mdeimo]
