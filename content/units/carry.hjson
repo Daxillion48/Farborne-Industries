@@ -37,7 +37,7 @@ weapons: [
       region: farborne-industries-carryblade
       sizeFrom: 40
       sizeTo: 40
-      spin: 10
+      spin: -10
 layer: 140
 }
       pierceBuilding: true
