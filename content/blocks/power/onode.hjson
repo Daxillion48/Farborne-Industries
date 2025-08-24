@@ -1,0 +1,13 @@
+type: powerNode
+name: Archimedes Node
+size: 2
+category:power
+requirements:[
+  zirconium/5
+  onyx/5
+]
+ambientSound: electricHum
+research: amet-sol
+researchCostMultiplier: 0.03
+laserColor2: 2c1c3dff
+range: 30

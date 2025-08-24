@@ -1,6 +1,6 @@
 type: Wall
 health: 700
-size:2
+size:1
 category: defense
 requirements: [
   molybdenum/6

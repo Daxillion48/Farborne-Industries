@@ -13,3 +13,39 @@ name: Carry
 controller: BuilderAI
 research: dpad
 researchCostMultiplier: 0.03
+weapons: [
+  {
+  x: 0
+  y: 0
+  mirror: false
+  rotate: false
+  shootSound: none
+  alwaysShooting: true
+  ignoreRotation: true
+  recoil: 0
+  shootCone: 360
+  reload: 15
+  bullet: {
+    instantDissapear: true
+    damage: 0
+    shootEffect: {
+      followParent: true
+      rotWithParent: true
+      particles: 1
+      lifetime: 20
+      length: 0
+      region: carryblade
+      sizeFrom: 10
+      sizeTo: 10
+      spin: 10
+      layer: {
+        pierceBuilding: true
+        smokeEffect: none
+        hitEffect: none
+        despawnEffect: none
+        speed: 0
+      }
+    }
+  }
+  }
+]

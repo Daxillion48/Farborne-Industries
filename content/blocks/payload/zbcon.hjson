@@ -23,6 +23,7 @@ filter: [
   farborne-industries-charged-wall, 
   farborne-industries-wall-drill, 
   farborne-industries-swarm-factory, 
+  farborne-industries-molybden-wall-large, 
 ]
 research: {
    parent: sail-fab
