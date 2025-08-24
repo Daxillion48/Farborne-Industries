@@ -22,7 +22,7 @@ weapons: [
     rotate : true
     ejectEffect : casing2
     bullet:{
-      width: 7
+      width: 5
       height: 9
       lifetime: 90
       damage: 15
@@ -38,7 +38,7 @@ weapons: [
     rotate : true
     ejectEffect : casing2
     bullet:{
-      width: 7
+      width: 5
       height: 9
       lifetime: 90
       damage: 15
@@ -47,8 +47,7 @@ weapons: [
   }
   {
     name: anakalypse-weapon
-    mirror: true
-    reload: 45
+    reload: 35
     x: 4
     y: -9
     ejectEffect: casing2
