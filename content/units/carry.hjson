@@ -38,16 +38,16 @@ weapons: [
       sizeFrom: 25
       sizeTo: 25
       spin: -10
-layer: 140
-}
-      pierceBuilding: true
-      knockback: 0.1
-      smokeEffect: none
-      hitEffect: none
-      despawnEffect: none
-      splashDamage: 10
-      splashDamageRadius: 16
-      speed: 0
+      layer: 140
+      }
+    pierceBuilding: true
+    knockback: 0.1
+    smokeEffect: none
+    hitEffect: none
+    despawnEffect: none
+    splashDamage: 10
+    splashDamageRadius: 16
+    speed: 0
     }
-}
+  }
 ]

@@ -7,9 +7,6 @@ droneType: assem-dm
 //configurable: false
 consumes: {
   power: 1
-  //liquids:[
-  //  chlorine/0.2
-  //]
 }
 plans: [
   {

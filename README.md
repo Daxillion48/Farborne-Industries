@@ -2,6 +2,16 @@ Welcome to Erbius! This planet is mostly covered in water, though there's lots o
 
 Consider joining my Telegram channel https://t.me/farborne
 
-UPDATES ARE BACK ON THE MENU, BOYS! 
+UPDATES ARE BACK ON THE MENU, BOYS!
 
-Extra special thx to my friends Endofreeze, 2017Knight2017, and CasualWhale who helped with playtesting and concepts. 
+Attributions; Special thanks to all of the following:
+  Annie, for supporting me and bringing joy to my life
+  Endofreeze, for your immense help with the project, including brainstorming and sprites
+  CasualWhale, for playtesting and feedback
+  sh1penfire, for creating the best sector in the mod: Trench, and for the 'planetarium' script
+  nullevoy, for helping sprite the Withdraw turret
+  abreaker, for helping with the Dread team glyph script
+  2017Knight2017, for Strontium and Edison concepts
+  Anuke, for creating Mindustry
+  Special thanks to the Mindustry Discord
+  And everyone else who helped me create my first public game mod

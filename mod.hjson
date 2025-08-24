@@ -4,10 +4,22 @@ author: Daxillion
 description:
   '''
 Welcome to Erbius!
-Special thanks to the Mindustry Discord
-Note: restart your game for settings to take effect
+Note: restart your game for special settings to take effect
 
 Consider joining my Telegram channel https://t.me/farborne
+
+Attributions; Special thanks to all of the following:
+  Annie, for supporting me and bringing joy to my life
+  Endofreeze, for your immense help with the project, including brainstorming and sprites
+  CasualWhale, for playtesting and feedback
+  sh1penfire, for creating the best sector in the mod: Trench, and for the 'planetarium' script
+  nullevoy, for helping sprite the Withdraw turret
+  abreaker, for helping with the Dread team glyph script
+  2017Knight2017, for Strontium and Edison concepts
+  Anuke, for creating Mindustry
+  Special thanks to the Mindustry Discord
+  And everyone else who helped me create my first public game mod
+
   '''
 version: 0.8
 minGameVersion: 150
