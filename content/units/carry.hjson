@@ -35,10 +35,9 @@ weapons: [
       lifetime: 20
       length: 0
       region: carryblade
-      sizeFrom: 10
-      sizeTo: 10
+      sizeFrom: 20
+      sizeTo: 20
       spin: 10
-      layer: 95.1
 }
       pierceBuilding: true
       knockback: 0.1
