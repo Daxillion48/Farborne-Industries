@@ -1,0 +1,7 @@
+color : bad6ab
+cost : 3
+hardness : 2
+lowPriority: true
+name : Cryolite
+research: molybdenum
+shownPlanets: [erbius, mdeimo]
