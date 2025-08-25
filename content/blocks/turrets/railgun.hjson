@@ -64,5 +64,5 @@ coolant: {
   liquid: helium
   amount: 0.3
 }
-coolantMultiplier: 4
+coolantMultiplier: 60
 research: turret2
