@@ -24,11 +24,11 @@ plans: [
   {
     type: AssemblerUnitPlan
     unit: anakalypse
-    time: 300
+    time: 900
     requirements: [
-      farborne-industries-sail/3
-      farborne-industries-tantalum-wall-large/4
-      farborne-industries-strontium-wall-large/1
+      farborne-industries-sail/4
+      farborne-industries-tantalum-wall-large/5
+      farborne-industries-strontium-wall-large/2
     ]
   }
 ]
