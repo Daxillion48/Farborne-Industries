@@ -2,9 +2,9 @@ type: Floor
 placeablePlayer: true
 category: effect
 requirements:[
-  zirconium/1
+  zirconium/10
 ]
 name: Factory Tile
 conductivePower: true
 research: dwall
-//needsSurface: false
+needsSurface: true 
