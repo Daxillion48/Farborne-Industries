@@ -2,8 +2,8 @@ type: Floor
 placeablePlayer: true
 category: effect
 requirements:[
-  amalgam/240
-  prometheum/120
+  amalgam/2000
+  prometheum/2000
 ]
 name: Core Foundations
 research: floor-factory
