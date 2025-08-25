@@ -3,9 +3,9 @@ name: Anakalypse
 speed: 1
 drag: 0.14
 hitSize: 10
-health: 2100
+health: 2000
 accel: 0.4
-rotateSpeed: 3
+rotateSpeed: 2.8
 faceTarget: false
 armor: 6
 
@@ -22,8 +22,8 @@ weapons: [
     rotate : true
     ejectEffect : casing2
     bullet:{
-      width: 5
-      height: 9
+      width: 7
+      height: 11
       lifetime: 110
       damage: 15
       homing: 0.3
@@ -31,24 +31,24 @@ weapons: [
   }
   {
     name: discover-gun
-    reload : 15
-    x : 9
+    reload : 20
+    x : 10
     shootY : 4
-    y : -2
+    y : -3
     rotate : true
     ejectEffect : casing2
     bullet:{
-      width: 5
-      height: 9
+      width: 9
+      height: 13
       lifetime: 110
-      damage: 15
+      damage: 20
       homing: 0.3
     }
   }
   {
     name: anakalypse-weapon
     rotate: true
-    reload: 35
+    reload: 20
     x: 4
     y: -9
     ejectEffect: casing2
@@ -56,19 +56,19 @@ weapons: [
     bullet: {
       type: MissileBulletType
       keepVelocity: true
-      width: 8
-      height: 8
+      width: 11
+      height: 11
       shrinkY: 0
       drag: -0.003
       homingRange: 60
       splashDamageRadius: 25
       splashDamage: 10
-      lifetime: 130
+      lifetime: 135
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
-      weaveScale: 8
-      weaveMag: 2
-      damage: 70
+      weaveScale: 9
+      weaveMag: 3
+      damage: 80
     }
   }
 ]
