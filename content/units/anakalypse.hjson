@@ -51,7 +51,7 @@ weapons: [
     reload: 20
     x: 4
     y: -9
-    ejectEffect: casing2
+    ejectEffect: casing3Double
     shootSound: missile
     bullet: {
       type: MissileBulletType
