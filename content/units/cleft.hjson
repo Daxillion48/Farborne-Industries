@@ -9,6 +9,7 @@ hovering: true
 itemCapacity: 0
 rotateSpeed: 5
 faceTarget: false
+canDrown: false
 name: Silva Cleft V3
 weapons: [
   {
@@ -16,7 +17,7 @@ weapons: [
     reload : 15
     x : 6
     shootY : 4
-    y : 3
+    y : 5
     rotate : true
     ejectEffect : casing2
     bullet:{
