@@ -2,7 +2,7 @@ type: naval
 name: Anakalypse
 speed: 1
 drag: 0.14
-hitSize: 10
+hitSize: 32
 health: 2000
 accel: 0.4
 rotateSpeed: 2.8
