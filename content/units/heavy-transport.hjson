@@ -1,9 +1,9 @@
 name: Overwhelm
 type: payload
 health: 3000
-speed: 1.3
+speed: 1.2
 armor: 10
-rotateSpeed: 3
+rotateSpeed: 2.4
 pickupUnits: true
 accel: 0.07
 drag: 0.017
@@ -22,12 +22,12 @@ abilities: [
   {
   type: UnitSpawnAbility
   unit: zlocust
-  spawnTime: 450
+  spawnTime: 900
   },
   {
   type: UnitSpawnAbility
   unit: zlocust
-  spawnTime: 450
+  spawnTime: 900
   }
 ]
 weapons: [
@@ -45,11 +45,11 @@ weapons: [
         type: ContinuousLaserBulletType
         ejectEffect: none
         collidesAir: true
-        damage: 90
+        damage: 80
         length: 270
         width: 3
-        lifetime: 60
-        shake: 1
+        lifetime: 40
+        shake: 2
         }
     }
 ]
