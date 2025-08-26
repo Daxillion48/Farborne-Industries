@@ -1,7 +1,7 @@
 type: tank
 template: TankUnitType
 hitSize: 14
-speed: 1
+speed: 0.8
 health: 1200
 armor: 4
 itemCapacity: 0

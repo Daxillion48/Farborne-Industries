@@ -1,7 +1,7 @@
 type: tank
 template: TankUnitType
 hitSize: 18
-speed: 0.8
+speed: 0.5
 health: 2000
 armor: 6
 hoverable: true
