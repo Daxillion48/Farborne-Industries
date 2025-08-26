@@ -23,6 +23,8 @@ Special thanks to all of the following:
 
 ✧  2017Knight2017, for Strontium and Edison concepts
 
+✧ Slotterleet, for creating the Example Planet JSON mod
+
 ✧  Anuke, for creating Mindustry
 
 ✧  Special thanks to the Mindustry Discord and everyone else who helped me create my first public game mod
