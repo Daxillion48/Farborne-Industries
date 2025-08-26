@@ -2,17 +2,17 @@ type: UnitAssemblerModule
 category: units
 size: 5
 consumes: {
-    power: 5
+    power: 4
     liquids:[
-      helium/0.6
+      acytelene/0.3
     ]
   }
-research: str-mod
+research: heavy-assembler
 requirements: [
-  signalum/120
-  amalgam/200
+  prometheum/120
+  niobium/200
+  amalgam/160
 ]
-tier: 2
+tier: 1
 description: Allows for the construction of much more capable engines of war
-name: Signalum Assembler Module
-shownPlanets: [erbius, mdeimo]
+name: Heavy Assembler Module

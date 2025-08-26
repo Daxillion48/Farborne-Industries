@@ -14,8 +14,8 @@ consumes: {
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: blaze
-    time: 1800
+    unit: cleft
+    time: 1450
     requirements: [
       farborne-industries-defender/3
       farborne-industries-niobium-wall-large/4
@@ -24,10 +24,20 @@ plans: [
   },
   {
     type: AssemblerUnitPlan
+    unit: blaze
+    time: 1800
+    requirements: [
+      farborne-industries-rover/4
+      farborne-industries-niobium-wall-large/6
+      farborne-industries-charged-wall/3
+    ]
+  },
+  {
+    type: AssemblerUnitPlan
     unit: heavy-transport
     time: 2100
     requirements: [
-      farborne-industries-charged-wall/3
+      farborne-industries-charged-wall/4
       farborne-industries-swarm-factory/2
       farborne-industries-molybden-wall-large/5
     ]

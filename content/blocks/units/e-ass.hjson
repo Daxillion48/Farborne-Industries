@@ -1,0 +1,54 @@
+type: UnitAssembler
+size: 5
+payloadSpeed: 1.5
+areaSize: 7
+dronesCreated: 4
+droneType: assem-drone
+//configurable: false
+consumes: {
+  power: 1
+  liquids:[
+    chlorine/0.4
+  ]
+}
+plans: [
+{
+  type: AssemblerUnitPlan
+  unit: silva
+  time: 950
+  requirements: [
+    farborne-industries-defender/4
+    farborne-industries-tantalum-wall-large/4
+    farborne-industries-charged-wall/1
+  ]
+},
+  {
+    type: AssemblerUnitPlan
+    unit: cleft
+    time: 1450
+    requirements: [
+      farborne-industries-defender/4
+      farborne-industries-strontium-wall-large/6
+      farborne-industries-charged-wall/1
+    ]
+  }
+]
+requirements: [
+  zirconium/120
+  tantalum/120
+  sublimate/80
+  amalgam/60
+]
+category: units
+name: Tank Assembler
+
+researchCostMultiplier: 0.1
+research: {
+   parent: zreship
+   objectives: [
+      {
+         type: OnSector
+         preset: trench
+      }
+   ]
+}

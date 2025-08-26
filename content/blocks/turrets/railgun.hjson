@@ -37,9 +37,11 @@ ammoTypes: {
     damage : 1350
     //buildingDamageMultiplier : 0.2
     maxDamageFraction : 0.6
-    pierceDamageFactor : 1
+    pierceDamageFactor : 0
     length : 500
     hitShake : 3
+    pierce: true
+    pierceCap: 4
   }
   highammo: {
     type: RailBulletType
@@ -53,10 +55,12 @@ ammoTypes: {
     damage : 1850
     //buildingDamageMultiplier : 0.2
     maxDamageFraction : 0.6
-    pierceDamageFactor : 1
+    pierceDamageFactor : 0
     range: 600
     length : 600
     hitShake : 5
+    pierce: true
+    pierceCap: 6
   }
 }
 coolant: {

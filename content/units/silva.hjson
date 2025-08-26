@@ -20,7 +20,7 @@ weapons: [
     bullet:{
       width: 5
       height: 7
-      lifetime: 80
+      lifetime: 90
       damage: 15
     }
   }
@@ -47,6 +47,9 @@ weapons: [
       height: 13
       homingDelay: 30
       homingPower: 0.5
+      pierce: true
+      pierceCap: 2
+      lifetime: 60
     }
   }
 ]

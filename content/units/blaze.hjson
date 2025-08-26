@@ -19,7 +19,7 @@ buildSpeed: 0.3
 buildBeamOffset: 23
 range: 140
 targetAir: false
-research: heavy-assembler
+research: pro-mod
 researchCostMultiplier: 0.06
 weapons: [
     {
@@ -46,7 +46,7 @@ weapons: [
         lifetime: 70
         despawnEffect: greenBomb
         hitEffect: massiveExplosion
-        keepVelocity: false
+        keepVelocity: true
         spin: 2
         shrinkX: 0.7
         shrinkY: 0.7
