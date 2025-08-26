@@ -15,17 +15,17 @@ plans: [
   {
     type: AssemblerUnitPlan
     unit: blaze
-    time: 1200
+    time: 1800
     requirements: [
-      farborne-industries-defender/2
-      farborne-industries-niobium-wall-large/3
+      farborne-industries-defender/3
+      farborne-industries-niobium-wall-large/4
       farborne-industries-charged-wall/1
     ]
   },
   {
     type: AssemblerUnitPlan
     unit: heavy-transport
-    time: 1800
+    time: 2100
     requirements: [
       farborne-industries-charged-wall/3
       farborne-industries-swarm-factory/2
