@@ -1,0 +1,58 @@
+type: tank
+template: TankUnitType
+hitSize: 18
+speed: 0.8
+health: 2000
+armor: 6
+hoverable: true
+hovering: true
+itemCapacity: 0
+rotateSpeed: 5
+faceTarget: false
+name: Silva Cleft V3
+weapons: [
+  {
+    name: cleft-weapon
+    mirror: false
+    x: 0
+    y: -6
+    shootY : 5
+    reload: 60
+    shootSound: missile
+    rotateSpeed: 15
+    rotate: true
+    bullet: {
+      speed: 2.6
+      type: BasicBulletType
+      damage: 120
+      pierceDamageFactor: 0
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      shootEffect: casing2
+      smokeEffect: none
+      width: 11
+      height: 15
+      homingDelay: 60
+      homingPower: 0.6
+    }
+  }
+  {
+    name: discover-gun
+    reload : 15
+    x : 6
+    shootY : 4
+    y : 3
+    rotate : true
+    ejectEffect : casing2
+    bullet:{
+      width: 5
+      height: 8
+      lifetime: 90
+      damage: 35
+      homingDelay: 60
+      homingPower: 1
+    }
+  }
+]
+research: silva
+researchCostMultiplier: 0.1

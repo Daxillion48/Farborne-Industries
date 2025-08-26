@@ -1,0 +1,54 @@
+type: tank
+template: TankUnitType
+hitSize: 14
+speed: 1
+health: 1200
+armor: 4
+itemCapacity: 0
+rotateSpeed: 5
+faceTarget: false
+name: Silva X Split ATK
+weapons: [
+  {
+    name: silva-weapon
+    mirror: false
+    x: 0
+    y: -4
+    shootY : 4
+    reload: 30
+    shootSound: missile
+    rotateSpeed: 20
+    rotate: true
+    bullet: {
+      speed: 4
+      type: BasicBulletType
+      damage: 90
+      pierceDamageFactor: 0
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      shootEffect: casing2
+      smokeEffect: none
+      width: 4
+      height: 7
+      homingDelay: 30
+      homingPower: 0.5
+    }
+  }
+  {
+    name: discover-gun
+    reload : 20
+    x : 5
+    shootY : 4
+    y : 4
+    rotate : true
+    ejectEffect : casing2
+    bullet:{
+      width: 5
+      height: 7
+      lifetime: 80
+      damage: 15
+    }
+  }
+]
+research: defender
+researchCostMultiplier: 0.1
