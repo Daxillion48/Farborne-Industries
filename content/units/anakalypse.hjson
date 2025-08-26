@@ -16,9 +16,9 @@ weapons: [
   {
     name: discover-gun
     reload : 15
-    x : 7
+    x : 4
     shootY : 4
-    y : 2
+    y : 5
     rotate : true
     ejectEffect : casing2
     bullet:{
@@ -48,7 +48,7 @@ weapons: [
   {
     name: anakalypse-weapon
     rotate: true
-    reload: 20
+    reload: 25
     x: 4
     y: -9
     ejectEffect: casing3Double
@@ -61,8 +61,8 @@ weapons: [
       shrinkY: 0
       drag: -0.003
       homingRange: 60
-      splashDamageRadius: 25
-      splashDamage: 10
+      splashDamageRadius: 30
+      splashDamage: 20
       lifetime: 135
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
