@@ -3,11 +3,11 @@ name: Discover
 speed: 1.1
 drag: 0.13
 hitSize: 10
-health: 2100
+health: 1800
 accel: 0.4
 rotateSpeed: 3.3
 faceTarget: false
-armor: 6
+armor: 5
 
 research: zreship
 researchCostMultiplier: 0.06
