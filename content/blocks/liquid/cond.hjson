@@ -6,4 +6,5 @@ requirements:[
 ]
 research: zpump
 researchCostMultiplier: 0.1
-shownPlanets: [erbius, mdeimo] 
+shownPlanets: [erbius, mdeimo]
+bridgeReplacement: pipe
