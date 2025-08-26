@@ -10,6 +10,21 @@ faceTarget: false
 name: Silva X Split ATK
 weapons: [
   {
+    name: discover-gun
+    reload : 20
+    x : 5
+    shootY : 4
+    y : 4
+    rotate : true
+    ejectEffect : casing2
+    bullet:{
+      width: 5
+      height: 7
+      lifetime: 80
+      damage: 15
+    }
+  }
+  {
     name: silva-weapon
     mirror: false
     x: 0
@@ -28,25 +43,10 @@ weapons: [
       despawnEffect: blastExplosion
       shootEffect: casing2
       smokeEffect: none
-      width: 4
-      height: 7
+      width: 7
+      height: 13
       homingDelay: 30
       homingPower: 0.5
-    }
-  }
-  {
-    name: discover-gun
-    reload : 20
-    x : 5
-    shootY : 4
-    y : 4
-    rotate : true
-    ejectEffect : casing2
-    bullet:{
-      width: 5
-      height: 7
-      lifetime: 80
-      damage: 15
     }
   }
 ]

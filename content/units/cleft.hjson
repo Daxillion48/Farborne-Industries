@@ -12,6 +12,23 @@ faceTarget: false
 name: Silva Cleft V3
 weapons: [
   {
+    name: discover-gun
+    reload : 15
+    x : 6
+    shootY : 4
+    y : 3
+    rotate : true
+    ejectEffect : casing2
+    bullet:{
+      width: 5
+      height: 8
+      lifetime: 90
+      damage: 35
+      homingDelay: 60
+      homingPower: 1
+    }
+  }
+  {
     name: cleft-weapon
     mirror: false
     x: 0
@@ -31,26 +48,9 @@ weapons: [
       shootEffect: casing2
       smokeEffect: none
       width: 11
-      height: 15
+      height: 17
       homingDelay: 60
       homingPower: 0.6
-    }
-  }
-  {
-    name: discover-gun
-    reload : 15
-    x : 6
-    shootY : 4
-    y : 3
-    rotate : true
-    ejectEffect : casing2
-    bullet:{
-      width: 5
-      height: 8
-      lifetime: 90
-      damage: 35
-      homingDelay: 60
-      homingPower: 1
     }
   }
 ]
