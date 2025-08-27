@@ -37,12 +37,12 @@ weapons: [
     shootY : 5
     reload: 60
     shootSound: missile
-    rotateSpeed: 15
+    rotateSpeed: 5
     rotate: true
     bullet: {
       speed: 2.6
       type: BasicBulletType
-      damage: 120
+      damage: 140
       pierceDamageFactor: 0
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
@@ -50,7 +50,7 @@ weapons: [
       smokeEffect: none
       width: 11
       height: 17
-      homingDelay: 60
+      homingDelay: 30
       homingPower: 0.6
       pierce: true
       pierceCap: 3
