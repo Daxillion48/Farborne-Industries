@@ -8,7 +8,7 @@ droneType: assem-drone
 consumes: {
   power: 1
   liquids:[
-    chlorine/0.4
+    chlorine/0.2
   ]
 }
 plans: [
@@ -17,7 +17,7 @@ plans: [
   unit: silva
   time: 400
   requirements: [
-    farborne-industries-defender/3
+    farborne-industries-defender/2
     farborne-industries-tantalum-wall-large/4
     farborne-industries-charged-wall/1
   ]
@@ -28,7 +28,7 @@ plans: [
     time: 600
     requirements: [
       farborne-industries-defender/4
-      farborne-industries-strontium-wall-large/6
+      farborne-industries-strontium-wall-large/4
       farborne-industries-charged-wall/1
     ]
   }
