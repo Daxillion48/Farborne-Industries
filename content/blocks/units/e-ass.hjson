@@ -15,9 +15,9 @@ plans: [
 {
   type: AssemblerUnitPlan
   unit: silva
-  time: 950
+  time: 400
   requirements: [
-    farborne-industries-defender/4
+    farborne-industries-defender/3
     farborne-industries-tantalum-wall-large/4
     farborne-industries-charged-wall/1
   ]
@@ -25,7 +25,7 @@ plans: [
   {
     type: AssemblerUnitPlan
     unit: cleft
-    time: 1450
+    time: 600
     requirements: [
       farborne-industries-defender/4
       farborne-industries-strontium-wall-large/6
