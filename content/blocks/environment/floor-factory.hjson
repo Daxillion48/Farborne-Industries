@@ -8,5 +8,4 @@ name: Factory Tile
 conductivePower: true
 research: dwall
 needsSurface: true 
-hasPower: true
-connectedPower :true
+placeableLiquid: false
