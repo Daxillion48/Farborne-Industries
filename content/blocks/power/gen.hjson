@@ -8,7 +8,12 @@ consumes: {
   amount: 0.2
   }
 }
-
+nonOptionalConsumers: {
+  liquid:{
+  liquid: water
+  amount: 0.2
+  }
+}
 category:power
 requirements:[
   zirconium/180
