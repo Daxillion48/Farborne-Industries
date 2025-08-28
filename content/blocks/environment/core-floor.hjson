@@ -10,3 +10,6 @@ research: floor-factory
 needsSurface: true
 allowCorePlacement: true
 placeableLiquid: false
+attributes: {
+  factory: 1
+}
