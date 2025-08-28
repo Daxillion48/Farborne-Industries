@@ -9,6 +9,7 @@ conductivePower: true
 research: dwall
 needsSurface: true 
 placeableLiquid: false
+floating: false
 attributes: {
   factory: 1
 }
