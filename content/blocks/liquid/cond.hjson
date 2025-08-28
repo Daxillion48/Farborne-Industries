@@ -7,4 +7,4 @@ requirements:[
 research: zpump
 researchCostMultiplier: 0.1
 shownPlanets: [erbius, mdeimo]
-bridgeReplacement: pipe
+bridgeReplacement: farborne-industries-pipe
