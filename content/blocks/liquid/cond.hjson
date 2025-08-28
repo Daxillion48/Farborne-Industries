@@ -8,3 +8,4 @@ research: zpump
 researchCostMultiplier: 0.1
 shownPlanets: [erbius, mdeimo]
 bridgeReplacement: farborne-industries-pipe
+rotBridgeReplacement: farbrone-industries-pipe
