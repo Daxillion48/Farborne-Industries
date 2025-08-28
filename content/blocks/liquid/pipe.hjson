@@ -8,3 +8,4 @@ requirements:[
 research: zpump
 researchCostMultiplier: 0.03
 shownPlanets: [erbius, mdeimo] 
+placeableLiquid: true
