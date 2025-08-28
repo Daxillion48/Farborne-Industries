@@ -1,4 +1,4 @@
-type: OverlayFloor
+type: Floor
 placeablePlayer: true
 category: effect
 requirements:[
