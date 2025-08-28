@@ -1,4 +1,4 @@
-type: Floor
+type: OverlayFloor
 placeablePlayer: true
 category: effect
 requirements:[
@@ -10,7 +10,7 @@ research: floor-factory
 needsSurface: true
 allowCorePlacement: true
 placeableLiquid: false
-floating: false 
+floating: false
 attributes: {
   factory: 1
 }

@@ -1,4 +1,4 @@
-type: Floor
+type: OverlayFloor
 placeablePlayer: true
 category: effect
 requirements:[
@@ -7,7 +7,7 @@ requirements:[
 name: Factory Tile
 conductivePower: true
 research: dwall
-needsSurface: true 
+needsSurface: true
 placeableLiquid: false
 floating: false
 attributes: {
