@@ -10,7 +10,7 @@ itemCapacity: 0
 rotateSpeed: 5
 faceTarget: false
 canDrown: false
-name: Silva Cleft V3
+name: Silva Cleft X3
 weapons: [
   {
     name: discover-gun
