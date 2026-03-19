@@ -1,15 +1,13 @@
 # Farborne Industries
 ![banner](icon.png)
 
-## Re:Updates are back on the menu 
+## Info
 Welcome to Farborne Industries! Explore Erbius, a terrestrial planet covered predominantly in water, and Deimo, Erbius's moon, which is covered in lakes of Ethane
 
-All sectors (except for Embark and Trench) will be completely remade from scratch relatively soon
+I'm sorry to say, this project is abandoned
 
 ### Attributions
-Special thanks to all of the following:
-
-♡  Annie, for supporting me and bringing joy to my life
+Special thanks to everyone who made this project possible:
 
 ☆  Endofreeze, for your immense help with the project, including brainstorming and sprites
 
@@ -28,5 +26,3 @@ Special thanks to all of the following:
 ✧  Anuke, for creating Mindustry
 
 ✧  Special thanks to the Mindustry Discord and everyone else who helped me create my first public game mod
-
-#### Consider joining my [Telegram channel](https://t.me/farborne) 
